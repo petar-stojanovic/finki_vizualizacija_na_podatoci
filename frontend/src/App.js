@@ -1,6 +1,5 @@
 import "./App.css";
-import DatasetViewerCopy from "./components/DatasetViewer/DatasetViewerCopy";
-
+import DatasetViewer from "./components/DatasetViewer/DatasetViewer";
 
 function App() {
   // const [selectedDataset, setSelectedDataset] = useState(null);
@@ -10,7 +9,7 @@ function App() {
   // };
   return (
     <div className="App">
-      <DatasetViewerCopy />
+      <DatasetViewer />
       {/* <DatasetList onDatasetSelect={handleDatasetSelect} />
       {selectedDataset && <DatasetViewer selectedDataset={selectedDataset} />} */}
     </div>

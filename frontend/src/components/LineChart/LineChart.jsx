@@ -1,15 +1,19 @@
 import React, { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 
-const LineChart = ({ data }) => {
+const LineChart = ({ data, labelKey, valueKey, datasetLabel }) => {
   const chartRef = useRef(null);
 
   useEffect(() => {
     if (chartRef.current && data.data.length > 0) {
-      console.log(data.data.map((row) => row["Year"]));
       // Extract labels and chart data from the JSON data
-      const labels = data.data.map((row) => row["Year"]);
-      const chartData = data.data.map((row) => parseFloat(row["Value"]));
+      let labels;
+      if (labelKey === "Year") {
+        labels = [...new Set(data.data.map((row) => row[labelKey]))];
+      } else {
+        labels = data.data.map((row) => row[labelKey]);
+      }
+      const chartData = data.data.map((row) => parseFloat(row[valueKey]));
 
       // Destroy the previous chart instance if it exists to prevent memory leaks
       if (chartRef.current.chart) {
@@ -24,7 +28,7 @@ const LineChart = ({ data }) => {
           labels: labels,
           datasets: [
             {
-              label: "Line Chart",
+              label: datasetLabel,
               data: chartData,
               borderColor: "rgba(75, 192, 192, 1)",
               borderWidth: 1,
@@ -43,7 +47,7 @@ const LineChart = ({ data }) => {
         },
       });
     }
-  }, [data]);
+  }, [data, labelKey, valueKey, datasetLabel]);
 
   return <canvas ref={chartRef} />;
 };

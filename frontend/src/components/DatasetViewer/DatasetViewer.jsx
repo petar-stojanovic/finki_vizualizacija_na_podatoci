@@ -7,19 +7,41 @@ import ListItemText from "@mui/material/ListItemText";
 import { FixedSizeList } from "react-window";
 import LineChart from "../LineChart/LineChart";
 
+import { categoryKeywords } from "../categories"
+
 const DatasetViewer = () => {
   const [jsonData, setJsonData] = useState(null);
   const [selectedDataset, setSelectedDataset] = useState(null);
   const [datasets, setDatasets] = useState([]);
+  const [categories, setCategories] = useState({});
 
   useEffect(() => {
     fetchDatasets();
+    // eslint-disable-next-line
   }, []);
+
+  const categorizeDatasets = (datasetNames) => {
+    const categorized = {};
+
+    datasetNames.forEach((datasetName) => {
+      for (const keyword in categoryKeywords) {
+        if (datasetName.includes(keyword)) {
+          // console.log(categorized);
+          const category = categoryKeywords[keyword];
+          categorized[category] = categorized[category] || [];
+          categorized[category].push(datasetName);
+          break;
+        }
+      }
+    });
+    setCategories(categorized)
+  };
 
   const fetchDatasets = async () => {
     DatasetService.fetchDatasets()
       .then((response) => {
         setDatasets(response.data);
+        categorizeDatasets(response.data);
       })
       .catch((error) => {
         console.error("Error fetching datasets:", error);
@@ -37,6 +59,7 @@ const DatasetViewer = () => {
   };
 
   const handleDatasetClick = (datasetName) => {
+    console.log(categories)
     setSelectedDataset(datasetName);
     fetchDatasetData(datasetName);
   };

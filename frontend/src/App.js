@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import DatasetViewer from "./components/DatasetViewer/DatasetViewer";
 import { SideBar } from "./components/SideBar/SideBar";
-import Test from "./components/Test";
+import LineChart from "./components/LineChart/LineChart";
 
 import AppBar from "@mui/material/AppBar";
 
@@ -17,7 +17,7 @@ import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 
-const drawerWidth = 280;
+const drawerWidth = 330;
 
 function App() {
   // const [selectedDataset, setSelectedDataset] = useState(null);
@@ -39,9 +39,8 @@ function App() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  
+
   const handleDrawerToggle = () => {
-    console.log(openNav);
     setOpenNav(!openNav);
   };
 
@@ -73,7 +72,7 @@ function App() {
         </AppBar>
       </Box>
 
-      <SideBar onClose={() => setOpenNav(false)} open={openNav} />
+      <SideBar onClose={() => setOpenNav(false)} open={openNav} width={drawerWidth} />
 
       <Box
         sx={{
@@ -83,7 +82,7 @@ function App() {
         <Container maxWidth="xl">
           <Routes>
             <Route path="/" element={<DatasetViewer />} />
-            <Route path="/:dataset" element={<Test />} />
+            <Route path="/:dataset" element={<LineChart />} />
           </Routes>
         </Container>
       </Box>

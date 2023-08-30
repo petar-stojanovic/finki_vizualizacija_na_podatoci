@@ -1,32 +1,24 @@
 import { useEffect, useState } from "react";
 
-import DataObjectIcon from "@mui/icons-material/DataObject";
-import ExpandLess from "@mui/icons-material/ExpandLess";
-import ExpandMore from "@mui/icons-material/ExpandMore";
-import FolderIcon from "@mui/icons-material/Folder";
-import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 
+import { useNavigate } from "react-router-dom";
 import { DatasetService } from "../../repository/datasetRepository";
 import { categoryKeywords } from "../categories";
+import { CategoryList } from "./CategoryList";
 
+import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 export const SideBar = ({ open, onClose, width }) => {
-  const lgUp = window.innerWidth >= 1200;
-
   const [jsonData, setJsonData] = useState(null);
-  const [selectedDataset, setSelectedDataset] = useState(null);
-  const [datasets, setDatasets] = useState([]);
   const [categories, setCategories] = useState({});
 
   const [openCategory, setOpenCategory] = useState({});
+
+  const navigate = useNavigate();
 
   const handleClick = (category) => {
     setOpenCategory((prevState) => ({
@@ -46,7 +38,6 @@ export const SideBar = ({ open, onClose, width }) => {
     datasetNames.forEach((datasetName) => {
       for (const keyword in categoryKeywords) {
         if (datasetName.startsWith(keyword)) {
-          // console.log(categorized);
           const category = categoryKeywords[keyword];
           categorized[category] = categorized[category] || [];
           categorized[category].push(datasetName);
@@ -60,7 +51,6 @@ export const SideBar = ({ open, onClose, width }) => {
   const fetchDatasets = async () => {
     DatasetService.fetchDatasets()
       .then((response) => {
-        setDatasets(response.data);
         categorizeDatasets(response.data);
       })
       .catch((error) => {
@@ -78,95 +68,13 @@ export const SideBar = ({ open, onClose, width }) => {
       });
   };
 
-  const handleDatasetClick = (datasetName) => {
-    console.log(categories);
-    setSelectedDataset(datasetName);
-    fetchDatasetData(datasetName);
-  };
-
-  const clearData = () => {
-    setSelectedDataset(null);
-    setJsonData([]);
-  };
-
-  const flexContainer = {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "flex-start",
-  };
-
-  //   console.log(jsonData, selectedDataset, datasets, categories);
-  const content = (
-    <>
-      <Toolbar />
-      <Divider />
-      <List>
-        {/* List of all categories */}
-        {categories &&
-          Object.keys(categories).map((category) => {
-            // console.log(categories[category]);
-            return (
-              <ListItem disablePadding key={category} style={flexContainer}>
-                <ListItemButton onClick={() => handleClick(category)}>
-                  <ListItemIcon>
-                    <FolderIcon />
-                  </ListItemIcon>
-                  <ListItemText primary={category} />
-                  {openCategory[category] ? <ExpandLess /> : <ExpandMore />}
-                </ListItemButton>
-                <Collapse
-                  in={openCategory[category]}
-                  timeout="auto"
-                  unmountOnExit
-                >
-                  <List component="div" disablePadding>
-                    {/* List of all datasets in category */}
-
-                    {categories[category].map((dataset) => {
-                      return (
-                        <ListItemButton
-                          key={dataset}
-                          sx={{ p: 0, pl: 4, pr: 1 }}
-                        >
-                          <ListItemIcon style={{ minWidth: "2.75rem" }}>
-                            <DataObjectIcon />
-                          </ListItemIcon>
-                          <ListItemText primary={dataset} />
-                        </ListItemButton>
-                      );
-                    })}
-                  </List>
-                </Collapse>
-              </ListItem>
-            );
-          })}
-      </List>
-    </>
-  );
-
-  if (lgUp) {
-    return (
-      <Drawer
-        anchor="left"
-        open
-        PaperProps={{
-          sx: {
-            backgroundColor: "neutral.800",
-            width: width,
-          },
-        }}
-        variant="permanent"
-      >
-        {content}
-      </Drawer>
-    );
-  }
+  const isPermanent = window.innerWidth >= 1200;
 
   return (
     <Drawer
       anchor="left"
-      onClose={onClose}
-      open={open}
+      open={open || isPermanent}
+      onClose={!isPermanent && onClose}
       PaperProps={{
         sx: {
           backgroundColor: "neutral.800",
@@ -174,9 +82,25 @@ export const SideBar = ({ open, onClose, width }) => {
         },
       }}
       sx={{ zIndex: (theme) => theme.zIndex.appBar + 100 }}
-      variant="temporary"
+      variant={isPermanent ? "permanent" : "temporary"}
     >
-      {content}
+      <Toolbar>
+        <Link to={"/"}>
+          <Button variant="contained" color="error">
+            FINKI
+          </Button>
+        </Link>
+      </Toolbar>
+      <Divider />
+      <List>
+        {categories && (
+          <CategoryList
+            categories={categories}
+            handleClick={handleClick}
+            openCategory={openCategory}
+          />
+        )}
+      </List>
     </Drawer>
   );
 };

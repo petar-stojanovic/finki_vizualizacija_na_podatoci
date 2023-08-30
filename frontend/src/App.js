@@ -1,10 +1,9 @@
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import DatasetViewer from "./components/DatasetViewer/DatasetViewer";
 import { SideBar } from "./components/SideBar/SideBar";
-import LineChart from "./components/LineChart/LineChart";
 
 import AppBar from "@mui/material/AppBar";
 
@@ -15,7 +14,7 @@ import { Route, Routes } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
+import { FetchLineChart } from "./components/LineChart/FetchLineChart";
 
 const drawerWidth = 330;
 
@@ -44,7 +43,6 @@ function App() {
     setOpenNav(!openNav);
   };
 
-
   return (
     <div sx={{ display: "flex" }}>
       <Box sx={{ flexGrow: 1 }}>
@@ -60,19 +58,27 @@ function App() {
             >
               <MenuIcon />
             </IconButton>
-            <Typography
+            {/* <Typography
               variant="h6"
               component="div"
               sx={{ flexGrow: 1, ml: { lg: `${drawerWidth}px` } }}
             >
-              FINKI
-            </Typography>
+              <Link to={"/"}>
+                <Button variant="contained" color="error">
+                  FINKI
+                </Button>
+              </Link>
+            </Typography> */}
             <Button color="inherit">Login</Button>
           </Toolbar>
         </AppBar>
       </Box>
 
-      <SideBar onClose={() => setOpenNav(false)} open={openNav} width={drawerWidth} />
+      <SideBar
+        onClose={() => setOpenNav(false)}
+        open={openNav}
+        width={drawerWidth}
+      />
 
       <Box
         sx={{
@@ -82,7 +88,7 @@ function App() {
         <Container maxWidth="xl">
           <Routes>
             <Route path="/" element={<DatasetViewer />} />
-            <Route path="/:dataset" element={<LineChart />} />
+            <Route path="/:dataset" element={<FetchLineChart />} />
           </Routes>
         </Container>
       </Box>
@@ -91,32 +97,3 @@ function App() {
 }
 
 export default App;
-
-/*
- <AppBar
-          position="fixed"
-          sx={{
-            width: { md: `calc(100% - ${drawerWidth}px)` },
-            ml: { md: `${drawerWidth}px` },
-          }}
-        >
-          <Toolbar>
-            <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              edge="start"
-              // onClick={handleDrawerToggle}
-              sx={{ mr: 2, display: { md: "none" } }}
-            >
-              <MenuIcon />
-            </IconButton>
-            <Typography variant="h6" noWrap component="div">
-              Responsive drawer
-            </Typography>
-          </Toolbar>
-        </AppBar>
-
-        <DatasetViewer />
-
-        {/* <DatasetList onDatasetSelect={handleDatasetSelect} />
-      {selectedDataset && <DatasetViewer selectedDataset={selectedDataset} />} }*/

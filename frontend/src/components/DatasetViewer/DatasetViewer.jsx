@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import {DatasetService} from "../../repository/datasetRepository";
+import { DatasetService } from "../../repository/datasetRepository";
 
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import { FixedSizeList } from "react-window";
-import LineChart from "../LineChart/LineChart";
+import {LineChart} from "../LineChart/LineChart";
 
-import { categoryKeywords } from "../categories"
+import { categoryKeywords } from "../categories";
 
 const DatasetViewer = () => {
   const [jsonData, setJsonData] = useState(null);
@@ -34,7 +34,7 @@ const DatasetViewer = () => {
         }
       }
     });
-    setCategories(categorized)
+    setCategories(categorized);
   };
 
   const fetchDatasets = async () => {
@@ -59,7 +59,7 @@ const DatasetViewer = () => {
   };
 
   const handleDatasetClick = (datasetName) => {
-    console.log(categories)
+    console.log(categories);
     setSelectedDataset(datasetName);
     fetchDatasetData(datasetName);
   };

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 
-const LineChart = ({ data, labelKey, valueKey, datasetLabel }) => {
+export const LineChart = ({ data, labelKey, valueKey, datasetLabel }) => {
   const chartRef = useRef(null);
 
   useEffect(() => {
@@ -51,5 +51,3 @@ const LineChart = ({ data, labelKey, valueKey, datasetLabel }) => {
 
   return <canvas ref={chartRef} />;
 };
-
-export default LineChart;

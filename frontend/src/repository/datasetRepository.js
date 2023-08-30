@@ -1,6 +1,6 @@
 import axios from "../custom-axios/axios";
 
-const DatasetService = {
+export const DatasetService = {
   fetchDatasets: () => {
     return axios.get("/all");
   },
@@ -9,4 +9,3 @@ const DatasetService = {
   },
 };
 
-export default DatasetService;

@@ -82,7 +82,8 @@ function App() {
 
       <Box
         sx={{
-          ml: { lg: `${drawerWidth + 23}px` },
+          ml: { lg: `${drawerWidth + 32}px` },
+          // mr: "32px"
         }}
       >
         <Container maxWidth="xl">

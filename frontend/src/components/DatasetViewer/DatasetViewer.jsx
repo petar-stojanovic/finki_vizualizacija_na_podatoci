@@ -5,7 +5,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import { FixedSizeList } from "react-window";
-import {LineChart} from "../LineChart/LineChart";
+import { LineChart } from "../LineChart/LineChart";
 
 import { categoryKeywords } from "../categories";
 

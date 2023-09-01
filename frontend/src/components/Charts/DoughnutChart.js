@@ -25,7 +25,7 @@ export const DoughnutChart = () => {
         .then((response) => {
           if (response.ok) {
             response.json().then((json) => {
-              console.log(json.data);
+              // console.log(json.data);
               setChart(json.data)
             });
           }
@@ -36,7 +36,6 @@ export const DoughnutChart = () => {
     fetchCoins()
   }, [baseUrl])
 
-  console.log("chart", chart);
   var data = {
     labels: chart?.coins?.map(x => x.name),
     datasets: [{

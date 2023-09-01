@@ -12,6 +12,7 @@ import {
 
 import { Line } from "react-chartjs-2";
 
+
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -22,39 +23,34 @@ ChartJS.register(
   Legend
 );
 
-export const LineChart = () => {
-  const [chart, setChart] = useState({});
-  var baseUrl = "https://api.coinranking.com/v2/coins/?limit=10";
+export const TestLineChart = ({
+  dataset,
+  labelKey,
+  valueKey,
+  datasetLabel,
+}) => {
+  const [chart, setChart] = useState([]);
+
   useEffect(() => {
-    const fetchCoins = async () => {
-      await fetch(`${baseUrl}`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*",
-        },
-      })
-        .then((response) => {
-          if (response.ok) {
-            response.json().then((json) => {
-              // console.log(json.data);
-              setChart(json.data);
-            });
-          }
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    };
-    fetchCoins();
-  }, [baseUrl]);
+    setChart(dataset.data);
+  }, [dataset, labelKey, valueKey, datasetLabel]);
+
+  const labels = chart?.map((row) => row[labelKey]);
+  const values = chart?.map((row) => row[valueKey]);
+  const xScaleType = labels.every((label) => !isNaN(label))
+    ? "linear" // Numeric data (years)
+    : "category"; // Categorical data
+
 
   var data = {
-    labels: chart?.coins?.map((x) => x.name),
+    //x-axis
+    // time or categories
+    labels: labels,
     datasets: [
       {
-        label: `${chart?.coins?.length} Coins Available`,
-        data: chart?.coins?.map((x) => x.price),
+        label: `${valueKey}:`,
+        //y-axis
+        data: values,
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
           "rgba(54, 162, 235, 0.2)",
@@ -77,13 +73,32 @@ export const LineChart = () => {
   };
 
   var options = {
+    responsive: true,
     maintainAspectRatio: false,
-    scales: {},
+    scales: {
+      x: {
+        ticks: {
+          maxTicksLimit: 235,
+        },
+        title: {
+          display: true,
+          text: labelKey,
+        },
+        type: xScaleType,
+      },
+      y: {
+        title: {
+          display: true,
+          text: valueKey,
+        },
+      },
+    },
     legend: {
       labels: {
         fontSize: 25,
       },
     },
+    tension: 1,
   };
 
   return (

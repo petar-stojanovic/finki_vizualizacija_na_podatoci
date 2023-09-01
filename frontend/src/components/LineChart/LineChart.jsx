@@ -7,6 +7,7 @@ export const LineChart = ({ data, labelKey, valueKey, datasetLabel }) => {
   useEffect(() => {
     if (chartRef.current && data.data.length > 0) {
       // Extract labels and chart data from the JSON data
+      console.log(data.data)
       let labels;
       if (labelKey === "Year") {
         labels = [...new Set(data.data.map((row) => row[labelKey]))];

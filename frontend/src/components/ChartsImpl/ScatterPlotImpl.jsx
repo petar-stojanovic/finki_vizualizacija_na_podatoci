@@ -8,23 +8,25 @@ import {
   Title,
   Tooltip,
   Legend,
+  TimeScale,
 } from "chart.js";
 
-import { Line } from "react-chartjs-2";
+import { Scatter } from "react-chartjs-2";
 
 import { enUS } from "date-fns/locale";
 
 ChartJS.register(
   CategoryScale,
   LinearScale,
+  TimeScale,
   PointElement,
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
 );
 
-export const LineChartImpl = ({
+export const ScatterPlot = ({
   dataset,
   labelKey,
   valueKey,
@@ -43,35 +45,17 @@ export const LineChartImpl = ({
     ? "linear" // Numeric data (years)
     : "category"; // Categorical data
 
-
   var data = {
-    //x-axis
-    // time or categories
     labels: labels,
-    // labels: [...new Set(labels)],
     datasets: [
       {
         label: `${valueKey}:`,
-        //y-axis
-        data: values,
-        // data: [...new Set(values)],
-
-        backgroundColor: [
-          "rgba(255, 99, 132, 0.2)",
-          "rgba(54, 162, 235, 0.2)",
-          "rgba(255, 206, 86, 0.2)",
-          "rgba(75, 192, 192, 0.2)",
-          "rgba(153, 102, 255, 0.2)",
-          "rgba(255, 159, 64, 0.2)",
-        ],
-        borderColor: [
-          "rgba(255, 99, 132, 1)",
-          "rgba(54, 162, 235, 1)",
-          "rgba(255, 206, 86, 1)",
-          "rgba(75, 192, 192, 1)",
-          "rgba(153, 102, 255, 1)",
-          "rgba(255, 159, 64, 1)",
-        ],
+        data: values.map((value, index) => ({
+          x: labels[index],
+          y: value,
+        })),
+        backgroundColor: "rgba(75, 192, 192, 0.2)",
+        borderColor: "rgba(75, 192, 192, 1)",
         borderWidth: 1,
       },
     ],
@@ -82,14 +66,12 @@ export const LineChartImpl = ({
     maintainAspectRatio: false,
     scales: {
       x: {
-        ticks: {
-          maxTicksLimit: 235,
-        },
         title: {
           display: true,
           text: labelKey,
         },
         type: xScaleType,
+        distribution: "linear",
       },
       y: {
         title: {
@@ -103,12 +85,12 @@ export const LineChartImpl = ({
         fontSize: 25,
       },
     },
-    tension: 1,
+    tension: 0.5, // Adjust this for scatterplot appearance
   };
 
   return (
     <div>
-      <Line data={data} height={400} options={options} />
+      <Scatter data={data} height={400} options={options} />
     </div>
   );
 };

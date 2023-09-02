@@ -5,7 +5,6 @@ import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import Toolbar from "@mui/material/Toolbar";
 
-import { useNavigate } from "react-router-dom";
 import { DatasetService } from "../../repository/datasetRepository";
 import { categoryKeywords } from "../categories";
 import { CategoryList } from "./CategoryList";
@@ -13,12 +12,9 @@ import { CategoryList } from "./CategoryList";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 export const SideBar = ({ open, onClose, width }) => {
-  const [jsonData, setJsonData] = useState(null);
   const [categories, setCategories] = useState({});
 
   const [openCategory, setOpenCategory] = useState({});
-
-  const navigate = useNavigate();
 
   const handleClick = (category) => {
     setOpenCategory((prevState) => ({
@@ -55,16 +51,6 @@ export const SideBar = ({ open, onClose, width }) => {
       })
       .catch((error) => {
         console.error("Error fetching datasets:", error);
-      });
-  };
-
-  const fetchDatasetData = async (datasetName) => {
-    DatasetService.getData(datasetName)
-      .then((response) => {
-        setJsonData(response.data);
-      })
-      .catch((error) => {
-        console.error("Error fetching dataset data:", error);
       });
   };
 

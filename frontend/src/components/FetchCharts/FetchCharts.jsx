@@ -3,26 +3,22 @@ import Grid from "@mui/material/Grid";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { DatasetService } from "../../repository/datasetRepository";
-import { LineChart as LineChart2 } from "../LineChart/LineChart";
 
 import { BarChart, DoughnutChart, LineChart, PieChart } from "../Charts/charts";
-import { TestLineChart } from "./TestLineChart";
 
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
-import { PieChartImpl } from "../ChartsImpl/chartsImpl";
+import { PieChartImpl, LineChartImpl } from "../ChartsImpl/chartsImpl";
 
-export const FetchLineChart = () => {
+export const FetchCharts = () => {
   const { dataset } = useParams();
 
   const [jsonData, setJsonData] = useState(null);
 
   const [selectedLabel, setSelectedLabel] = useState("");
   const [selectedData, setSelectedData] = useState("");
-
-  console.log(selectedLabel, selectedData);
 
   useEffect(() => {
     fetchDataForDataset(dataset);
@@ -31,7 +27,16 @@ export const FetchLineChart = () => {
   const fetchDataForDataset = async (datasetName) => {
     DatasetService.getData(datasetName)
       .then((response) => {
-        setJsonData(response.data);
+        const formattedData = response.data.data.map((item) => ({
+          ...item,
+          Value: parseFloat(item.Value).toFixed(2),
+        }));
+
+        setJsonData({
+          ...response.data,
+          data: formattedData,
+        });
+
         setSelectedLabel(
           response.data.attributes.includes("Year")
             ? "Year"
@@ -71,6 +76,7 @@ export const FetchLineChart = () => {
         !x.toString().toLowerCase().includes("code") &&
         !x.toString().toLowerCase().includes("area") &&
         !x.toString().toLowerCase().includes("flag") &&
+        !x.toString().toLowerCase().includes("source") &&
         !x.toString().toLowerCase().includes("note")
     )
     .sort((a, b) => {
@@ -88,6 +94,7 @@ export const FetchLineChart = () => {
         !x.toString().toLowerCase().includes("code") &&
         !x.toString().toLowerCase().includes("area") &&
         !x.toString().toLowerCase().includes("flag") &&
+        !x.toString().toLowerCase().includes("source") &&
         !x.toString().toLowerCase().includes("note")
     )
     .filter((attribute) =>
@@ -130,6 +137,7 @@ export const FetchLineChart = () => {
                   !x.toString().toLowerCase().includes("code") &&
                   !x.toString().toLowerCase().includes("area") &&
                   !x.toString().toLowerCase().includes("flag") &&
+                  !x.toString().toLowerCase().includes("source") &&
                   !x.toString().toLowerCase().includes("note")
               )
               .filter((attribute) => !labelAttributes.includes(attribute))
@@ -151,7 +159,7 @@ export const FetchLineChart = () => {
             justifyContent="center"
           >
             <Grid item xl={6} xs={12}>
-              <TestLineChart
+              <LineChartImpl
                 dataset={jsonData}
                 labelKey={selectedLabel}
                 valueKey={selectedData}
@@ -178,25 +186,7 @@ export const FetchLineChart = () => {
             <Grid item xs={6}>
               <DoughnutChart />
             </Grid>
-            <Grid item xs={8}>
-              <LineChart2
-                data={jsonData}
-                labelKey="Year"
-                valueKey="Value"
-                datasetLabel="Line Chart"
-              />
-            </Grid>
           </Grid>
-          {/* <BarChart />
-          <LineChart />
-          <PieChart />
-          <DoughnutChart /> */}
-          <LineChart2
-            data={jsonData}
-            labelKey="Year"
-            valueKey="Value"
-            datasetLabel="Line Chart"
-          />
         </Box>
       )}
     </div>

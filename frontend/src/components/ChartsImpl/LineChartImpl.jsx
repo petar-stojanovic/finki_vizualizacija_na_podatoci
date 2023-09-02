@@ -12,7 +12,6 @@ import {
 
 import { Line } from "react-chartjs-2";
 
-
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -35,22 +34,24 @@ export const LineChartImpl = ({
     setChart(dataset.data);
   }, [dataset, labelKey, valueKey, datasetLabel]);
 
-  const labels = chart?.map((row) => row[labelKey]);
-  const values = chart?.map((row) => row[valueKey]);
+  const labels = chart?.map((row) => row[labelKey]).slice(0, 150);
+  const values = chart?.map((row) => row[valueKey]).slice(0, 150);
   const xScaleType = labels.every((label) => !isNaN(label))
     ? "linear" // Numeric data (years)
     : "category"; // Categorical data
-
 
   var data = {
     //x-axis
     // time or categories
     labels: labels,
+    // labels: [...new Set(labels)],
     datasets: [
       {
         label: `${valueKey}:`,
         //y-axis
-        data: values,
+        // data: values,
+        data: [...new Set(values)],
+
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
           "rgba(54, 162, 235, 0.2)",

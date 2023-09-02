@@ -2,7 +2,6 @@ import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import { useEffect, useState } from "react";
 import "./App.css";
-import DatasetViewer from "./components/DatasetViewer/DatasetViewer";
 import { SideBar } from "./components/SideBar/SideBar";
 
 import AppBar from "@mui/material/AppBar";
@@ -14,7 +13,7 @@ import { Route, Routes } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
-import { FetchLineChart } from "./components/LineChart/FetchLineChart";
+import { FetchCharts } from "./components/FetchCharts/FetchCharts";
 
 const drawerWidth = 330;
 
@@ -83,13 +82,12 @@ function App() {
       <Box
         sx={{
           ml: { lg: `${drawerWidth + 32}px` },
-          // mr: "32px"
         }}
       >
         <Container maxWidth="xl">
           <Routes>
-            <Route path="/" element={<DatasetViewer />} />
-            <Route path="/:dataset" element={<FetchLineChart />} />
+            {/* <Route path="/" element={<DatasetViewer />} /> */}
+            <Route path="/:dataset" element={<FetchCharts />} />
           </Routes>
         </Container>
       </Box>

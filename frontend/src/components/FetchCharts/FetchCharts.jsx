@@ -12,6 +12,9 @@ import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { PieChartImpl, LineChartImpl } from "../ChartsImpl/chartsImpl";
 
+
+import { ScatterPlot } from "../ChartsImpl/ScatterPlotImpl";
+
 export const FetchCharts = () => {
   const { dataset } = useParams();
 
@@ -19,6 +22,7 @@ export const FetchCharts = () => {
 
   const [selectedLabel, setSelectedLabel] = useState("");
   const [selectedData, setSelectedData] = useState("");
+  const [size, setSize] = useState(100);
 
   useEffect(() => {
     fetchDataForDataset(dataset);
@@ -148,6 +152,8 @@ export const FetchCharts = () => {
               ))}
           </Select>
         </FormControl>
+        <button onClick={() => setSize(size - 10)}>-</button>
+        <button onClick={() => setSize(size + 10)}>+</button>
       </div>
 
       {jsonData?.data && jsonData.data.length > 0 && (
@@ -163,6 +169,7 @@ export const FetchCharts = () => {
                 dataset={jsonData}
                 labelKey={selectedLabel}
                 valueKey={selectedData}
+                size={size}
                 datasetLabel="Line Chart"
               />
             </Grid>
@@ -171,6 +178,16 @@ export const FetchCharts = () => {
                 dataset={jsonData}
                 labelKey={selectedLabel}
                 valueKey={selectedData}
+                size={size}
+                datasetLabel="Pie Chart"
+              />
+            </Grid>
+            <Grid item xl={6} xs={12}>
+              <ScatterPlot
+                dataset={jsonData}
+                labelKey={selectedLabel}
+                valueKey={selectedData}
+                size={size}
                 datasetLabel="Pie Chart"
               />
             </Grid>

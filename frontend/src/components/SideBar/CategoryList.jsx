@@ -1,43 +1,14 @@
-import ExpandLess from "@mui/icons-material/ExpandLess";
-import ExpandMore from "@mui/icons-material/ExpandMore";
-import FolderIcon from "@mui/icons-material/Folder";
-import Collapse from "@mui/material/Collapse";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import { DatasetItem } from "./DatasetItem";
 
-export const CategoryList = ({ categories, handleClick, openCategory }) => {
-  const flexContainer = {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "flex-start",
-  };
+export const CategoryList = ({ categories, currentPath, handleClick }) => {
 
   return (
     <>
-      {Object.keys(categories).map((category) => (
-        <ListItem key={category} disablePadding style={flexContainer}>
-          <ListItemButton onClick={() => handleClick(category)}>
-            <ListItemIcon>
-              <FolderIcon />
-            </ListItemIcon>
-            <ListItemText
-              primary={category}
-              primaryTypographyProps={{ style: { fontWeight: "bold" } }}
-            />
-            {openCategory[category] ? <ExpandLess /> : <ExpandMore />}
-          </ListItemButton>
-          <Collapse in={openCategory[category]} timeout="auto" unmountOnExit>
-            <List component="div" disablePadding>
-              {categories[category].map((dataset) => (
-                <DatasetItem key={dataset} dataset={dataset} />
-              ))}
-            </List>
-          </Collapse>
-        </ListItem>
+      {categories.map((category, index) => (
+        console.log(`currentPath: ${currentPath}, category.name: ${category.name}, same: ${currentPath == category.name}`),
+       
+        <div className={`nav-item ${ currentPath.trim().toLowerCase() === category.name.trim().toLowerCase() ? 'active' : '' }`} key={category.code}>
+          <a onClick={() => handleClick(category.code)}>{category.name}</a>
+        </div>
       ))}
     </>
   );

@@ -40,11 +40,11 @@ public class CategoryService {
         return titles;
     }
 
-    public List<String> getCategoryDatasets(String categoryName) {
+    public List<String> getCategoryDatasets(String code) {
         List<Category> categories = categoryManager.getCategories();
 
         for (Category category : categories) {
-            if (category.getName().equals(categoryName)) {
+            if (category.getCode().equals(code)) {
                 return category.getDatasets();
             }
         }
@@ -52,11 +52,11 @@ public class CategoryService {
         return new ArrayList<>();
     }
 
-    public Category getCategoryData(String categoryName) {
+    public Category getCategoryData(String code) {
         List<Category> categories = categoryManager.getCategories();
 
         for (Category category : categories) {
-            if (category.getName().equals(categoryName)) {
+            if (category.getCode().equals(code)) {
                 return category;
             }
         }

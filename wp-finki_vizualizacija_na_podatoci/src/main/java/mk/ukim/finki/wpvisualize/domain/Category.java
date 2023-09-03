@@ -4,20 +4,26 @@ import java.util.List;
 
 public class Category {
     private String name;
+    private String code;
     private String description;
     private List<String> datasets;
 
     public Category() {
     }
 
-    public Category(String name, String description, List<String> datasets) {
+    public Category(String name, String code, String description, List<String> datasets) {
         this.name = name;
+        this.code = code;
         this.description = description;
         this.datasets = datasets;
     }
 
     public String getName() {
         return name;
+    }
+
+    public String getCode() {
+        return code;
     }
 
     public String getDescription() {

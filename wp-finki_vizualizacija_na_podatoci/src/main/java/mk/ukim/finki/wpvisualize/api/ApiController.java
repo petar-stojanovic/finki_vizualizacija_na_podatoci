@@ -3,6 +3,8 @@ package mk.ukim.finki.wpvisualize.api;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import mk.ukim.finki.wpvisualize.domain.Category;
+import mk.ukim.finki.wpvisualize.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
@@ -25,9 +27,12 @@ public class ApiController {
 
     private final String datasetsDirectory = "datasets/";
 
+    private final CategoryService categoryService;
+
     @Autowired
-    public ApiController(ResourceLoader resourceLoader) {
+    public ApiController(ResourceLoader resourceLoader, CategoryService categoryService) {
         this.resourceLoader = resourceLoader;
+        this.categoryService = categoryService;
     }
 
     @GetMapping("/{name}")
@@ -95,6 +100,25 @@ public class ApiController {
             e.printStackTrace();
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error fetching dataset names.");
         }
+    }
+
+    @GetMapping("/categories")
+    public List<String> getCategories() {
+        return this.categoryService.getAllCategoryTitles();
+    }
+
+    @GetMapping("/datasets")
+    public List<String> getCategoryDatasets(
+            @RequestParam("categoryName") String categoryName
+    ) {
+        return this.categoryService.getCategoryDatasets(categoryName);
+    }
+
+    @GetMapping("/category")
+    public Category getCategoryData(
+            @RequestParam("categoryName") String categoryName
+    ) {
+        return this.categoryService.getCategoryData(categoryName);
     }
 
 }

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Category1",
+    "description": "Description for Category 1",
+    "datasets": ["dataset1", "dataset2"]
+  },
+  {
+    "name": "Category2",
+    "description": "Description for Category 2",
+    "datasets": ["dataset3", "dataset4"]
+  }
+]

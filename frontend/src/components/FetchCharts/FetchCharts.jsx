@@ -12,7 +12,6 @@ import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { PieChartImpl, LineChartImpl } from "../ChartsImpl/chartsImpl";
 
-
 import { ScatterPlot } from "../ChartsImpl/ScatterPlotImpl";
 
 export const FetchCharts = () => {

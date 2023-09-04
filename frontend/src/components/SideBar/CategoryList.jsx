@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-
+import "./CategoryList";
 export const CategoryList = ({ categories, currentPath }) => {
   return (
     <>
       {categories.map((category, index) => (
-        <Link to={`/category/${category.code}`}>
+        <Link to={`/category/${category.code}`} key={category.code}>
           <div
             className={`nav-item ${
               currentPath.trim().toLowerCase() ===
@@ -12,7 +12,6 @@ export const CategoryList = ({ categories, currentPath }) => {
                 ? "active"
                 : ""
             }`}
-            key={category.code}
           >
             <div>{category.name}</div>
           </div>

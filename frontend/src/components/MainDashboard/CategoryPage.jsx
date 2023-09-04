@@ -18,7 +18,6 @@ export const CategoryPage = () => {
   const fetchCategoryData = async () => {
     try {
       const response = await DatasetService.fetchCategoryData(code);
-      console.log(response);
       if (response.data) {
         setCategoryData(response.data);
       }
@@ -36,8 +35,8 @@ export const CategoryPage = () => {
 
   if (categoryData === null) {
     return (
-      <div class="loader d-flex justify-content-center align-items-center">
-        <div class="spinner-border" role="status"></div>
+      <div className="loader d-flex justify-content-center align-items-center">
+        <div className="spinner-border" role="status"></div>
       </div>
     );
   }
@@ -59,12 +58,11 @@ export const CategoryPage = () => {
             <div className="scrollable-content">
               <div className="row">
                 {categoryData.datasets.map((dataset, index) => (
-                  <div className="col-md-6">
-                    {/* <Link to={`/category/${categoryData.name}/${dataset}`}> */}
+                  <div className="col-md-6" key={index}>
                     <Link to={dataset}>
+                      {/* <Link to={`/category/${categoryData.name}/${dataset}`}> */}
                       <div
                         className="box"
-                        key={index}
                         // onClick={() => handleClick(dataset)}
                       >
                         {dataset}

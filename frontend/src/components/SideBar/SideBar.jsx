@@ -7,14 +7,9 @@ import { CategoryList } from "./CategoryList";
 export const SideBar = () => {
   const [categories, setCategories] = useState([]);
 
-  const location = useLocation();
-  const currentPath = decodeURIComponent(location.pathname);
-  const parts = currentPath.split("/");
+  const currentPath =
+    decodeURIComponent(useLocation().pathname).split("/")[2] ?? "";
 
-  let category = "";
-  parts.length > 2 ? (category = parts[2]) : (category = "");
-
-  console.log(category)
   useEffect(() => {
     fetchCategories();
   }, []);
@@ -33,7 +28,7 @@ export const SideBar = () => {
   return (
     <div className="navigation">
       <div>
-        <CategoryList categories={categories} currentPath={category} />
+        <CategoryList categories={categories} currentPath={currentPath} />
       </div>
     </div>
   );

@@ -12,7 +12,6 @@
 //     fetchDatasetData();
 //   }, [code]);
 
-  
 //   const fetchDatasetData = async () => {
 //     try {
 //       const response = await DatasetService.getData(code);
@@ -55,12 +54,14 @@ import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { PieChartImpl, LineChartImpl } from "../ChartsImpl/chartsImpl";
 
-
 import { ScatterPlot } from "../ChartsImpl/ScatterPlotImpl";
+
+import { colors } from "../ChartsImpl/colors";
 
 export const DatasetPage = () => {
   const { code } = useParams();
 
+  console.log(colors);
   const [jsonData, setJsonData] = useState(null);
 
   const [selectedLabel, setSelectedLabel] = useState("");
@@ -69,10 +70,10 @@ export const DatasetPage = () => {
 
   const location = useLocation();
   const currentPath = decodeURIComponent(location.pathname);
-  const parts = currentPath.split('/');
+  const parts = currentPath.split("/");
 
-  let category = '/category/';
-  (parts.length > 2) ? category += parts[2] : category += "";
+  let category = "/category/";
+  parts.length > 2 ? (category += parts[2]) : (category += "");
 
   console.log(category);
 
@@ -119,30 +120,10 @@ export const DatasetPage = () => {
   };
 
   function isAttributeSuitableForLabels(data, attribute) {
-    // Extract all unique values for the given attribute
     const uniqueValues = [...new Set(data.map((row) => row[attribute]))];
 
-    // Check if the number of unique values is significantly lower than the total number of data points
-    return uniqueValues.length < data.length * 0.4;
+    return uniqueValues.length < data.length * 0.25;
   }
-
-  const sortedAttributes = jsonData?.attributes
-    .filter(
-      (x) =>
-        !x.toString().toLowerCase().includes("code") &&
-        !x.toString().toLowerCase().includes("area") &&
-        !x.toString().toLowerCase().includes("flag") &&
-        !x.toString().toLowerCase().includes("source") &&
-        !x.toString().toLowerCase().includes("note")
-    )
-    .sort((a, b) => {
-      const aIsLabel = isAttributeSuitableForLabels(jsonData.data, a);
-      const bIsLabel = isAttributeSuitableForLabels(jsonData.data, b);
-
-      if (aIsLabel && !bIsLabel) return -1;
-      if (!aIsLabel && bIsLabel) return 1;
-      return 0;
-    });
 
   const labelAttributes = jsonData?.attributes
     .filter(
@@ -158,8 +139,10 @@ export const DatasetPage = () => {
     );
 
   return (
-    <div class="dataset-dashboard">
-      <a href={category} className="backLink">../Back</a>
+    <div className="dataset-dashboard">
+      <a href={category} className="backLink">
+        ../Back
+      </a>
       <h2>{code}</h2>
       <div>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
@@ -185,6 +168,18 @@ export const DatasetPage = () => {
             id="data-select"
             label="Data"
           >
+            {console.log(
+              jsonData?.attributes
+                .filter(
+                  (x) =>
+                    !x.toString().toLowerCase().includes("code") &&
+                    !x.toString().toLowerCase().includes("area") &&
+                    !x.toString().toLowerCase().includes("flag") &&
+                    !x.toString().toLowerCase().includes("source") &&
+                    !x.toString().toLowerCase().includes("note")
+                )
+                .filter((attribute) => !labelAttributes.includes(attribute))
+            )}
             {jsonData?.attributes
               .filter(
                 (x) =>
@@ -220,6 +215,7 @@ export const DatasetPage = () => {
                 labelKey={selectedLabel}
                 valueKey={selectedData}
                 size={size}
+                colors={colors}
                 datasetLabel="Line Chart"
               />
             </Grid>
@@ -229,6 +225,7 @@ export const DatasetPage = () => {
                 labelKey={selectedLabel}
                 valueKey={selectedData}
                 size={size}
+                colors={colors}
                 datasetLabel="Pie Chart"
               />
             </Grid>
@@ -238,6 +235,7 @@ export const DatasetPage = () => {
                 labelKey={selectedLabel}
                 valueKey={selectedData}
                 size={size}
+                colors={colors}
                 datasetLabel="Pie Chart"
               />
             </Grid>
@@ -259,4 +257,3 @@ export const DatasetPage = () => {
     </div>
   );
 };
-

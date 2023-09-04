@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import { BarElement, Chart as ChartJS } from "chart.js";
+import React, { useEffect, useState } from "react";
 
-import { Pie } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 
-ChartJS.register(ArcElement, Tooltip, Legend);
+ChartJS.register(BarElement);
 
-export const PieChartImpl = ({
+export const BarChartImpl = ({
   dataset,
   labelKey,
   valueKey,
@@ -18,6 +18,7 @@ export const PieChartImpl = ({
   useEffect(() => {
     setChart(dataset.data);
   }, [dataset, labelKey, valueKey, datasetLabel]);
+
 
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
@@ -51,7 +52,7 @@ export const PieChartImpl = ({
 
   return (
     <div>
-      <Pie data={data} height={400} options={options} />
+      <Bar data={data} height={400} options={options} />
     </div>
   );
 };

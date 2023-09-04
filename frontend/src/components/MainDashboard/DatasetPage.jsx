@@ -43,16 +43,21 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { useEffect, useState } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { DatasetService } from "../../repository/datasetRepository";
 
-import { BarChart, DoughnutChart, LineChart, PieChart } from "../Charts/charts";
+// import { BarChart, DoughnutChart, LineChart, PieChart } from "../Charts/charts";
 
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
-import { PieChartImpl, LineChartImpl } from "../ChartsImpl/chartsImpl";
+import {
+  BarChartImpl,
+  DoughnutChartImpl,
+  LineChartImpl,
+  PieChartImpl,
+} from "../ChartsImpl/chartsImpl";
 
 import { ScatterPlot } from "../ChartsImpl/ScatterPlotImpl";
 
@@ -61,7 +66,6 @@ import { colors } from "../ChartsImpl/colors";
 export const DatasetPage = () => {
   const { code } = useParams();
 
-  console.log(colors);
   const [jsonData, setJsonData] = useState(null);
 
   const [selectedLabel, setSelectedLabel] = useState("");
@@ -75,7 +79,6 @@ export const DatasetPage = () => {
   let category = "/category/";
   parts.length > 2 ? (category += parts[2]) : (category += "");
 
-  console.log(category);
 
   useEffect(() => {
     fetchDataForDataset(code);
@@ -236,20 +239,29 @@ export const DatasetPage = () => {
                 valueKey={selectedData}
                 size={size}
                 colors={colors}
-                datasetLabel="Pie Chart"
+                datasetLabel="Scatter Plot"
+              />
+            </Grid>
+
+            <Grid item xl={6} xs={12}>
+              <BarChartImpl
+                dataset={jsonData}
+                labelKey={selectedLabel}
+                valueKey={selectedData}
+                size={size}
+                colors={colors}
+                datasetLabel="Bar Chart"
               />
             </Grid>
             <Grid item xl={6} xs={12}>
-              <BarChart />
-            </Grid>
-            <Grid item xs={6}>
-              <LineChart />
-            </Grid>
-            <Grid item xs={6}>
-              <PieChart />
-            </Grid>
-            <Grid item xs={6}>
-              <DoughnutChart />
+              <DoughnutChartImpl
+                dataset={jsonData}
+                labelKey={selectedLabel}
+                valueKey={selectedData}
+                size={size}
+                colors={colors}
+                datasetLabel="Doughnut Chart"
+              />
             </Grid>
           </Grid>
         </Box>

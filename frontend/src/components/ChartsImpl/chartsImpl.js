@@ -1,3 +1,6 @@
 import { LineChartImpl } from "./LineChartImpl";
 import { PieChartImpl } from "./PieChartImpl";
-export { LineChartImpl, PieChartImpl };
+import { DoughnutChartImpl } from "./DoughnutChartImpl";
+import { BarChartImpl } from "./BarChartImpl";
+
+export { LineChartImpl, PieChartImpl, DoughnutChartImpl, BarChartImpl };

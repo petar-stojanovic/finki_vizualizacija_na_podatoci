@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from "react";
 import {
-  Chart as ChartJS,
   CategoryScale,
+  Chart as ChartJS,
+  Legend,
+  LineElement,
   LinearScale,
   PointElement,
-  LineElement,
   Title,
   Tooltip,
-  Legend,
 } from "chart.js";
+import React, { useEffect, useState } from "react";
 
 import { Line } from "react-chartjs-2";
 
-import { enUS } from "date-fns/locale";
+// import { enUS } from "date-fns/locale";
 
 ChartJS.register(
   CategoryScale,
@@ -42,7 +42,6 @@ export const LineChartImpl = ({
   const xScaleType = labels.every((label) => !isNaN(label))
     ? "linear" // Numeric data (years)
     : "category"; // Categorical data
-
 
   var data = {
     //x-axis

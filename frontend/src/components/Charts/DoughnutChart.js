@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import { ArcElement, Chart as ChartJS, Legend, Tooltip } from 'chart.js';
+import React, { useEffect, useState } from 'react';
 
 
 import { Doughnut } from 'react-chartjs-2';

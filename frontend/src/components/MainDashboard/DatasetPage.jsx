@@ -1,45 +1,3 @@
-// import { useEffect, useState } from "react";
-// import { useParams, useNavigate } from "react-router-dom";
-
-// import { DatasetService } from "../../repository/datasetRepository";
-
-// export const DatasetPage = () => {
-//   const navigate = useNavigate();
-//   const { code } = useParams();
-//   const [datasetData, setDatasetData] = useState(null);
-
-//   useEffect(() => {
-//     fetchDatasetData();
-//   }, [code]);
-
-//   const fetchDatasetData = async () => {
-//     try {
-//       const response = await DatasetService.getData(code);
-//       console.log(response);
-//       if (response.data) {
-//         setDatasetData(response.data);
-//       }
-//     } catch (error) {
-//       console.error("Error fetching data:", error);
-//     }
-//   };
-
-//   const handleClick = async (code) => {
-//     // navigate(`/dataset/${code}`, { state: { categoryData: code } });
-//   };
-
-//   if (datasetData === null) {
-//     return <div>Loading...</div>;
-//   }
-
-//   return (
-//     <div className="main-dashboard">
-//       <h3>Dataset:</h3>
-//     </div>
-//   );
-
-// };
-
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { useEffect, useState } from "react";
@@ -47,6 +5,8 @@ import { useLocation, useParams } from "react-router-dom";
 import { DatasetService } from "../../repository/datasetRepository";
 
 // import { BarChart, DoughnutChart, LineChart, PieChart } from "../Charts/charts";
+
+import { Link } from "react-router-dom";
 
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
@@ -72,13 +32,8 @@ export const DatasetPage = () => {
   const [selectedData, setSelectedData] = useState("");
   const [size, setSize] = useState(100);
 
-  const location = useLocation();
-  const currentPath = decodeURIComponent(location.pathname);
-  const parts = currentPath.split("/");
-
-  let category = "/category/";
-  parts.length > 2 ? (category += parts[2]) : (category += "");
-
+  const currentPath =
+    decodeURIComponent(useLocation().pathname).split("/")[2] ?? "";
 
   useEffect(() => {
     fetchDataForDataset(code);
@@ -143,9 +98,9 @@ export const DatasetPage = () => {
 
   return (
     <div className="dataset-dashboard">
-      <a href={category} className="backLink">
+      <Link to={`/category/${currentPath}`} className="backLink">
         ../Back
-      </a>
+      </Link>
       <h2>{code}</h2>
       <div>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
@@ -171,18 +126,6 @@ export const DatasetPage = () => {
             id="data-select"
             label="Data"
           >
-            {console.log(
-              jsonData?.attributes
-                .filter(
-                  (x) =>
-                    !x.toString().toLowerCase().includes("code") &&
-                    !x.toString().toLowerCase().includes("area") &&
-                    !x.toString().toLowerCase().includes("flag") &&
-                    !x.toString().toLowerCase().includes("source") &&
-                    !x.toString().toLowerCase().includes("note")
-                )
-                .filter((attribute) => !labelAttributes.includes(attribute))
-            )}
             {jsonData?.attributes
               .filter(
                 (x) =>

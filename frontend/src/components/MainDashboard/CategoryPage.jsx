@@ -45,9 +45,9 @@ export const CategoryPage = () => {
     <div className="category-dashboard">
       <div className="row">
         <div className="col-md-6">
-          <a href="/" className="backLink">
+          <Link to={"/"} className="backLink">
             ../Back
-          </a>
+          </Link>
           <h2>{categoryData.name}</h2>
           <p>{categoryData.description}</p>
           <div className="graph">NEKOJ GRAFIK TUKA</div>

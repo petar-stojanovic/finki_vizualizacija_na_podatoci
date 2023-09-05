@@ -66,10 +66,8 @@ export const FetchCharts = () => {
   };
 
   function isAttributeSuitableForLabels(data, attribute) {
-    // Extract all unique values for the given attribute
     const uniqueValues = [...new Set(data.map((row) => row[attribute]))];
 
-    // Check if the number of unique values is significantly lower than the total number of data points
     return uniqueValues.length < data.length * 0.4;
   }
 

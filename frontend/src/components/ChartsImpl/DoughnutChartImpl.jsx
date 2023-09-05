@@ -53,7 +53,6 @@ export const DoughnutChartImpl = ({
       tooltip: {
         callbacks: {
           label: (context) => {
-            console.log(context);
             const dataIndex = context.dataIndex;
             const elementValue = dataset.data[dataIndex].Element;
 

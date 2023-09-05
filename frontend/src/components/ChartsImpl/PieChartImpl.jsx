@@ -21,6 +21,7 @@ export const PieChartImpl = ({
 
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
+  const items = chart?.map((row) => row["Item"]).slice(0, size);
 
   var data = {
     //x-axis
@@ -45,6 +46,23 @@ export const PieChartImpl = ({
     legend: {
       labels: {
         fontSize: 25,
+      },
+    },
+    plugins: {
+      tooltip: {
+        callbacks: {
+          label: (context) => {
+            console.log(context);
+            const dataIndex = context.dataIndex;
+            const elementValue = dataset.data[dataIndex].Element;
+
+            return [
+              `${items[dataIndex]} (${context.label})`,
+              `- ${context.formattedValue} ${elementValue} `,
+              "",
+            ];
+          },
+        },
       },
     },
   };

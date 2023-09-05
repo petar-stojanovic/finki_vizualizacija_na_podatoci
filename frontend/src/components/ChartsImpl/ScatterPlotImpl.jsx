@@ -13,8 +13,6 @@ import {
 
 import { Scatter } from "react-chartjs-2";
 
-import { enUS } from "date-fns/locale";
-
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -23,7 +21,7 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend,
+  Legend
 );
 
 export const ScatterPlot = ({
@@ -32,6 +30,7 @@ export const ScatterPlot = ({
   valueKey,
   datasetLabel,
   size,
+  colors,
 }) => {
   const [chart, setChart] = useState([]);
 
@@ -41,9 +40,7 @@ export const ScatterPlot = ({
 
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
-  const xScaleType = labels.every((label) => !isNaN(label))
-    ? "linear" // Numeric data (years)
-    : "category"; // Categorical data
+  const items = chart?.map((row) => row["Item"]).slice(0, size);
 
   var data = {
     labels: labels,
@@ -54,8 +51,8 @@ export const ScatterPlot = ({
           x: labels[index],
           y: value,
         })),
-        backgroundColor: "rgba(75, 192, 192, 0.2)",
-        borderColor: "rgba(75, 192, 192, 1)",
+        backgroundColor: "rgba(75, 192, 192, 0.35)",
+        borderColor: "rgba(75, 192, 192, 0.5)",
         borderWidth: 1,
       },
     ],
@@ -70,8 +67,6 @@ export const ScatterPlot = ({
           display: true,
           text: labelKey,
         },
-        type: xScaleType,
-        distribution: "linear",
       },
       y: {
         title: {
@@ -85,7 +80,34 @@ export const ScatterPlot = ({
         fontSize: 25,
       },
     },
-    tension: 0.5, // Adjust this for scatterplot appearance
+    tension: 1,
+    plugins: {
+      tooltip: {
+        callbacks: {
+          label: (context) => {
+            console.log(context);
+            const dataIndex = context.dataIndex;
+            const elementValue = dataset.data[dataIndex].Element;
+
+            const formattedValue = context.formattedValue
+              .replace(/[,()]/g, "")
+              .split(" ");
+
+            return [
+              `${items[dataIndex]} (${context.label})`,
+              `- ${formattedValue[1]} ${elementValue} `,
+              "",
+            ];
+          },
+        },
+      },
+    },
+    elements: {
+      point: {
+        pointRadius: 10,
+        pointHoverRadius: 12,
+      },
+    },
   };
 
   return (

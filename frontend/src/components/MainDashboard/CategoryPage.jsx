@@ -26,13 +26,6 @@ export const CategoryPage = () => {
     }
   };
 
-  // PETAR
-  // const handleClick = async (code) => {
-  //   navigate(`/category/${categoryData.name}/${code}`, {
-  //     state: { categoryData: code },
-  //   });
-  // };
-
   if (categoryData === null) {
     return (
       <div className="loader d-flex justify-content-center align-items-center">
@@ -60,16 +53,11 @@ export const CategoryPage = () => {
                 {categoryData.datasets.map((dataset, index) => (
                   <div className="col-md-6" key={index}>
                     <Link to={dataset}>
-                      {/* <Link to={`/category/${categoryData.name}/${dataset}`}> */}
-                      <div
-                        className="box"
-                        // onClick={() => handleClick(dataset)}
-                      >
-                        {dataset}
-                      </div>
+                      <div className="box">{dataset}</div>
                     </Link>
                   </div>
                 ))}
+                
               </div>
             </div>
           </div>

@@ -29,16 +29,12 @@
 
 .navigation {
     /* remove this -> make it centered */
-    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .navigation .nav-item {
-    padding: 15px 20px;
-    font-size: 14px;
-    font-weight: 500;
     color: var(--black-color);
     border-left: 7px solid #fff;
 }
@@ -47,10 +43,12 @@
     cursor: pointer;
     border-left: 7px solid var(cornflowerblue);
     border-color: cornflowerblue;
+    padding-left: 1.1rem;
 }
 
 .navigation .nav-item.active {
     border-left: 7px solid var(--primary-color);
+    padding-left: 1.25rem;
 }
 
 .main-dashboard {
@@ -58,7 +56,7 @@
     min-height: 100vh;
     height: auto;
     position: relative;
-    padding: 150px 100px 90px 100px;
+    /* padding: 150px 100px 90px 100px; */
     overflow: hidden;
     background: url(../images/main.jpg) center no-repeat #eee;
     background-size: cover;
@@ -114,11 +112,9 @@
     min-height: 100vh;
     height: auto;
     position: relative;
-    padding: 50px 80px 0px 100px;
+    /* padding: 50px 80px 0px 100px; */
     overflow: hidden;
-    background: url(../images/background-category.jpg) center no-repeat #eee;
-    background-size: cover;
-    background-attachment: fixed;
+   
 }
 
 .category-dashboard h2 {
@@ -139,17 +135,7 @@
     padding-right: 20px;
 }
 
-/* if you want to remove the scroll bar, uncomment this */
-/* .scrollable-content::-webkit-scrollbar {
-    width: 0;
-}
-.scrollable-content::-webkit-scrollbar-track {
-    background: transparent;
-}
-.scrollable-content::-webkit-scrollbar-thumb {
-    background: transparent;
-    border: none;
-} */
+
 .category-dashboard .box {
     display: flex;
     align-items: center;
@@ -178,45 +164,17 @@
     background: #fff;
     padding: 55px 20px;
     border-radius: 10px;
+    border:1px solid black;
     margin: 5px 0;
     font-size: 15px;
     font-weight: 500;
     color: var(--black-color);
 }
 
-.dataset-dashboard {
-    width: 100%;
-    min-height: 100vh;
-    height: auto;
-    position: relative;
-    padding: 50px 80px 0px 100px;
-    overflow: hidden;
-    background: #eee;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.category-dashboard h2 {
-    color: var(--black-color);
-    font-size: 35px;
-    letter-spacing: 2px;
-    margin-bottom: 50px;
-}
-
-.dataset-dashboard .title-separator {
-    width: 50px;
-    border: 3px solid black;
-    margin: 10px 0 40px 0;
-}
-
-.dataset-dashboard p {
-    margin: 0 0 60px 0;
-    font-size: 15px;
-}
 
 a.backLink {
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 0.5rem;
     transition: 0.15s ease all;
     color: grey;

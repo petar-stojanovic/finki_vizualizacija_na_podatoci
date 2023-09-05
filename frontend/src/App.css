@@ -1,12 +1,10 @@
-.drawer {
-    width: inherit;
-}
-
-.link {
-    text-decoration: none;
-}
-
 html,
 body {
     overflow-x: hidden;
+}
+
+.background {
+    background: url(./images/background-category.jpg) center no-repeat #eee;
+    background-size: cover;
+    background-attachment: fixed;
 }

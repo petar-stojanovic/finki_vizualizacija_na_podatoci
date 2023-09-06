@@ -9,9 +9,9 @@ import { Route, Routes } from "react-router-dom";
 
 import { useLocation } from "react-router-dom";
 
+import { Toolbar } from "@mui/material";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import { Toolbar } from "@mui/material";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
@@ -19,11 +19,11 @@ import IconButton from "@mui/material/IconButton";
 const drawerWidth = 280;
 
 function App() {
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const location = useLocation();
+  const isGray =
+    location.pathname.split("/")[3] || location.pathname.split("/")[1] === "";
 
   const [openNav, setOpenNav] = useState(window.innerWidth >= 1200);
-
-  const location = useLocation();
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,13 +43,7 @@ function App() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <div
-        className={`${
-          decodeURIComponent(useLocation().pathname).split("/")[3]
-            ? ""
-            : "background"
-        }`}
-      >
+      <div className={`${isGray ? "gray" : "background"}`}>
         <SideBar
           onClose={() => setOpenNav(false)}
           open={openNav}
@@ -71,7 +65,7 @@ function App() {
               }`,
             }}
           >
-            <Toolbar sx={{ p: 0 }}>
+            <Toolbar style={{ padding: 0 }}>
               <IconButton
                 size="large"
                 edge="start"

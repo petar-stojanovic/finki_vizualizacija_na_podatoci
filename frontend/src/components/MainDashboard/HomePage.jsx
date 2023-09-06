@@ -5,7 +5,7 @@ export const HomePage = () => {
       {/* <div className="pyramids">
       </div> */}
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-12 col-lg-6">
           <h3 className="main-title">Data</h3>
           <h5 className="main-sub-title">Visualization</h5>
           <hr className="title-separator" />

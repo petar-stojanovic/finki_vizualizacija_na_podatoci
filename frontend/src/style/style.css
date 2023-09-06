@@ -53,13 +53,17 @@
 
 .main-dashboard {
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 64px);
     height: auto;
     position: relative;
-    /* padding: 150px 100px 90px 100px; */
     overflow: hidden;
     background: url(../images/main.jpg) center no-repeat #eee;
     background-size: cover;
+}
+
+.dataset-dashboard {
+    min-height: calc(100vh - 64px);
+    padding-bottom: 2rem;
 }
 
 .main-dashboard h3 {
@@ -109,12 +113,11 @@
 
 .category-dashboard {
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 64px);
     height: auto;
     position: relative;
     /* padding: 50px 80px 0px 100px; */
     overflow: hidden;
-   
 }
 
 .category-dashboard h2 {
@@ -164,7 +167,7 @@
     background: #fff;
     padding: 55px 20px;
     border-radius: 10px;
-    border:1px solid black;
+    border: 1px solid black;
     margin: 5px 0;
     font-size: 15px;
     font-weight: 500;

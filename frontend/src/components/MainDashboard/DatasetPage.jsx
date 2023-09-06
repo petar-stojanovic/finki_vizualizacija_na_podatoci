@@ -4,8 +4,6 @@ import { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import { DatasetService } from "../../repository/datasetRepository";
 
-// import { BarChart, DoughnutChart, LineChart, PieChart } from "../Charts/charts";
-
 import { Link } from "react-router-dom";
 
 import FormControl from "@mui/material/FormControl";
@@ -18,6 +16,9 @@ import {
   LineChartImpl,
   PieChartImpl,
 } from "../ChartsImpl/chartsImpl";
+
+import AddCircleIcon from "@mui/icons-material/AddCircle";
+import RemoveCircleIcon from "@mui/icons-material/RemoveCircle";
 
 import { ScatterPlot } from "../ChartsImpl/ScatterPlotImpl";
 
@@ -102,7 +103,7 @@ export const DatasetPage = () => {
         ../Back
       </Link>
       <h2>{code}</h2>
-      <div>
+      <div style={{ display: "flex", alignItems: "center" }}>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
           <InputLabel htmlFor="label-select">Label</InputLabel>
           <Select
@@ -143,8 +144,15 @@ export const DatasetPage = () => {
               ))}
           </Select>
         </FormControl>
-        <button onClick={() => setSize(size - 10)}>-</button>
-        <button onClick={() => setSize(size + 10)}>+</button>
+
+        <RemoveCircleIcon
+          onClick={() => setSize(size - 10)}
+          style={{ cursor: "pointer" }}
+        ></RemoveCircleIcon>
+        <AddCircleIcon
+          onClick={() => setSize(size + 10)}
+          style={{ cursor: "pointer" }}
+        ></AddCircleIcon>
       </div>
 
       {jsonData?.data && jsonData.data.length > 0 && (

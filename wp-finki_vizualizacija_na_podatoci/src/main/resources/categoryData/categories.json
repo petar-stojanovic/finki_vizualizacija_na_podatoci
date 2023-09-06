@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Agriculture Emissions",
+    "code": "Agriculture Emissions",
+    "description": "The \"Agriculture Emissions\" category provides a comprehensive overview of emissions related to agricultural practices. It encompasses various facets of emissions originating from agricultural activities, shedding light on their impact on the environment and sustainability. Explore emissions data to understand the contributions of different agricultural practices and their implications on the ecosystem.",
+    "datasets": [
+      "Emissions Agriculture Burning crop residues",
+      "Emissions Agriculture crop residues",
+      "Emissions Agriculture energy",
+      "Emissions Agriculture enteric fermentation",
+      "Emissions Agriculture manure applied to soils",
+      "Emissions Agriculture manure left on pasture",
+      "Emissions Agriculture manure management",
+      "Emissions Agriculture rice cultivation",
+      "Emissions Agriculture synthetic fertilizers",
+      "Emissions Agriculture waste disposal",
+      "Emissions Drained organic soils",
+      "Emissions land use forests",
+      "Emissions Totals"
+    ]
+  },
+  {
+    "name": "Agriculture Production and Inputs",
+    "code": "Agriculture Production and Inputs",
+    "description": "The \"Agriculture Production and Inputs\" category delves into the fundamental aspects of agriculture, exploring both production and the critical inputs that drive agricultural activities. This category offers valuable insights into crop and livestock production, fertilizer and pesticide usage, land use, and more, all of which play pivotal roles in sustaining agricultural practices and food security.",
+    "datasets": [
+      "Production Crops Livestock",
+      "Inputs Fertilizers Nutrient",
+      "Inputs Fertilizers Archive",
+      "Inputs Fertilizers Product",
+      "Inputs Land Use",
+      "Inputs Pesticides Trade",
+      "Inputs Pesticides Use",
+      "SUA Crops Livestock"
+    ]
+  },
+  {
+    "name": "Environmental Impact and Land Use",
+    "code": "Environmental Impact and Land Use",
+    "description": "The \"Environmental Impact and Land Use\" category delves into the intricate relationship between agriculture and the environment. It offers a comprehensive understanding of the environmental implications of various agricultural activities, including emissions, land use, and resource management. Explore the intricate balance between agricultural productivity and its impact on our ecosystem.",
+    "datasets": [
+      "Environment Cropland Nutrient Budget",
+      "Environment Emissions by Sector",
+      "Environment Emissions Intensities",
+      "Environment Fertilizers",
+      "Environment Food Waste Disposal",
+      "Environment Land Cover",
+      "Environment Land Use",
+      "Environment Livestock Manure",
+      "Environment Livestock Patterns",
+      "Environment Pesticides",
+      "Environment Soil Nutrient Budget",
+      "Environment Temperature Change",
+      "Environment Transport"
+    ]
+  },
+  {
+    "name": "Employment and Labor Statistics",
+    "code": "Employment and Labor Statistics",
+    "description": "The \"Employment and Labor Statistics\" category focuses on the crucial aspect of employment within the agriculture sector. It provides valuable insights into workforce dynamics, employment trends, and labor indicators. Explore the employment landscape in agriculture, both in terms of total employment and specific indicators, to gain a deeper understanding of labor patterns in this sector.",
+    "datasets": [
+      "Employment Total",
+      "Employment Indicators Agriculture",
+      "Employment Indicators",
+      "Employment Indicators Rural"
+    ]
+  },
+  {
+    "name": "Food Security and Balance Sheets",
+    "code": "Food Security and Balance Sheets",
+    "description": "The \"Food Security and Balance Sheets\" category is dedicated to understanding the dynamics of food security and the assessment of food production and consumption patterns. This category provides critical data on food availability, access, and utilization, offering insights into the stability and resilience of food systems. Explore data related to food security, balance sheets, and historical trends to gain a comprehensive view of food sustainability.",
+    "datasets": [
+      "Food Security Data",
+      "Food Balance Sheets",
+      "Food Balance Sheets Historic"
+    ]
+  },
+  {
+    "name": "Investment and Macro Statistics",
+    "code": "Investment and Macro Statistics",
+    "description": "The \"Employment and Labor Statistics\" category focuses on the crucial aspect of employment within the agriculture sector. It provides valuable insights into workforce dynamics, employment trends, and labor indicators. Explore the employment landscape in agriculture, both in terms of total employment and specific indicators, to gain a deeper understanding of labor patterns in this sector.",
+    "datasets": [
+      "Investment Capital Stock",
+      "Investment Country Investment Statistics Profile",
+      "Investment Foreign Direct Investment",
+      "Investment Government Expenditure",
+      "Investment Machinery",
+      "Investment Machinery Archive",
+      "Macro-Statistics Key Indicators"
+    ]
+  },
+  {
+    "name": "Population and Demographics",
+    "code": "Population and Demographics",
+    "description": "The \"Population and Demographics\" category is dedicated to understanding the composition, growth, and diversity of human populations. It provides comprehensive data on population trends, demographic statistics, and social characteristics that shape societies. Explore data related to population size, age distribution, gender, migration, and more to gain insights into the dynamics of human populations.",
+    "datasets": [
+      "Population All Data"
+    ]
+  },
+  {
+    "name": "Prices and Market Indicators",
+    "code": "Prices and Market Indicators",
+    "description": "The \"Prices and Market Indicators\" category offers valuable insights into the dynamics of markets, pricing trends, and economic indicators that influence consumer behavior and business decisions. This category provides data on commodity prices, consumer price indices, inflation rates, market performance, and more. Explore the factors shaping pricing and market dynamics for informed decision-making.",
+    "datasets": [
+      "Prices All Data"
+    ]
+  },
+  {
+    "name": "Sustainable Development Goals",
+    "code": "Sustainable Development Goals",
+    "description": "The \"Sustainable Development Goals (SDGs)\" category is dedicated to fostering awareness and action towards achieving the United Nations' SDGs, which encompass a wide range of global challenges, including poverty, inequality, climate change, and sustainable development. This category provides access to SDG-related data, reports, and resources, empowering users to engage with these vital global goals.",
+    "datasets": [
+      "SDG Bulk Downloads"
+    ]
+  }
+]

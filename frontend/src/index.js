@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style/style.css';
+import $ from 'jquery';
 import App from "./App";
 import CssBaseline from "@mui/material/CssBaseline";
 

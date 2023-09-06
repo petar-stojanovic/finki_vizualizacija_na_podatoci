@@ -1,30 +1,27 @@
-import IconButton from "@mui/material/IconButton";
-import Toolbar from "@mui/material/Toolbar";
-import { useEffect, useState } from "react";
 import "./App.css";
+import { CategoryPage } from "./components/MainDashboard/CategoryPage";
+import { DatasetPage } from "./components/MainDashboard/DatasetPage";
+import { HomePage } from "./components/MainDashboard/HomePage";
 import { SideBar } from "./components/SideBar/SideBar";
 
-import AppBar from "@mui/material/AppBar";
-
-import Box from "@mui/material/Box";
-
+import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import MenuIcon from "@mui/icons-material/Menu";
-import Button from "@mui/material/Button";
+import { useLocation } from "react-router-dom";
+
+import { Toolbar } from "@mui/material";
+import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import { FetchCharts } from "./components/FetchCharts/FetchCharts";
 
+import MenuIcon from "@mui/icons-material/Menu";
+import IconButton from "@mui/material/IconButton";
 
-
-const drawerWidth = 330;
+const drawerWidth = 280;
 
 function App() {
-  // const [selectedDataset, setSelectedDataset] = useState(null);
-
-  // const handleDatasetSelect = (datasetName) => {
-  //   setSelectedDataset(datasetName);
-  // };
+  const location = useLocation();
+  const isGray =
+    location.pathname.split("/")[3] || location.pathname.split("/")[1] === "";
 
   const [openNav, setOpenNav] = useState(window.innerWidth >= 1200);
 
@@ -45,55 +42,53 @@ function App() {
   };
 
   return (
-    <div sx={{ display: "flex" }}>
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
-          <Toolbar>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="open drawer"
-              onClick={handleDrawerToggle}
-              sx={{ mr: 2, display: { lg: "none" } }}
-            >
-              <MenuIcon />
-            </IconButton>
-            {/* <Typography
-              variant="h6"
-              component="div"
-              sx={{ flexGrow: 1, ml: { lg: `${drawerWidth}px` } }}
-            >
-              <Link to={"/"}>
-                <Button variant="contained" color="error">
-                  FINKI
-                </Button>
-              </Link>
-            </Typography> */}
-            <Button color="inherit">Login</Button>
-          </Toolbar>
-        </AppBar>
-      </Box>
+    <Box sx={{ flexGrow: 1 }}>
+      <div className={`${isGray ? "gray" : "background"}`}>
+        <SideBar
+          onClose={() => setOpenNav(false)}
+          open={openNav}
+          width={drawerWidth}
+        />
 
-      <SideBar
-        onClose={() => setOpenNav(false)}
-        open={openNav}
-        width={drawerWidth}
-      />
-
-      <Box
-        sx={{
-          ml: { lg: `${drawerWidth + 32}px` },
-        }}
-      >
-        <Container maxWidth="xl">
-          <Routes>
-            {/* <Route path="/" element={<DatasetViewer />} /> */}
-            <Route path="/:dataset" element={<FetchCharts />} />
-          </Routes>
-        </Container>
-      </Box>
-    </div>
+        <Box
+          sx={{
+            ml: { lg: `${drawerWidth}px` },
+          }}
+        >
+          <Container
+            maxWidth="xl"
+            style={{
+              backgroundColor: `${
+                decodeURIComponent(useLocation().pathname).split("/")[3]
+                  ? "#eee"
+                  : ""
+              }`,
+            }}
+          >
+            <Toolbar style={{ padding: 0 }}>
+              <IconButton
+                size="large"
+                edge="start"
+                color="inherit"
+                aria-label="open drawer"
+                onClick={handleDrawerToggle}
+                sx={{ display: { lg: "none" } }}
+              >
+                <MenuIcon />
+              </IconButton>
+            </Toolbar>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/category/:code" element={<CategoryPage />} />
+              <Route
+                path="/category/:categoryName/:code"
+                element={<DatasetPage />}
+              />
+            </Routes>
+          </Container>
+        </Box>
+      </div>
+    </Box>
   );
 }
 

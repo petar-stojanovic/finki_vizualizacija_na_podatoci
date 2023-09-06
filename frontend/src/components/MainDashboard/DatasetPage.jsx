@@ -1,21 +1,31 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { DatasetService } from "../../repository/datasetRepository";
 
-import { BarChart, DoughnutChart, LineChart, PieChart } from "../Charts/charts";
+import { Link } from "react-router-dom";
 
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
-import { PieChartImpl, LineChartImpl } from "../ChartsImpl/chartsImpl";
+import {
+  BarChartImpl,
+  DoughnutChartImpl,
+  LineChartImpl,
+  PieChartImpl,
+} from "../ChartsImpl/chartsImpl";
+
+import AddCircleIcon from "@mui/icons-material/AddCircle";
+import RemoveCircleIcon from "@mui/icons-material/RemoveCircle";
 
 import { ScatterPlot } from "../ChartsImpl/ScatterPlotImpl";
 
-export const FetchCharts = () => {
-  const { dataset } = useParams();
+import { colors } from "../ChartsImpl/colors";
+
+export const DatasetPage = () => {
+  const { code } = useParams();
 
   const [jsonData, setJsonData] = useState(null);
 
@@ -23,9 +33,12 @@ export const FetchCharts = () => {
   const [selectedData, setSelectedData] = useState("");
   const [size, setSize] = useState(100);
 
+  const currentPath =
+    decodeURIComponent(useLocation().pathname).split("/")[2] ?? "";
+
   useEffect(() => {
-    fetchDataForDataset(dataset);
-  }, [dataset]);
+    fetchDataForDataset(code);
+  }, [code]);
 
   const fetchDataForDataset = async (datasetName) => {
     DatasetService.getData(datasetName)
@@ -68,26 +81,8 @@ export const FetchCharts = () => {
   function isAttributeSuitableForLabels(data, attribute) {
     const uniqueValues = [...new Set(data.map((row) => row[attribute]))];
 
-    return uniqueValues.length < data.length * 0.4;
+    return uniqueValues.length < data.length * 0.25;
   }
-
-  const sortedAttributes = jsonData?.attributes
-    .filter(
-      (x) =>
-        !x.toString().toLowerCase().includes("code") &&
-        !x.toString().toLowerCase().includes("area") &&
-        !x.toString().toLowerCase().includes("flag") &&
-        !x.toString().toLowerCase().includes("source") &&
-        !x.toString().toLowerCase().includes("note")
-    )
-    .sort((a, b) => {
-      const aIsLabel = isAttributeSuitableForLabels(jsonData.data, a);
-      const bIsLabel = isAttributeSuitableForLabels(jsonData.data, b);
-
-      if (aIsLabel && !bIsLabel) return -1;
-      if (!aIsLabel && bIsLabel) return 1;
-      return 0;
-    });
 
   const labelAttributes = jsonData?.attributes
     .filter(
@@ -103,12 +98,12 @@ export const FetchCharts = () => {
     );
 
   return (
-    <div>
-      <h1>{dataset}</h1>
-      {sortedAttributes?.map((x, index) => (
-        <p key={index}>{x}</p>
-      ))}
-      <div>
+    <div className="dataset-dashboard">
+      <Link to={`/category/${currentPath}`} className="backLink">
+        ../Back
+      </Link>
+      <h2>{code}</h2>
+      <div style={{ display: "flex", alignItems: "center" }}>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
           <InputLabel htmlFor="label-select">Label</InputLabel>
           <Select
@@ -149,8 +144,15 @@ export const FetchCharts = () => {
               ))}
           </Select>
         </FormControl>
-        <button onClick={() => setSize(size - 10)}>-</button>
-        <button onClick={() => setSize(size + 10)}>+</button>
+
+        <RemoveCircleIcon
+          onClick={() => setSize(size - 10)}
+          style={{ cursor: "pointer" }}
+        ></RemoveCircleIcon>
+        <AddCircleIcon
+          onClick={() => setSize(size + 10)}
+          style={{ cursor: "pointer" }}
+        ></AddCircleIcon>
       </div>
 
       {jsonData?.data && jsonData.data.length > 0 && (
@@ -167,6 +169,7 @@ export const FetchCharts = () => {
                 labelKey={selectedLabel}
                 valueKey={selectedData}
                 size={size}
+                colors={colors}
                 datasetLabel="Line Chart"
               />
             </Grid>
@@ -176,6 +179,7 @@ export const FetchCharts = () => {
                 labelKey={selectedLabel}
                 valueKey={selectedData}
                 size={size}
+                colors={colors}
                 datasetLabel="Pie Chart"
               />
             </Grid>
@@ -185,20 +189,30 @@ export const FetchCharts = () => {
                 labelKey={selectedLabel}
                 valueKey={selectedData}
                 size={size}
-                datasetLabel="Pie Chart"
+                colors={colors}
+                datasetLabel="Scatter Plot"
+              />
+            </Grid>
+
+            <Grid item xl={6} xs={12}>
+              <BarChartImpl
+                dataset={jsonData}
+                labelKey={selectedLabel}
+                valueKey={selectedData}
+                size={size}
+                colors={colors}
+                datasetLabel="Bar Chart"
               />
             </Grid>
             <Grid item xl={6} xs={12}>
-              <BarChart />
-            </Grid>
-            <Grid item xs={6}>
-              <LineChart />
-            </Grid>
-            <Grid item xs={6}>
-              <PieChart />
-            </Grid>
-            <Grid item xs={6}>
-              <DoughnutChart />
+              <DoughnutChartImpl
+                dataset={jsonData}
+                labelKey={selectedLabel}
+                valueKey={selectedData}
+                size={size}
+                colors={colors}
+                datasetLabel="Doughnut Chart"
+              />
             </Grid>
           </Grid>
         </Box>

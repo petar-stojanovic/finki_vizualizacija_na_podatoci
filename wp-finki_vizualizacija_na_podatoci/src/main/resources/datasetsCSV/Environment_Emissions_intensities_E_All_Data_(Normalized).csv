@@ -1,0 +1,835 @@
+Area Code,Area Code (M49),Area,Item Code,Item Code (CPC),Item,Element Code,Element,Year Code,Year,Unit,Value,Flag
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,1992,1992,kg CO2eq/kg product,0.076300,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,1993,1993,kg CO2eq/kg product,0.083000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,1994,1994,kg CO2eq/kg product,0.252800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,1995,1995,kg CO2eq/kg product,0.183000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,1996,1996,kg CO2eq/kg product,0.259700,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,1997,1997,kg CO2eq/kg product,0.225100,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,1998,1998,kg CO2eq/kg product,0.196100,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,1999,1999,kg CO2eq/kg product,0.199500,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2000,2000,kg CO2eq/kg product,0.187200,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2001,2001,kg CO2eq/kg product,0.163500,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2002,2002,kg CO2eq/kg product,0.124600,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2003,2003,kg CO2eq/kg product,0.159000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2004,2004,kg CO2eq/kg product,0.140800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2005,2005,kg CO2eq/kg product,0.161300,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2006,2006,kg CO2eq/kg product,0.162000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2007,2007,kg CO2eq/kg product,0.205800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2008,2008,kg CO2eq/kg product,0.152400,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2009,2009,kg CO2eq/kg product,0.162600,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2010,2010,kg CO2eq/kg product,0.188700,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2011,2011,kg CO2eq/kg product,0.177800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2012,2012,kg CO2eq/kg product,0.194300,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2013,2013,kg CO2eq/kg product,0.184100,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2014,2014,kg CO2eq/kg product,0.175300,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2015,2015,kg CO2eq/kg product,0.205800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2016,2016,kg CO2eq/kg product,0.183000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2017,2017,kg CO2eq/kg product,0.226200,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2018,2018,kg CO2eq/kg product,0.164800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2019,2019,kg CO2eq/kg product,0.171200,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,71761,Emissions intensity,2020,2020,kg CO2eq/kg product,0.199900,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,44.351300,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,38.981000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,161.523900,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,131.506000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,135.931800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,131.695800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,124.980700,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,123.749700,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,102.147000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,76.288500,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,68.121600,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,72.920800,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,93.923000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,101.926000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,95.266400,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,93.294200,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,90.948400,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,95.797200,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,97.331200,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,93.877700,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,84.616400,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,98.300000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,104.980300,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,93.319900,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,112.763100,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,97.424500,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,95.381500,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,92.786400,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,111.797600,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,1992,1992,tonnes,580965.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,1993,1993,tonnes,469493.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,1994,1994,tonnes,639003.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,1995,1995,tonnes,718472.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,1996,1996,tonnes,523358.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,1997,1997,tonnes,585013.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,1998,1998,tonnes,637175.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,1999,1999,tonnes,620409.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2000,2000,tonnes,545572.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2001,2001,tonnes,466600.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2002,2002,tonnes,546731.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2003,2003,tonnes,458647.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2004,2004,tonnes,667257.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2005,2005,tonnes,632057.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2006,2006,tonnes,588222.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2007,2007,tonnes,453297.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2008,2008,tonnes,596904.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2009,2009,tonnes,589186.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2010,2010,tonnes,515867.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2011,2011,tonnes,527917.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2012,2012,tonnes,435427.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2013,2013,tonnes,533982.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2014,2014,tonnes,598734.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2015,2015,tonnes,453352.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2016,2016,tonnes,616186.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2017,2017,tonnes,430698.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2018,2018,tonnes,578641.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2019,2019,tonnes,541840.000000,E
+154,'807,North Macedonia,1718,'F1718,Cereals excluding rice,5510,Production,2020,2020,tonnes,559318.000000,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,1992,1992,kg CO2eq/kg product,1.623400,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,1993,1993,kg CO2eq/kg product,4.395200,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,1994,1994,kg CO2eq/kg product,4.603000,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,1995,1995,kg CO2eq/kg product,4.397300,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,1996,1996,kg CO2eq/kg product,2.508900,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,1997,1997,kg CO2eq/kg product,2.567300,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,1998,1998,kg CO2eq/kg product,2.412000,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,1999,1999,kg CO2eq/kg product,2.991300,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2000,2000,kg CO2eq/kg product,2.460200,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2001,2001,kg CO2eq/kg product,2.700400,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2002,2002,kg CO2eq/kg product,2.452200,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2003,2003,kg CO2eq/kg product,2.578900,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2004,2004,kg CO2eq/kg product,2.319100,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2005,2005,kg CO2eq/kg product,2.588700,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2006,2006,kg CO2eq/kg product,2.362700,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2007,2007,kg CO2eq/kg product,2.224800,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2008,2008,kg CO2eq/kg product,2.016800,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2009,2009,kg CO2eq/kg product,1.921900,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2010,2010,kg CO2eq/kg product,1.864400,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2011,2011,kg CO2eq/kg product,1.855900,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2012,2012,kg CO2eq/kg product,2.058900,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2013,2013,kg CO2eq/kg product,1.869300,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2014,2014,kg CO2eq/kg product,1.874800,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2015,2015,kg CO2eq/kg product,1.799100,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2016,2016,kg CO2eq/kg product,2.314800,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2017,2017,kg CO2eq/kg product,2.453000,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2018,2018,kg CO2eq/kg product,1.994500,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2019,2019,kg CO2eq/kg product,1.940600,E
+154,'807,North Macedonia,27,'0113,Rice,71761,Emissions intensity,2020,2020,kg CO2eq/kg product,2.201100,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,69.315400,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,41.460300,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,40.106100,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,28.349100,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,55.884200,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,63.154400,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,54.662700,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,52.137600,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,45.348400,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,21.332800,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,21.726100,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,33.634200,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,34.034700,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,32.539300,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,32.957000,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,34.162000,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,32.550700,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,38.188000,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,47.914000,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,50.043400,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,50.157500,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,52.193400,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,57.180000,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,54.922300,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,57.387600,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,41.896500,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,39.356000,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,41.293100,E
+154,'807,North Macedonia,27,'0113,Rice,723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,42.961300,E
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,1992,1992,tonnes,42698.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,1993,1993,tonnes,9433.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,1994,1994,tonnes,8713.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,1995,1995,tonnes,6447.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,1996,1996,tonnes,22274.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,1997,1997,tonnes,24600.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,1998,1998,tonnes,22663.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,1999,1999,tonnes,17430.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2000,2000,tonnes,18433.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2001,2001,tonnes,7900.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2002,2002,tonnes,8860.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2003,2003,tonnes,13042.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2004,2004,tonnes,14676.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2005,2005,tonnes,12570.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2006,2006,tonnes,13949.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2007,2007,tonnes,15355.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2008,2008,tonnes,16140.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2009,2009,tonnes,19870.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2010,2010,tonnes,25700.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2011,2011,tonnes,26964.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2012,2012,tonnes,24361.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2013,2013,tonnes,27921.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2014,2014,tonnes,30500.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2015,2015,tonnes,30527.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2016,2016,tonnes,24792.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2017,2017,tonnes,17080.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2018,2018,tonnes,19732.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2019,2019,tonnes,21278.000000,A
+154,'807,North Macedonia,27,'0113,Rice,5510,Production,2020,2020,tonnes,19518.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,1992,1992,kg CO2eq/kg product,53.771900,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,1993,1993,kg CO2eq/kg product,48.879500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,1994,1994,kg CO2eq/kg product,55.191000,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,1995,1995,kg CO2eq/kg product,60.697900,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,1996,1996,kg CO2eq/kg product,61.482500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,1997,1997,kg CO2eq/kg product,60.121600,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,1998,1998,kg CO2eq/kg product,74.315900,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,1999,1999,kg CO2eq/kg product,56.234100,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2000,2000,kg CO2eq/kg product,60.491000,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2001,2001,kg CO2eq/kg product,54.404500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2002,2002,kg CO2eq/kg product,53.379100,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2003,2003,kg CO2eq/kg product,42.969700,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2004,2004,kg CO2eq/kg product,40.918800,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2005,2005,kg CO2eq/kg product,45.561100,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2006,2006,kg CO2eq/kg product,49.576700,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2007,2007,kg CO2eq/kg product,38.135800,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2008,2008,kg CO2eq/kg product,39.689200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2009,2009,kg CO2eq/kg product,41.520500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2010,2010,kg CO2eq/kg product,41.761800,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2011,2011,kg CO2eq/kg product,55.375200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2012,2012,kg CO2eq/kg product,57.948600,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2013,2013,kg CO2eq/kg product,44.646100,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2014,2014,kg CO2eq/kg product,45.540200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2015,2015,kg CO2eq/kg product,56.505700,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2016,2016,kg CO2eq/kg product,67.676600,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2017,2017,kg CO2eq/kg product,55.541100,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2018,2018,kg CO2eq/kg product,62.396000,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2019,2019,kg CO2eq/kg product,55.827800,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",71761,Emissions intensity,2020,2020,kg CO2eq/kg product,62.618800,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,405.924000,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,411.370100,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,416.416200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,418.815500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,412.178700,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,438.106000,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,433.633500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,378.905500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,381.093500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,375.391300,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,359.668200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,373.449500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,361.067200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,346.446500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,353.581300,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,271.564900,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,278.538800,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,303.390200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,296.508700,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,293.544200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,288.642200,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,244.883700,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,251.472900,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,275.465300,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,268.134700,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,257.488500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,273.357000,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,227.944900,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,243.336500,E
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,1992,1992,tonnes,7549.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,1993,1993,tonnes,8416.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,1994,1994,tonnes,7545.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,1995,1995,tonnes,6900.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,1996,1996,tonnes,6704.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,1997,1997,tonnes,7287.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,1998,1998,tonnes,5835.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,1999,1999,tonnes,6738.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2000,2000,tonnes,6300.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2001,2001,tonnes,6900.000000,T
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2002,2002,tonnes,6738.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2003,2003,tonnes,8691.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2004,2004,tonnes,8824.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2005,2005,tonnes,7604.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2006,2006,tonnes,7132.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2007,2007,tonnes,7121.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2008,2008,tonnes,7018.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2009,2009,tonnes,7307.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2010,2010,tonnes,7100.000000,T
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2011,2011,tonnes,5301.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2012,2012,tonnes,4981.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2013,2013,tonnes,5485.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2014,2014,tonnes,5522.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2015,2015,tonnes,4875.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2016,2016,tonnes,3962.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2017,2017,tonnes,4636.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2018,2018,tonnes,4381.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2019,2019,tonnes,4083.000000,A
+154,'807,North Macedonia,867,'21111.01,"Meat of cattle with the bone, fresh or chilled",5510,Production,2020,2020,tonnes,3886.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,1992,1992,kg CO2eq/kg product,3.745100,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,1993,1993,kg CO2eq/kg product,3.718900,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,1994,1994,kg CO2eq/kg product,3.532400,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,1995,1995,kg CO2eq/kg product,3.171700,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,1996,1996,kg CO2eq/kg product,3.225000,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,1997,1997,kg CO2eq/kg product,3.225100,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,1998,1998,kg CO2eq/kg product,2.378100,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,1999,1999,kg CO2eq/kg product,2.106200,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2000,2000,kg CO2eq/kg product,2.037800,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2001,2001,kg CO2eq/kg product,2.178100,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2002,2002,kg CO2eq/kg product,2.233100,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2003,2003,kg CO2eq/kg product,2.184400,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2004,2004,kg CO2eq/kg product,1.979300,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2005,2005,kg CO2eq/kg product,2.130800,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2006,2006,kg CO2eq/kg product,1.872000,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2007,2007,kg CO2eq/kg product,1.574800,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2008,2008,kg CO2eq/kg product,1.599200,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2009,2009,kg CO2eq/kg product,1.508500,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2010,2010,kg CO2eq/kg product,1.626200,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2011,2011,kg CO2eq/kg product,1.631000,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2012,2012,kg CO2eq/kg product,1.596700,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2013,2013,kg CO2eq/kg product,1.553600,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2014,2014,kg CO2eq/kg product,1.531500,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2015,2015,kg CO2eq/kg product,1.653000,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2016,2016,kg CO2eq/kg product,1.535000,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2017,2017,kg CO2eq/kg product,1.630500,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2018,2018,kg CO2eq/kg product,1.519400,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2019,2019,kg CO2eq/kg product,1.359900,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,71761,Emissions intensity,2020,2020,kg CO2eq/kg product,1.281600,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,453.466400,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,453.958800,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,421.697300,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,421.265000,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,444.362500,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,442.154700,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,425.445400,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,439.483800,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,448.804600,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,437.590900,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,443.108900,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,418.388400,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,421.397900,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,420.759900,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,439.366400,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,606.741800,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,590.466300,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,532.947100,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,582.021500,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,613.730300,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,558.480300,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,591.491800,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,592.714600,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,596.848900,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,618.660700,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,642.653600,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,614.182200,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,531.585800,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,519.310200,E
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,1992,1992,tonnes,121083.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,1993,1993,tonnes,122068.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,1994,1994,tonnes,119381.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,1995,1995,tonnes,132819.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,1996,1996,tonnes,137785.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,1997,1997,tonnes,137100.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,1998,1998,tonnes,178900.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,1999,1999,tonnes,208660.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2000,2000,tonnes,220244.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2001,2001,tonnes,200904.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2002,2002,tonnes,198431.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2003,2003,tonnes,191533.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2004,2004,tonnes,212898.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2005,2005,tonnes,197464.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2006,2006,tonnes,234708.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2007,2007,tonnes,385290.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2008,2008,tonnes,369217.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2009,2009,tonnes,353300.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2010,2010,tonnes,357900.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2011,2011,tonnes,376290.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2012,2012,tonnes,349769.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2013,2013,tonnes,380735.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2014,2014,tonnes,387008.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2015,2015,tonnes,361072.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2016,2016,tonnes,403044.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2017,2017,tonnes,394140.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2018,2018,tonnes,404230.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2019,2019,tonnes,390903.000000,A
+154,'807,North Macedonia,882,'02211,Raw milk of cattle,5510,Production,2020,2020,tonnes,405217.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2004,2004,kg CO2eq/kg product,1.531400,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2005,2005,kg CO2eq/kg product,1.037200,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2006,2006,kg CO2eq/kg product,1.512200,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2007,2007,kg CO2eq/kg product,0.777400,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2008,2008,kg CO2eq/kg product,0.803200,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2009,2009,kg CO2eq/kg product,0.887000,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2010,2010,kg CO2eq/kg product,0.967600,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2011,2011,kg CO2eq/kg product,1.014600,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2012,2012,kg CO2eq/kg product,0.845700,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2013,2013,kg CO2eq/kg product,0.905900,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2014,2014,kg CO2eq/kg product,0.998000,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2015,2015,kg CO2eq/kg product,1.034900,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2016,2016,kg CO2eq/kg product,0.912600,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2017,2017,kg CO2eq/kg product,1.006000,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2018,2018,kg CO2eq/kg product,0.957900,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2019,2019,kg CO2eq/kg product,0.916900,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,71761,Emissions intensity,2020,2020,kg CO2eq/kg product,1.133400,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,21.438900,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,22.671200,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,22.682400,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,23.245200,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,25.347000,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,17.195600,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,14.300500,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,15.791500,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,12.556800,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,13.040500,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,13.559400,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,16.111600,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,17.646100,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,19.281900,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,21.885100,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,15.462900,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,17.644200,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2004,2004,tonnes,14000.000000,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2005,2005,tonnes,21858.000000,I
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2006,2006,tonnes,15000.000000,E
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2007,2007,tonnes,29900.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2008,2008,tonnes,31556.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2009,2009,tonnes,19386.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2010,2010,tonnes,14780.000000,I
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2011,2011,tonnes,15565.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2012,2012,tonnes,14848.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2013,2013,tonnes,14395.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2014,2014,tonnes,13587.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2015,2015,tonnes,15568.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2016,2016,tonnes,19337.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2017,2017,tonnes,19167.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2018,2018,tonnes,22846.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2019,2019,tonnes,16865.000000,A
+154,'807,North Macedonia,1020,'02292,Raw milk of goats,5510,Production,2020,2020,tonnes,15567.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,1992,1992,kg CO2eq/kg product,17.996400,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,1993,1993,kg CO2eq/kg product,14.147100,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,1994,1994,kg CO2eq/kg product,19.580700,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,1995,1995,kg CO2eq/kg product,24.917200,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,1996,1996,kg CO2eq/kg product,36.895900,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,1997,1997,kg CO2eq/kg product,32.713400,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,1998,1998,kg CO2eq/kg product,40.875500,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,1999,1999,kg CO2eq/kg product,34.725200,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2000,2000,kg CO2eq/kg product,35.160200,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2001,2001,kg CO2eq/kg product,27.146400,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2002,2002,kg CO2eq/kg product,36.410800,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2003,2003,kg CO2eq/kg product,31.358700,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2004,2004,kg CO2eq/kg product,37.206300,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2005,2005,kg CO2eq/kg product,31.334300,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2006,2006,kg CO2eq/kg product,25.120500,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2007,2007,kg CO2eq/kg product,14.034100,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2008,2008,kg CO2eq/kg product,15.774700,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2009,2009,kg CO2eq/kg product,17.154600,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2010,2010,kg CO2eq/kg product,15.718500,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2011,2011,kg CO2eq/kg product,13.761600,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2012,2012,kg CO2eq/kg product,14.071400,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2013,2013,kg CO2eq/kg product,16.411900,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2014,2014,kg CO2eq/kg product,17.646400,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2015,2015,kg CO2eq/kg product,16.616000,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2016,2016,kg CO2eq/kg product,16.770300,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2017,2017,kg CO2eq/kg product,20.203100,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2018,2018,kg CO2eq/kg product,17.437800,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2019,2019,kg CO2eq/kg product,16.407200,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",71761,Emissions intensity,2020,2020,kg CO2eq/kg product,18.249800,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,223.047200,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,182.243500,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,255.528700,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,248.573700,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,351.839100,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,215.515700,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,229.434200,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,152.651900,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,158.221000,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,160.164000,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,168.837000,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,184.859600,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,261.560000,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,214.859400,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,180.817500,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,91.151400,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,82.091700,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,89.632500,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,78.592300,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,87.661700,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,78.799800,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,77.546400,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,83.414600,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,66.131800,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,62.670600,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,69.134900,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,60.090500,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,55.653100,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,58.089000,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,1992,1992,tonnes,12394.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,1993,1993,tonnes,12882.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,1994,1994,tonnes,13050.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,1995,1995,tonnes,9976.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,1996,1996,tonnes,9536.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,1997,1997,tonnes,6588.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,1998,1998,tonnes,5613.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,1999,1999,tonnes,4396.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2000,2000,tonnes,4500.000000,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2001,2001,tonnes,5900.000000,E
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2002,2002,tonnes,4637.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2003,2003,tonnes,5895.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2004,2004,tonnes,7030.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2005,2005,tonnes,6857.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2006,2006,tonnes,7198.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2007,2007,tonnes,6495.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2008,2008,tonnes,5204.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2009,2009,tonnes,5225.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2010,2010,tonnes,5000.000000,T
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2011,2011,tonnes,6370.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2012,2012,tonnes,5600.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2013,2013,tonnes,4725.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2014,2014,tonnes,4727.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2015,2015,tonnes,3980.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2016,2016,tonnes,3737.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2017,2017,tonnes,3422.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2018,2018,tonnes,3446.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2019,2019,tonnes,3392.000000,A
+154,'807,North Macedonia,977,'21115,"Meat of sheep, fresh or chilled",5510,Production,2020,2020,tonnes,3183.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,1992,1992,kg CO2eq/kg product,8.397000,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,1993,1993,kg CO2eq/kg product,9.410700,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,1994,1994,kg CO2eq/kg product,8.532100,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,1995,1995,kg CO2eq/kg product,7.721300,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,1996,1996,kg CO2eq/kg product,6.646800,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,1997,1997,kg CO2eq/kg product,6.220900,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,1998,1998,kg CO2eq/kg product,6.214300,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,1999,1999,kg CO2eq/kg product,6.977500,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2000,2000,kg CO2eq/kg product,6.447000,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2001,2001,kg CO2eq/kg product,5.149800,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2002,2002,kg CO2eq/kg product,4.462100,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2003,2003,kg CO2eq/kg product,4.119800,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2004,2004,kg CO2eq/kg product,4.217200,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2005,2005,kg CO2eq/kg product,3.853800,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2006,2006,kg CO2eq/kg product,3.946000,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2007,2007,kg CO2eq/kg product,4.737400,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2008,2008,kg CO2eq/kg product,4.611500,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2009,2009,kg CO2eq/kg product,4.551900,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2010,2010,kg CO2eq/kg product,5.226600,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2011,2011,kg CO2eq/kg product,6.318900,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2012,2012,kg CO2eq/kg product,4.096000,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2013,2013,kg CO2eq/kg product,4.647000,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2014,2014,kg CO2eq/kg product,4.379800,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2015,2015,kg CO2eq/kg product,4.201800,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2016,2016,kg CO2eq/kg product,4.172600,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2017,2017,kg CO2eq/kg product,4.674500,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2018,2018,kg CO2eq/kg product,4.790900,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2019,2019,kg CO2eq/kg product,4.726200,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,71761,Emissions intensity,2020,2020,kg CO2eq/kg product,5.421300,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,505.128300,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,578.576300,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,540.003700,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,549.358500,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,398.785900,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,371.371700,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,298.287000,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,272.819300,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,258.848200,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,244.614100,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,230.379400,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,216.149600,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,201.904600,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,187.678300,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,223.271100,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,173.387400,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,182.154800,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,154.765700,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,173.262500,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,160.380900,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,158.171100,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,159.253900,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,156.189600,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,171.216700,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,171.353800,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,165.310400,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,175.150500,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,165.832700,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,145.967700,E
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,1992,1992,tonnes,60156.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,1993,1993,tonnes,61481.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,1994,1994,tonnes,63291.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,1995,1995,tonnes,71148.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,1996,1996,tonnes,59997.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,1997,1997,tonnes,59697.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,1998,1998,tonnes,48000.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,1999,1999,tonnes,39100.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2000,2000,tonnes,40150.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2001,2001,tonnes,47500.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2002,2002,tonnes,51630.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2003,2003,tonnes,52466.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2004,2004,tonnes,47876.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2005,2005,tonnes,48700.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2006,2006,tonnes,56582.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2007,2007,tonnes,36600.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2008,2008,tonnes,39500.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2009,2009,tonnes,34000.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2010,2010,tonnes,33150.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2011,2011,tonnes,25381.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2012,2012,tonnes,38616.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2013,2013,tonnes,34270.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2014,2014,tonnes,35661.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2015,2015,tonnes,40748.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2016,2016,tonnes,41066.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2017,2017,tonnes,35364.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2018,2018,tonnes,36559.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2019,2019,tonnes,35088.000000,A
+154,'807,North Macedonia,982,'02291,Raw milk of sheep,5510,Production,2020,2020,tonnes,26925.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,1992,1992,kg CO2eq/kg product,0.355200,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,1993,1993,kg CO2eq/kg product,0.315600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,1994,1994,kg CO2eq/kg product,0.406300,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,1995,1995,kg CO2eq/kg product,0.801400,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,1996,1996,kg CO2eq/kg product,0.213800,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,1997,1997,kg CO2eq/kg product,0.036600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,1998,1998,kg CO2eq/kg product,0.378500,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,1999,1999,kg CO2eq/kg product,0.604800,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2000,2000,kg CO2eq/kg product,0.600300,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2001,2001,kg CO2eq/kg product,0.617400,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2002,2002,kg CO2eq/kg product,0.617400,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2003,2003,kg CO2eq/kg product,0.329900,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2004,2004,kg CO2eq/kg product,0.624500,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2005,2005,kg CO2eq/kg product,0.356500,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2006,2006,kg CO2eq/kg product,0.391400,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2007,2007,kg CO2eq/kg product,0.377000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2008,2008,kg CO2eq/kg product,0.649600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2009,2009,kg CO2eq/kg product,0.617700,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2010,2010,kg CO2eq/kg product,0.527900,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2011,2011,kg CO2eq/kg product,0.972900,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2012,2012,kg CO2eq/kg product,0.617100,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2013,2013,kg CO2eq/kg product,1.858200,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2014,2014,kg CO2eq/kg product,0.865400,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2015,2015,kg CO2eq/kg product,0.822500,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2016,2016,kg CO2eq/kg product,1.192100,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2017,2017,kg CO2eq/kg product,0.771000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2018,2018,kg CO2eq/kg product,1.052000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2019,2019,kg CO2eq/kg product,1.232600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",71761,Emissions intensity,2020,2020,kg CO2eq/kg product,1.057400,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,1.953800,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,1.740300,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,2.304100,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,4.167200,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,1.069000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,0.189800,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,2.085000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,2.902800,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,2.905600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,2.902800,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,2.464600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,1.357900,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,1.991500,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,1.357900,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,1.454200,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,1.328600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,1.956600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,2.050100,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,1.708200,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,1.577000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,1.200200,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,3.346600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,1.740300,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,1.422100,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,1.798900,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,1.323000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,1.577000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,1.836600,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,1.579800,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,1992,1992,tonnes,5500.000000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,1993,1993,tonnes,5515.000000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,1994,1994,tonnes,5671.000000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,1995,1995,tonnes,5200.000000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,1996,1996,tonnes,5000.000000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,1997,1997,tonnes,5187.000000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,1998,1998,tonnes,5509.000000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,1999,1999,tonnes,4800.000000,E
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2000,2000,tonnes,4840.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2001,2001,tonnes,4702.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2002,2002,tonnes,3992.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2003,2003,tonnes,4116.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2004,2004,tonnes,3189.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2005,2005,tonnes,3809.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2006,2006,tonnes,3715.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2007,2007,tonnes,3524.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2008,2008,tonnes,3012.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2009,2009,tonnes,3319.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2010,2010,tonnes,3236.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2011,2011,tonnes,1621.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2012,2012,tonnes,1945.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2013,2013,tonnes,1801.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2014,2014,tonnes,2011.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2015,2015,tonnes,1729.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2016,2016,tonnes,1509.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2017,2017,tonnes,1716.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2018,2018,tonnes,1499.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2019,2019,tonnes,1490.000000,A
+154,'807,North Macedonia,1058,'21121,"Meat of chickens, fresh or chilled",5510,Production,2020,2020,tonnes,1494.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,1992,1992,kg CO2eq/kg product,1.477700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,1993,1993,kg CO2eq/kg product,1.546300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,1994,1994,kg CO2eq/kg product,1.607700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,1995,1995,kg CO2eq/kg product,1.552700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,1996,1996,kg CO2eq/kg product,1.435000,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,1997,1997,kg CO2eq/kg product,1.696700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,1998,1998,kg CO2eq/kg product,1.375500,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,1999,1999,kg CO2eq/kg product,1.223000,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2000,2000,kg CO2eq/kg product,1.006200,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2001,2001,kg CO2eq/kg product,1.157500,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2002,2002,kg CO2eq/kg product,1.150400,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2003,2003,kg CO2eq/kg product,1.334300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2004,2004,kg CO2eq/kg product,1.171800,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2005,2005,kg CO2eq/kg product,1.195300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2006,2006,kg CO2eq/kg product,1.192200,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2007,2007,kg CO2eq/kg product,1.065000,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2008,2008,kg CO2eq/kg product,1.098800,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2009,2009,kg CO2eq/kg product,1.018600,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2010,2010,kg CO2eq/kg product,0.812000,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2011,2011,kg CO2eq/kg product,0.917100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2012,2012,kg CO2eq/kg product,1.096100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2013,2013,kg CO2eq/kg product,1.052900,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2014,2014,kg CO2eq/kg product,1.179800,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2015,2015,kg CO2eq/kg product,1.386300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2016,2016,kg CO2eq/kg product,1.588200,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2017,2017,kg CO2eq/kg product,1.358400,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2018,2018,kg CO2eq/kg product,1.576200,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2019,2019,kg CO2eq/kg product,1.513000,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",71761,Emissions intensity,2020,2020,kg CO2eq/kg product,1.351100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,38.124300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,39.678100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,40.997300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,37.576500,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,31.183600,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,40.555700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,29.573800,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,25.560600,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,25.658400,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,25.696100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,22.317300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,20.681000,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,21.912100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,22.733700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,22.067200,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,19.148100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,17.010100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,15.635100,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,15.281600,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,15.224300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,14.578700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,12.635000,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,14.641600,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,13.815700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,13.815700,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,14.949000,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,14.039300,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,10.474600,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,12.124900,E
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,1992,1992,tonnes,25800.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,1993,1993,tonnes,25660.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,1994,1994,tonnes,25500.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,1995,1995,tonnes,24200.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,1996,1996,tonnes,21730.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,1997,1997,tonnes,23903.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,1998,1998,tonnes,21500.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,1999,1999,tonnes,20900.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2000,2000,tonnes,25500.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2001,2001,tonnes,22200.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2002,2002,tonnes,19400.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2003,2003,tonnes,15500.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2004,2004,tonnes,18700.000000,A
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2005,2005,tonnes,19020.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2006,2006,tonnes,18510.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2007,2007,tonnes,17980.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2008,2008,tonnes,15480.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2009,2009,tonnes,15350.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2010,2010,tonnes,18820.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2011,2011,tonnes,16600.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2012,2012,tonnes,13300.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2013,2013,tonnes,12000.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2014,2014,tonnes,12410.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2015,2015,tonnes,9966.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2016,2016,tonnes,8699.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2017,2017,tonnes,11005.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2018,2018,tonnes,8907.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2019,2019,tonnes,6923.000000,T
+154,'807,North Macedonia,1062,'0231,"Hen eggs in shell, fresh",5510,Production,2020,2020,tonnes,8974.000000,T
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,1992,1992,kg CO2eq/kg product,4.744800,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,1993,1993,kg CO2eq/kg product,5.203000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,1994,1994,kg CO2eq/kg product,5.546800,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,1995,1995,kg CO2eq/kg product,5.327800,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,1996,1996,kg CO2eq/kg product,5.397400,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,1997,1997,kg CO2eq/kg product,6.403600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,1998,1998,kg CO2eq/kg product,6.044700,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,1999,1999,kg CO2eq/kg product,6.209400,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2000,2000,kg CO2eq/kg product,7.042500,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2001,2001,kg CO2eq/kg product,7.038600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2002,2002,kg CO2eq/kg product,5.351600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2003,2003,kg CO2eq/kg product,5.400900,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2004,2004,kg CO2eq/kg product,4.893100,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2005,2005,kg CO2eq/kg product,5.076300,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2006,2006,kg CO2eq/kg product,5.611300,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2007,2007,kg CO2eq/kg product,8.351000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2008,2008,kg CO2eq/kg product,8.220200,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2009,2009,kg CO2eq/kg product,6.774200,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2010,2010,kg CO2eq/kg product,6.903800,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2011,2011,kg CO2eq/kg product,6.831300,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2012,2012,kg CO2eq/kg product,4.838000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2013,2013,kg CO2eq/kg product,5.486000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2014,2014,kg CO2eq/kg product,4.838400,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2015,2015,kg CO2eq/kg product,5.232500,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2016,2016,kg CO2eq/kg product,4.594600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2017,2017,kg CO2eq/kg product,4.471600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2018,2018,kg CO2eq/kg product,4.382900,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2019,2019,kg CO2eq/kg product,2.939400,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",71761,Emissions intensity,2020,2020,kg CO2eq/kg product,3.184000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1992,1992,kilotonnes,49.550400,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1993,1993,kilotonnes,50.125300,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1994,1994,kilotonnes,53.603800,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1995,1995,kilotonnes,49.735000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1996,1996,kilotonnes,50.735100,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1997,1997,kilotonnes,55.769000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1998,1998,kilotonnes,53.387100,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),1999,1999,kilotonnes,57.058600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2000,2000,kilotonnes,65.495600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2001,2001,kilotonnes,59.124500,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2002,2002,kilotonnes,56.865600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2003,2003,kilotonnes,51.897400,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2004,2004,kilotonnes,45.863400,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2005,2005,kilotonnes,45.164000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2006,2006,kilotonnes,48.442600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2007,2007,kilotonnes,73.956300,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2008,2008,kilotonnes,71.540800,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2009,2009,kilotonnes,56.164900,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2010,2010,kilotonnes,55.230500,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2011,2011,kilotonnes,56.973300,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2012,2012,kilotonnes,51.273600,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2013,2013,kilotonnes,48.523800,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2014,2014,kilotonnes,47.832800,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2015,2015,kilotonnes,56.647400,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2016,2016,kilotonnes,58.746900,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2017,2017,kilotonnes,58.600000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2018,2018,kilotonnes,56.667000,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2019,2019,kilotonnes,39.341300,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",723113,Emissions (CO2eq) (AR5),2020,2020,kilotonnes,47.537700,E
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,1992,1992,tonnes,10443.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,1993,1993,tonnes,9634.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,1994,1994,tonnes,9664.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,1995,1995,tonnes,9335.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,1996,1996,tonnes,9400.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,1997,1997,tonnes,8709.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,1998,1998,tonnes,8832.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,1999,1999,tonnes,9189.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2000,2000,tonnes,9300.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2001,2001,tonnes,8400.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2002,2002,tonnes,10626.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2003,2003,tonnes,9609.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2004,2004,tonnes,9373.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2005,2005,tonnes,8897.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2006,2006,tonnes,8633.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2007,2007,tonnes,8856.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2008,2008,tonnes,8703.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2009,2009,tonnes,8291.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2010,2010,tonnes,8000.000000,T
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2011,2011,tonnes,8340.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2012,2012,tonnes,10598.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2013,2013,tonnes,8845.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2014,2014,tonnes,9886.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2015,2015,tonnes,10826.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2016,2016,tonnes,12786.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2017,2017,tonnes,13105.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2018,2018,tonnes,12929.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2019,2019,tonnes,13384.000000,A
+154,'807,North Macedonia,1035,'21113.01,"Meat of pig with the bone, fresh or chilled",5510,Production,2020,2020,tonnes,14930.000000,A

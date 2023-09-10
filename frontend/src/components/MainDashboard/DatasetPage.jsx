@@ -43,14 +43,18 @@ export const DatasetPage = () => {
   const fetchDataForDataset = async (datasetName) => {
     DatasetService.getData(datasetName)
       .then((response) => {
-        const formattedData = response.data.data.map((item) => ({
+        console.log(response.data);
+        const formattedData = response.data.fileData.map((item) => ({
           ...item,
           Value: parseFloat(item.Value).toFixed(2),
         }));
 
+        console.log(Object.keys(formattedData[0]));
+
         setJsonData({
-          ...response.data,
+          ...response.data.fileData,
           data: formattedData,
+          attributes: Object.keys(formattedData[0]),
         });
 
         setSelectedLabel(

@@ -52,12 +52,13 @@ export const CategoryPage = () => {
               <div className="row">
                 {categoryData.datasets.map((dataset, index) => (
                   <div className="col-md-6" key={index}>
-                    <Link to={dataset}>
-                      <div className="box">{dataset}</div>
+                    <Link to={dataset.name}>
+                      <div className="box">
+                        {dataset.name}
+                      </div>
                     </Link>
                   </div>
                 ))}
-                
               </div>
             </div>
           </div>

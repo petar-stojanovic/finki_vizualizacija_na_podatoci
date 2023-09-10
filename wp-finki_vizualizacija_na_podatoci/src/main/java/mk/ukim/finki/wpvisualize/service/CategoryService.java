@@ -2,7 +2,9 @@ package mk.ukim.finki.wpvisualize.service;
 
 import mk.ukim.finki.wpvisualize.domain.Category;
 import mk.ukim.finki.wpvisualize.domain.CategoryManager;
+import mk.ukim.finki.wpvisualize.domain.Dataset;
 import mk.ukim.finki.wpvisualize.reader.CategoryReader;
+import mk.ukim.finki.wpvisualize.writer.CategoryWriter;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -13,19 +15,25 @@ import java.util.List;
 public class CategoryService {
     private final CategoryManager categoryManager;
     private final CategoryReader categoryReader;
+    private final CategoryWriter categoryWriter;
 
-    public CategoryService(CategoryManager categoryManager, CategoryReader categoryReader) throws IOException {
+    public CategoryService(CategoryManager categoryManager, CategoryReader categoryReader, CategoryWriter categoryWriter) throws IOException {
         this.categoryManager = categoryManager;
         this.categoryReader = categoryReader;
+        this.categoryWriter = categoryWriter;
         initializeCategories();
     }
 
     public void initializeCategories() throws IOException {
+        categoryManager.resetCategories();
         List<Category> categories = categoryReader.readCategories();
+        for(Category cat : categories) {
+            System.out.println(cat.getName());
+        }
         categories.forEach(categoryManager::addCategory);
     }
 
-    public List<Category> getAllCategories() {
+    public List<Category> getAllCategories() throws IOException {
         return categoryManager.getCategories();
     }
 
@@ -40,7 +48,7 @@ public class CategoryService {
         return titles;
     }
 
-    public List<String> getCategoryDatasets(String code) {
+    public List<Dataset> getCategoryDatasets(String code) {
         List<Category> categories = categoryManager.getCategories();
 
         for (Category category : categories) {
@@ -52,7 +60,19 @@ public class CategoryService {
         return new ArrayList<>();
     }
 
-    public Category getCategoryData(String code) {
+    public List<String> getCategoryDatasetNames(String code) {
+        List<Dataset> datasets = this.getCategoryDatasets(code);
+        List<String> datasetNames = new ArrayList<>();
+
+        for(Dataset dataset : datasets) {
+            datasetNames.add(dataset.getName());
+        }
+
+        return datasetNames;
+    }
+
+    public Category getCategoryData(String code) throws IOException {
+        initializeCategories();
         List<Category> categories = categoryManager.getCategories();
 
         for (Category category : categories) {
@@ -62,5 +82,20 @@ public class CategoryService {
         }
 
         return null;
+    }
+
+    public void addNewCategory(Category category) throws IOException {
+        this.categoryWriter.addCategory(category);
+        this.categoryManager.addCategory(category);
+        initializeCategories();
+    }
+
+    public void addDataset(Category category, String datasetName) throws IOException {
+        Dataset dataset = new Dataset();
+        dataset.setName(datasetName);
+        dataset.setFilePath(datasetName.replace(" ", "_") + ".csv");
+
+        category.getDatasets().add(dataset);
+        this.categoryWriter.updateCategory(category);
     }
 }

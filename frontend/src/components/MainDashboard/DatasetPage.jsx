@@ -43,31 +43,26 @@ export const DatasetPage = () => {
   const fetchDataForDataset = async (datasetName) => {
     DatasetService.getData(datasetName)
       .then((response) => {
-        console.log(response.data);
         const formattedData = response.data.fileData.map((item) => ({
           ...item,
           Value: parseFloat(item.Value).toFixed(2),
         }));
 
-        console.log(Object.keys(formattedData[0]));
-
         setJsonData({
-          ...response.data.fileData,
           data: formattedData,
           attributes: Object.keys(formattedData[0]),
         });
 
         setSelectedLabel(
-          response.data.attributes.includes("Year")
+          Object.keys(formattedData[0]).includes("Year")
             ? "Year"
             : response.data.attributes[0]
         );
         setSelectedData(
-          response.data.attributes.includes("Value")
+          Object.keys(formattedData[0]).includes("Value")
             ? "Value"
             : response.data.attributes[1]
         );
-        console.log(response.data);
       })
       .catch((error) => {
         console.error("Error fetching dataset data:", error);
@@ -82,27 +77,11 @@ export const DatasetPage = () => {
     setSelectedData(event.target.value);
   };
 
-  function isAttributeSuitableForLabels(data, attribute) {
-    const uniqueValues = [...new Set(data.map((row) => row[attribute]))];
-
-    return uniqueValues.length < data.length * 0.25;
-  }
-
-  const labelAttributes = jsonData?.attributes
-    .filter(
-      (x) =>
-        !x.toString().toLowerCase().includes("code") &&
-        !x.toString().toLowerCase().includes("area") &&
-        !x.toString().toLowerCase().includes("flag") &&
-        !x.toString().toLowerCase().includes("source") &&
-        !x.toString().toLowerCase().includes("note")
-    )
-    .filter((attribute) =>
-      isAttributeSuitableForLabels(jsonData.data, attribute)
-    );
 
   return (
     <div className="dataset-dashboard">
+      {/* {console.log(jsonData)} */}
+
       <Link to={`/category/${currentPath}`} className="backLink">
         ../Back
       </Link>
@@ -116,11 +95,13 @@ export const DatasetPage = () => {
             id="label-select"
             label="Label"
           >
-            {labelAttributes?.map((attribute, index) => (
-              <MenuItem key={index} value={attribute}>
-                {attribute}
-              </MenuItem>
-            ))}
+            {jsonData?.attributes
+              .filter((label) => label !== selectedData)
+              .map((attribute, index) => (
+                <MenuItem key={index} value={attribute}>
+                  {attribute}
+                </MenuItem>
+              ))}
           </Select>
         </FormControl>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
@@ -132,15 +113,7 @@ export const DatasetPage = () => {
             label="Data"
           >
             {jsonData?.attributes
-              .filter(
-                (x) =>
-                  !x.toString().toLowerCase().includes("code") &&
-                  !x.toString().toLowerCase().includes("area") &&
-                  !x.toString().toLowerCase().includes("flag") &&
-                  !x.toString().toLowerCase().includes("source") &&
-                  !x.toString().toLowerCase().includes("note")
-              )
-              .filter((attribute) => !labelAttributes.includes(attribute))
+              .filter((data) => data !== selectedLabel)
               .map((attribute, index) => (
                 <MenuItem key={index} value={attribute}>
                   {attribute}

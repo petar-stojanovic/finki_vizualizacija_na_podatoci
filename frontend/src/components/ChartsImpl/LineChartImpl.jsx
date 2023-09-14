@@ -41,10 +41,15 @@ export const LineChartImpl = ({
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
   const items = chart?.map((row) => row["Item"]).slice(0, size);
+  const elements = chart?.map((row) => row["Element"]).slice(0, size);
 
-  const xScaleType = labels.every((label) => !isNaN(label))
-    ? "linear" // Numeric data (years)
-    : "category"; // Categorical data
+  const xScaleType =
+    labelKey.toLowerCase().trim() === "year" ? "linear" : "category";
+  const yScaleType =
+    valueKey.toLowerCase().trim() === "year" ? "linear" : "category";
+
+  console.log(xScaleType, yScaleType);
+  console.log(elements);
 
   var data = {
     //x-axis
@@ -54,6 +59,13 @@ export const LineChartImpl = ({
     datasets: [
       {
         label: `${valueKey}`,
+      //   labels: [
+      //     'green',
+      //     'yellow',
+      //     'red',
+      //     'purple',
+      //     'blue',
+      // ],
         //y-axis
         data: values,
         // data: [...new Set(values)],
@@ -85,6 +97,7 @@ export const LineChartImpl = ({
           display: true,
           text: valueKey,
         },
+        // type: yScaleType,
       },
     },
     legend: {

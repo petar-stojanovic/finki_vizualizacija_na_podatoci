@@ -6,12 +6,12 @@ public class Category {
     private String name;
     private String code;
     private String description;
-    private List<String> datasets;
+    private List<Dataset> datasets;
 
     public Category() {
     }
 
-    public Category(String name, String code, String description, List<String> datasets) {
+    public Category(String name, String code, String description, List<Dataset> datasets) {
         this.name = name;
         this.code = code;
         this.description = description;
@@ -30,7 +30,7 @@ public class Category {
         return description;
     }
 
-    public List<String> getDatasets() {
+    public List<Dataset> getDatasets() {
         return datasets;
     }
 }

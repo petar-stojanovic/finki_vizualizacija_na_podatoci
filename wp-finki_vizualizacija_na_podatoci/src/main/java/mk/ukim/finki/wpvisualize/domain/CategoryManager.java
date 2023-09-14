@@ -17,6 +17,10 @@ public class CategoryManager {
         categories.add(category);
     }
 
+    public void resetCategories() {
+        categories = new ArrayList<>();
+    }
+
     public List<Category> getCategories() {
         return categories;
     }

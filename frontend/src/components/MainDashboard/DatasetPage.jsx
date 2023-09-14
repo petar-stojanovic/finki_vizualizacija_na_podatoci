@@ -105,7 +105,7 @@ export const DatasetPage = () => {
       <h2>{code}</h2>
       <div style={{ display: "flex", alignItems: "center" }}>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
-          <InputLabel htmlFor="label-select">Label</InputLabel>
+          <InputLabel htmlFor="label-select">X-axis</InputLabel>
           <Select
             value={selectedLabel}
             onChange={handleLabelChange}
@@ -120,7 +120,7 @@ export const DatasetPage = () => {
           </Select>
         </FormControl>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
-          <InputLabel htmlFor="data-select">Data</InputLabel>
+          <InputLabel htmlFor="data-select">Y-axis</InputLabel>
           <Select
             value={selectedData}
             onChange={handleDataChange}

@@ -43,12 +43,12 @@
     cursor: pointer;
     border-left: 7px solid var(cornflowerblue);
     border-color: cornflowerblue;
-    padding-left: 1.1rem;
+    /* padding-left: 1.1rem; */
 }
 
 .navigation .nav-item.active {
     border-left: 7px solid var(--primary-color);
-    padding-left: 1.25rem;
+    /* padding-left: 1.05rem; */
 }
 
 .main-dashboard {

@@ -1,7 +1,6 @@
 export const colors = [
   "#f799a6",
   "#aab2fb",
-  "#9aa9a7",
   "#ebd6f4",
   "#9ac79f",
   "#97eaec",
@@ -21,6 +20,7 @@ export const colors = [
   "#a0ab9a",
   "#b4f5de",
   "#a5a8f3",
+  "#9aa9a7",
   "#a8cfd9",
   "#f3cbdd",
   "#d8a9ea",

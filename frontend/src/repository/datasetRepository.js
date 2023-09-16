@@ -32,4 +32,7 @@ export const DatasetService = {
       },
     });
   },
+  downloadDataset: (name) => {
+    return axios.get(`/${name}/download`);
+  },
 };

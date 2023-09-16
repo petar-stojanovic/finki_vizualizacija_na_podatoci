@@ -73,7 +73,6 @@ export const DatasetPage = () => {
         ? "Year"
         : jsonData?.attributes[0];
 
-      console.log(selectedLabel);
       const selectedData = Object.keys(formattedData[0])?.includes("Value")
         ? "Value"
         : jsonData?.attributes[1];
@@ -96,7 +95,7 @@ export const DatasetPage = () => {
 
   return (
     <div className="dataset-dashboard">
-      {/* {console.log(jsonData)} */}
+      {/* {console.log(code)} */}
 
       <Link to={`/category/${currentPath}`} className="backLink">
         ../Back
@@ -176,6 +175,7 @@ export const DatasetPage = () => {
                 valueKey={selectedData}
                 size={size}
                 colors={colors}
+                name={code}
                 datasetLabel="Line Chart"
               />
             </Grid>

@@ -5,12 +5,16 @@ import mk.ukim.finki.wpvisualize.domain.Dataset;
 import mk.ukim.finki.wpvisualize.service.CategoryService;
 import mk.ukim.finki.wpvisualize.service.DatasetService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -65,13 +69,36 @@ public class ApiController {
         return datasetService.getDatasetByName(name);
     }
 
+    @GetMapping("/{name}/download")
+    public ResponseEntity<FileSystemResource> downloadDataset(
+            @PathVariable String name
+    ) throws IOException {
+        File file = datasetService.downloadDataset(name);
+
+        if (file != null) {
+            FileSystemResource resource = new FileSystemResource(file);
+
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+            headers.setContentDispositionFormData("attachment", name + ".csv"); // Specify the filename
+
+            return ResponseEntity.ok()
+                    .headers(headers)
+                    .body(resource);
+        } else {
+            // Handle the case when the file is not found
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+
     @GetMapping("/datasetNames")
     public List<String> getAllDatasetNames() throws IOException {
         List<Category> categories = this.categoryService.getAllCategories();
         List<String> datasetNames = new ArrayList<>();
-        for(Category category : categories) {
+        for (Category category : categories) {
             List<Dataset> categoryDatasets = category.getDatasets();
-            for(Dataset dataset : categoryDatasets) {
+            for (Dataset dataset : categoryDatasets) {
                 datasetNames.add(dataset.getName());
             }
         }

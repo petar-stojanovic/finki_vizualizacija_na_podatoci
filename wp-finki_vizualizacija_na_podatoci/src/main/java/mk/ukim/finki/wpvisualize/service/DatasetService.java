@@ -3,8 +3,11 @@ package mk.ukim.finki.wpvisualize.service;
 import mk.ukim.finki.wpvisualize.domain.Dataset;
 import mk.ukim.finki.wpvisualize.domain.DatasetManager;
 import mk.ukim.finki.wpvisualize.reader.DatasetReader;
+import org.springframework.core.io.InputStreamResource;
 import org.springframework.stereotype.Service;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.List;
 
@@ -26,5 +29,9 @@ public class DatasetService {
 
     public Dataset getDatasetByName(String name) throws IOException {
         return datasetManager.getDatasetByName(name);
+    }
+
+    public File downloadDataset(String name) throws IOException {
+        return datasetManager.downloadDataset(name);
     }
 }

@@ -19,6 +19,7 @@ import { Line } from "react-chartjs-2";
 
 import DownloadIcon from "@mui/icons-material/Download";
 import Button from "@mui/material/Button";
+import { DatasetService } from "../../repository/datasetRepository";
 
 // import { enUS } from "date-fns/locale";
 
@@ -39,6 +40,7 @@ export const LineChartImpl = ({
   datasetLabel,
   size,
   colors,
+  name,
 }) => {
   const [chart, setChart] = useState([]);
   const [dataShown, setDataShown] = useState(labelKey);
@@ -50,7 +52,6 @@ export const LineChartImpl = ({
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
   const items = chart?.map((row) => row["Item"]).slice(0, size);
-
 
   const elementsToShow = [
     ...new Set(chart?.map((row) => row[`${dataShown}`]).slice(0, size)),
@@ -73,8 +74,6 @@ export const LineChartImpl = ({
 
     return dataset;
   });
-
-  // console.log(datasets, elementsToShow)
 
   const xScaleType =
     labelKey.toLowerCase().trim() === "year" ? "linear" : "category";
@@ -108,7 +107,6 @@ export const LineChartImpl = ({
           display: true,
           text: valueKey,
         },
-        // type: yScaleType,
       },
     },
     legend: {
@@ -139,6 +137,30 @@ export const LineChartImpl = ({
         pointHoverRadius: 8,
       },
     },
+  };
+
+  const downloadWholeDataset = async (name) => {
+    try {
+      const response = await DatasetService.downloadDataset(name);
+
+      const blob = new Blob([response.data], {
+        type: response.headers["content-type"],
+      });
+
+      const url = window.URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${name}.csv`;
+      document.body.appendChild(a);
+
+      a.click();
+
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    } catch (error) {
+      console.error("Error downloading dataset:", error);
+    }
   };
 
   return (
@@ -174,6 +196,7 @@ export const LineChartImpl = ({
           color="error"
           component="label"
           variant="outlined"
+          onClick={() => downloadWholeDataset(name)}
           startIcon={<DownloadIcon />}
         >
           Whole Dataset

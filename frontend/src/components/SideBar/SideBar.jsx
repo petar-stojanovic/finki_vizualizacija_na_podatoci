@@ -68,7 +68,11 @@ export const SideBar = ({ open, onClose, width }) => {
           <AddDatasetModal
             open={openAddDataset}
             categories={categories}
-            onClose={() => setOpenAddDataset(false)}
+            refreshCategories={fetchCategories}
+            onClose={() => {
+              setOpenAddDataset(false);
+              fetchCategories();
+            }}
           />
         </div>
       </Drawer>

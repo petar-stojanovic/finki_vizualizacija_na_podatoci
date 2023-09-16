@@ -6,10 +6,11 @@ import { useState } from "react";
 
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
-import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
+import Select from "@mui/material/Select";
 
 import { DatasetService } from "../../repository/datasetRepository";
+import { AddCategoryModal } from "./AddCategoryModal";
 
 const style = {
   position: "absolute",
@@ -25,20 +26,18 @@ const style = {
   pb: 3,
 };
 
-export const AddDatasetModal = ({
-  open,
-  onClose,
-  onAddDataset,
-  categories,
-}) => {
+export const AddDatasetModal = ({ open, onClose, categories }) => {
   const [category, setCategory] = useState("");
   const [datasetName, setDatasetName] = useState("");
   const [file, setFile] = useState(null);
+
+  const [openAddCategory, setOpenAddCategory] = useState(false);
 
   const handleAddDataset = () => {
     DatasetService.addDataset(category, datasetName, file);
     // onAddDataset(category, datasetName, file);
     setDatasetName("");
+    setCategory("");
     setFile(null);
   };
 
@@ -49,7 +48,7 @@ export const AddDatasetModal = ({
       aria-labelledby="add-dataset-modal-title"
       aria-describedby="add-dataset-modal-description"
     >
-      <Box sx={{ ...style }}>
+      <Box sx={{ ...style, textAlign: "center" }}>
         <h2 id="add-dataset-modal-title">Add Dataset</h2>
         <TextField
           label="Dataset Name"
@@ -71,14 +70,33 @@ export const AddDatasetModal = ({
                 {cat.name}
               </MenuItem>
             ))}
+            <MenuItem
+              key={categories.size + 1}
+              value="Add New Category"
+              onClick={() => setOpenAddCategory(true)}
+            >
+              ...Add New Category
+            </MenuItem>
           </Select>
         </FormControl>
         <input
+          className="form-control"
           type="file"
           accept=".csv"
           onChange={(e) => setFile(e.target.files[0])}
         />
-        <Button onClick={handleAddDataset}>Import</Button>
+        <Button
+          className="my-2"
+          variant="contained"
+          disabled={!datasetName || !category || !file}
+          onClick={handleAddDataset}
+        >
+          Add Dataset
+        </Button>
+        <AddCategoryModal
+          open={openAddCategory}
+          onClose={() => setOpenAddCategory(false)}
+        />
       </Box>
     </Modal>
   );

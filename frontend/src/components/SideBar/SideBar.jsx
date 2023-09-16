@@ -65,7 +65,11 @@ export const SideBar = ({ open, onClose, width }) => {
           >
             Add Dataset
           </Button>
-          <AddDatasetModal onClose={() => setOpenAddDataset(false)} open={openAddDataset} categories={categories} />
+          <AddDatasetModal
+            open={openAddDataset}
+            categories={categories}
+            onClose={() => setOpenAddDataset(false)}
+          />
         </div>
       </Drawer>
     </div>

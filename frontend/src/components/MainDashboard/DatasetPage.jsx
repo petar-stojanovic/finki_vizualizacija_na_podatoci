@@ -41,10 +41,13 @@ export const DatasetPage = () => {
   useEffect(() => {
     fetchDataForDataset(code);
   }, [code]);
+
   const fetchDataForDataset = async (datasetName) => {
     try {
       const response = await DatasetService.getData(datasetName);
-      const formattedData = response.data.fileData?.map((item) => {
+
+    
+      const formattedData = response.data.fileData.map((item) => {
         const formattedItem = {};
         for (const key in item) {
           if (!isNaN(item[key])) {
@@ -59,21 +62,22 @@ export const DatasetPage = () => {
         return formattedItem;
       });
 
-      console.log(response.data.fileData)
-  
+
       const jsonData = {
         data: formattedData,
-        attributes: Object.keys(formattedData[0]),
+        attributes:Object.keys(formattedData[0])
+
       };
-  
-      const selectedLabel = Object.keys(formattedData[0]).includes("Year")
+
+      const selectedLabel = Object.keys(formattedData[0])?.includes("Year")
         ? "Year"
-        : response.data.attributes[0];
-  
-      const selectedData = Object.keys(formattedData[0]).includes("Value")
+        : jsonData?.attributes[0];
+
+      console.log(selectedLabel);
+      const selectedData = Object.keys(formattedData[0])?.includes("Value")
         ? "Value"
-        : response.data.attributes[1];
-  
+        : jsonData?.attributes[1];
+
       setJsonData(jsonData);
       setSelectedLabel(selectedLabel);
       setSelectedData(selectedData);
@@ -81,7 +85,6 @@ export const DatasetPage = () => {
       console.error("Error fetching dataset data:", error);
     }
   };
-  
 
   const handleLabelChange = (event) => {
     setSelectedLabel(event.target.value);
@@ -140,7 +143,7 @@ export const DatasetPage = () => {
           size="small"
           component="label"
           variant="contained"
-          onClick={() => setSize(size - 10)}
+          onClick={() => setSize(prevSize => prevSize - 10)}
           startIcon={<RemoveCircleIcon />}
         >
           Remove Data
@@ -151,7 +154,7 @@ export const DatasetPage = () => {
           className="ms-1"
           component="label"
           variant="contained"
-          onClick={() => setSize(size + 10)}
+          onClick={() => setSize(prevSize => prevSize + 10)}
           startIcon={<AddCircleIcon />}
         >
           Add Data

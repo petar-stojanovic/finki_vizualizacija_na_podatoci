@@ -1,14 +1,15 @@
-import DataObjectIcon from "@mui/icons-material/DataObject";
 import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+import Toolbar from "@mui/material/Toolbar";
 
 import { Link } from "react-router-dom";
 import "./CategoryList";
-import { useEffect } from "react";
+
 export const CategoryList = ({ categories, currentPath }) => {
   return (
     <>
+              <Toolbar />
+
       {categories.map((category, index) => {
         const isActive =
           currentPath.trim().toLowerCase() === category.name.trim().toLowerCase();

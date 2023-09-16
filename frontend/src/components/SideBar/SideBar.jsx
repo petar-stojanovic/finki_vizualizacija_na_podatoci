@@ -4,24 +4,14 @@ import { useLocation } from "react-router-dom";
 import { DatasetService } from "../../repository/datasetRepository";
 import { CategoryList } from "./CategoryList";
 
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
-import Divider from "@mui/material/Divider";
+import Button from "@mui/material/Button";
 import Drawer from "@mui/material/Drawer";
-import IconButton from "@mui/material/IconButton";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import MailIcon from "@mui/icons-material/Mail";
-import MenuIcon from "@mui/icons-material/Menu";
-import Typography from "@mui/material/Typography";
-import Toolbar from "@mui/material/Toolbar";
+import QueueIcon from "@mui/icons-material/Queue";
+
+import { AddDatasetModal } from "../modal/AddDatasetModal";
 
 export const SideBar = ({ open, onClose, width }) => {
+  const [openAddDataset, setOpenAddDataset] = useState(false);
   const [categories, setCategories] = useState([]);
 
   const currentPath =
@@ -54,14 +44,28 @@ export const SideBar = ({ open, onClose, width }) => {
           sx: {
             backgroundColor: "neutral.800",
             width: width,
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "flex-start",
           },
         }}
         sx={{ zIndex: (theme) => theme.zIndex.appBar + 100 }}
         variant={isPermanent ? "permanent" : "temporary"}
       >
         <div style={{ marginInline: "0.5rem" }}>
-          <Toolbar />
           <CategoryList categories={categories} currentPath={currentPath} />
+        </div>
+        <div className="ms-4">
+          <Button
+            style={{ textTransform: "none" }}
+            className="mb-3"
+            variant="contained"
+            startIcon={<QueueIcon />}
+            onClick={() => setOpenAddDataset(true)}
+          >
+            Add Dataset
+          </Button>
+          <AddDatasetModal onClose={() => setOpenAddDataset(false)} open={openAddDataset} categories={categories} />
         </div>
       </Drawer>
     </div>

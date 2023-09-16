@@ -17,6 +17,9 @@ import Select from "@mui/material/Select";
 
 import { Line } from "react-chartjs-2";
 
+import DownloadIcon from "@mui/icons-material/Download";
+import Button from "@mui/material/Button";
+
 // import { enUS } from "date-fns/locale";
 
 ChartJS.register(
@@ -47,24 +50,24 @@ export const LineChartImpl = ({
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
   const items = chart?.map((row) => row["Item"]).slice(0, size);
-  const elements = chart?.map((row) => row["Element"]).slice(0, size);
+  // const elements = chart?.map((row) => row["Element"]).slice(0, size);
 
   if (!dataset.attributes.includes("Element")) {
     setDataShown(labelKey);
   }
-  
+
   const elementsToShow = [
     ...new Set(chart?.map((row) => row[`${dataShown}`]).slice(0, size)),
   ];
   // console.log(elementsToShow);
- 
-  const datasets = elementsToShow.map((element,i) => {
+
+  const datasets = elementsToShow.map((element, i) => {
     const datasetValues = values.filter((value, index) => {
       // Filter values based on the element and size
       const dataElement = chart[index][dataShown];
       return dataElement === element && index < size;
     });
-  
+
     const dataset = {
       label: `(${element})`,
       data: datasetValues,
@@ -72,10 +75,10 @@ export const LineChartImpl = ({
       borderColor: "rgba(247, 153, 166, 1)",
       borderWidth: 1.25,
     };
-  
+
     return dataset;
   });
-  
+
   // console.log(datasets, elementsToShow)
 
   const xScaleType =
@@ -88,7 +91,7 @@ export const LineChartImpl = ({
   var data = {
     //x-axis
     labels: labels,
-    datasets: datasets
+    datasets: datasets,
   };
 
   var options = {
@@ -145,22 +148,42 @@ export const LineChartImpl = ({
 
   return (
     <>
-      <FormControl sx={{ m: 1, minWidth: 160 }}>
-        <InputLabel htmlFor="label-select">Label</InputLabel>
-        <Select
-          value={dataShown}
-          onChange={handleDataShown}
-          id="label-select"
-          label="Label"
-        >
-          {dataset?.attributes
-            .map((attribute, index) => (
+      <div className="d-flex align-items-center">
+        <FormControl sx={{ m: 1, minWidth: 160 }}>
+          <InputLabel htmlFor="label-select">Label</InputLabel>
+          <Select
+            value={dataShown}
+            onChange={handleDataShown}
+            id="label-select"
+            label="Label"
+          >
+            {dataset?.attributes.map((attribute, index) => (
               <MenuItem key={index} value={attribute}>
                 {attribute}
               </MenuItem>
             ))}
-        </Select>
-      </FormControl>
+          </Select>
+        </FormControl>
+
+        <Button
+          style={{ textTransform: "none" }}
+          color="error"
+          component="label"
+          variant="outlined"
+          startIcon={<DownloadIcon />}
+        >
+          Filtered Data
+        </Button>
+        <Button
+          style={{ textTransform: "none" }}
+          color="error"
+          component="label"
+          variant="outlined"
+          startIcon={<DownloadIcon />}
+        >
+          Whole Dataset
+        </Button>
+      </div>
       <div>
         <Line data={data} height={400} options={options} />
       </div>

@@ -47,7 +47,6 @@
 
 .navigation .nav-item.active {
     border-left: 7px solid var(--primary-color);
-    padding-left: 1.25rem;
 }
 
 .main-dashboard {

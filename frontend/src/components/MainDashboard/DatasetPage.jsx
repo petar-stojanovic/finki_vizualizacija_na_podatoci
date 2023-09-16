@@ -41,36 +41,47 @@ export const DatasetPage = () => {
   useEffect(() => {
     fetchDataForDataset(code);
   }, [code]);
-
   const fetchDataForDataset = async (datasetName) => {
-    DatasetService.getData(datasetName)
-      .then((response) => {
-        console.log(response.data);
-        const formattedData = response.data.fileData?.map((item) => ({
-          ...item,
-          Value: parseFloat(item.Value).toFixed(2),
-        }));
-
-        setJsonData({
-          data: formattedData,
-          attributes: Object.keys(formattedData[0]),
-        });
-
-        setSelectedLabel(
-          Object.keys(formattedData[0]).includes("Year")
-            ? "Year"
-            : response.data.attributes[0]
-        );
-        setSelectedData(
-          Object.keys(formattedData[0]).includes("Value")
-            ? "Value"
-            : response.data.attributes[1]
-        );
-      })
-      .catch((error) => {
-        console.error("Error fetching dataset data:", error);
+    try {
+      const response = await DatasetService.getData(datasetName);
+      const formattedData = response.data.fileData?.map((item) => {
+        const formattedItem = {};
+        for (const key in item) {
+          if (!isNaN(item[key])) {
+            const floatValue = parseFloat(item[key]);
+            formattedItem[key] = Number.isInteger(floatValue)
+              ? floatValue
+              : floatValue.toFixed(2);
+          } else {
+            formattedItem[key] = item[key];
+          }
+        }
+        return formattedItem;
       });
+
+      console.log(response.data.fileData)
+  
+      const jsonData = {
+        data: formattedData,
+        attributes: Object.keys(formattedData[0]),
+      };
+  
+      const selectedLabel = Object.keys(formattedData[0]).includes("Year")
+        ? "Year"
+        : response.data.attributes[0];
+  
+      const selectedData = Object.keys(formattedData[0]).includes("Value")
+        ? "Value"
+        : response.data.attributes[1];
+  
+      setJsonData(jsonData);
+      setSelectedLabel(selectedLabel);
+      setSelectedData(selectedData);
+    } catch (error) {
+      console.error("Error fetching dataset data:", error);
+    }
   };
+  
 
   const handleLabelChange = (event) => {
     setSelectedLabel(event.target.value);
@@ -124,25 +135,27 @@ export const DatasetPage = () => {
           </Select>
         </FormControl>
 
-          <Button
-            size="small"
-            component="label"
-            variant="contained"
-            onClick={() => setSize(size - 10)}
-            startIcon={<RemoveCircleIcon />}
-          >
-            Remove Data
-          </Button>
-          <Button
-            size="small"
-            className="ms-1"
-            component="label"
-            variant="contained"
-            onClick={() => setSize(size + 10)}
-            startIcon={<AddCircleIcon />}
-          >
-            Add Data
-          </Button>
+        <Button
+          style={{ textTransform: "none" }}
+          size="small"
+          component="label"
+          variant="contained"
+          onClick={() => setSize(size - 10)}
+          startIcon={<RemoveCircleIcon />}
+        >
+          Remove Data
+        </Button>
+        <Button
+          style={{ textTransform: "none" }}
+          size="small"
+          className="ms-1"
+          component="label"
+          variant="contained"
+          onClick={() => setSize(size + 10)}
+          startIcon={<AddCircleIcon />}
+        >
+          Add Data
+        </Button>
       </div>
 
       {jsonData?.data && jsonData.data.length > 0 && (

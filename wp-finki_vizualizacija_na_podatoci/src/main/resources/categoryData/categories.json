@@ -68,6 +68,16 @@
         "name": "Emissions Totals",
         "filePath": "Emissions_Totals_E_All_Data_(Normalized)",
         "fileData": {}
+      },
+      {
+        "name": "asdasdasdas",
+        "filePath": "asdasdasdas.csv",
+        "fileData": {}
+      },
+      {
+        "name": "TESt TEST",
+        "filePath": "TESt_TEST.csv",
+        "fileData": {}
       }
     ]
   },

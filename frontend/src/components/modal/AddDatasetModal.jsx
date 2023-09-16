@@ -26,16 +26,26 @@ const style = {
   pb: 3,
 };
 
-export const AddDatasetModal = ({ open, onClose, categories }) => {
+export const AddDatasetModal = ({
+  open,
+  onClose,
+  categories,
+  refreshCategories,
+}) => {
   const [category, setCategory] = useState("");
   const [datasetName, setDatasetName] = useState("");
   const [file, setFile] = useState(null);
 
   const [openAddCategory, setOpenAddCategory] = useState(false);
 
+  const closeAddCategoryModal = () => {
+    setOpenAddCategory(false);
+  };
+
   const handleAddDataset = () => {
     DatasetService.addDataset(category, datasetName, file);
     // onAddDataset(category, datasetName, file);
+    onClose()
     setDatasetName("");
     setCategory("");
     setFile(null);
@@ -96,6 +106,10 @@ export const AddDatasetModal = ({ open, onClose, categories }) => {
         <AddCategoryModal
           open={openAddCategory}
           onClose={() => setOpenAddCategory(false)}
+          onAddCategory={() => {
+            closeAddCategoryModal();
+            refreshCategories();
+          }}
         />
       </Box>
     </Modal>

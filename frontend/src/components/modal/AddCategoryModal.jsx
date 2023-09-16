@@ -20,13 +20,18 @@ const style = {
   pb: 3,
 };
 
-export const AddCategoryModal = ({ open, onClose }) => {
+export const AddCategoryModal = ({ open, onClose, onAddCategory }) => {
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
 
   const handleAddCategory = () => {
-    // onAddCategory(name, description);
-    DatasetService.addCategory(name, description);
+    DatasetService.addCategory(name, description)
+      .then(() => {
+        onAddCategory();
+      })
+      .catch((error) => {
+        console.error("Error adding category:", error);
+      });
 
     setName("");
     setDescription("");

@@ -10,6 +10,8 @@ import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
+import Button from "@mui/material/Button";
+
 import {
   BarChartImpl,
   DoughnutChartImpl,
@@ -43,8 +45,7 @@ export const DatasetPage = () => {
   const fetchDataForDataset = async (datasetName) => {
     DatasetService.getData(datasetName)
       .then((response) => {
-
-        console.log(response.data)
+        console.log(response.data);
         const formattedData = response.data.fileData?.map((item) => ({
           ...item,
           Value: parseFloat(item.Value).toFixed(2),
@@ -79,7 +80,6 @@ export const DatasetPage = () => {
     setSelectedData(event.target.value);
   };
 
-
   return (
     <div className="dataset-dashboard">
       {/* {console.log(jsonData)} */}
@@ -90,7 +90,7 @@ export const DatasetPage = () => {
       <h2>{code}</h2>
       <div style={{ display: "flex", alignItems: "center" }}>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
-          <InputLabel htmlFor="label-select">Label</InputLabel>
+          <InputLabel htmlFor="label-select">X-axis</InputLabel>
           <Select
             value={selectedLabel}
             onChange={handleLabelChange}
@@ -107,7 +107,7 @@ export const DatasetPage = () => {
           </Select>
         </FormControl>
         <FormControl sx={{ m: 1, minWidth: 160 }}>
-          <InputLabel htmlFor="data-select">Data</InputLabel>
+          <InputLabel htmlFor="data-select">Y-axis</InputLabel>
           <Select
             value={selectedData}
             onChange={handleDataChange}
@@ -124,14 +124,25 @@ export const DatasetPage = () => {
           </Select>
         </FormControl>
 
-        <RemoveCircleIcon
-          onClick={() => setSize(size - 10)}
-          style={{ cursor: "pointer" }}
-        ></RemoveCircleIcon>
-        <AddCircleIcon
-          onClick={() => setSize(size + 10)}
-          style={{ cursor: "pointer" }}
-        ></AddCircleIcon>
+          <Button
+            size="small"
+            component="label"
+            variant="contained"
+            onClick={() => setSize(size - 10)}
+            startIcon={<RemoveCircleIcon />}
+          >
+            Remove Data
+          </Button>
+          <Button
+            size="small"
+            className="ms-1"
+            component="label"
+            variant="contained"
+            onClick={() => setSize(size + 10)}
+            startIcon={<AddCircleIcon />}
+          >
+            Add Data
+          </Button>
       </div>
 
       {jsonData?.data && jsonData.data.length > 0 && (

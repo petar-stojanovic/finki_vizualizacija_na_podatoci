@@ -20,47 +20,47 @@
         "fileData": {}
       },
       {
-        "name": "Emissions Agriculture enteric fermentation",
+        "name": "Emissions Agriculture Enteric Fermentation",
         "filePath": "Emissions_Agriculture_Enteric_Fermentation_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Emissions Agriculture manure applied to soils",
+        "name": "Emissions Agriculture Manure applied to soils",
         "filePath": "Emissions_Agriculture_Manure_applied_to_soils_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Emissions Agriculture manure left on pasture",
+        "name": "Emissions Agriculture Manure left on pasture",
         "filePath": "Emissions_Agriculture_Manure_left_on_pasture_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Emissions Agriculture manure management",
+        "name": "Emissions Agriculture Manure Management",
         "filePath": "Emissions_Agriculture_Manure_Management_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Emissions Agriculture rice cultivation",
+        "name": "Emissions Agriculture Rice Cultivation",
         "filePath": "Emissions_Agriculture_Rice_Cultivation_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Emissions Agriculture synthetic fertilizers",
+        "name": "Emissions Agriculture Synthetic Fertilizers",
         "filePath": "Emissions_Agriculture_Synthetic_Fertilizers_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Emissions Agriculture waste disposal",
+        "name": "Emissions Agriculture Waste Disposal",
         "filePath": "Emissions_Agriculture_Waste_Disposal_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Emissions Drained organic soils",
+        "name": "Emissions Drained Organic Soils",
         "filePath": "Emissions_Drained_Organic_Soils_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Emissions land use forests",
+        "name": "Emissions Land Use Forests",
         "filePath": "Emissions_Land_Use_Forests_E_All_Data_(Normalized)",
         "fileData": {}
       },
@@ -83,22 +83,22 @@
       },
       {
         "name": "Inputs Fertilizers Nutrient",
-        "filePath": "Inputs_FertilizersNutrient_E_All_Data_(Normalized)",
+        "filePath": "Inputs_Fertilizers_Nutrient_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Inputs Fertilizers Archive",
-        "filePath": "Inputs_FertilizersArchive_E_All_Data_(Normalized)",
+        "filePath": "Inputs_Fertilizers_Archive_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Inputs Fertilizers Product",
-        "filePath": "Inputs_FertilizersProduct_E_All_Data_(Normalized)",
+        "filePath": "Inputs_Fertilizers_Product_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Inputs Land Use",
-        "filePath": "Inputs_LandUse_E_All_Data_(Normalized)",
+        "filePath": "Inputs_Land_Use_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
@@ -125,7 +125,7 @@
     "datasets": [
       {
         "name": "Environment Cropland Nutrient Budget",
-        "filePath": "Environment_Cropland_nutrient_budget_E_All_Data_(Normalized)",
+        "filePath": "Environment_Cropland_Nutrient_Budget_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
@@ -135,7 +135,7 @@
       },
       {
         "name": "Environment Emissions Intensities",
-        "filePath": "Environment_Emissions_intensities_E_All_Data_(Normalized)",
+        "filePath": "Environment_Emissions_Intensities_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
@@ -145,27 +145,27 @@
       },
       {
         "name": "Environment Food Waste Disposal",
-        "filePath": "",
+        "filePath": "Environment_Food_Waste_Disposal_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Environment Land Cover",
-        "filePath": "Environment_LandCover_E_All_Data_(Normalized)",
+        "filePath": "Environment_Land_Cover_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Environment Land Use",
-        "filePath": "Environment_LandUse_E_All_Data_(Normalized)",
+        "filePath": "Environment_Land_Use_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Environment Livestock Manure",
-        "filePath": "Environment_LivestockManure_E_All_Data_(Normalized)",
+        "filePath": "Environment_Livestock_Manure_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Environment Livestock Patterns",
-        "filePath": "Environment_LivestockPatterns_E_All_Data_(Normalized)",
+        "filePath": "Environment_Livestock_Patterns_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
@@ -174,12 +174,12 @@
         "fileData": {}
       },
       {
-        "name": "Environment Soil Nutrient Budget",
+        "name": "Environment Soil nutrient budget",
         "filePath": "Environment_Soil_nutrient_budget_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
-        "name": "Environment Temperature Change",
+        "name": "Environment Temperature change",
         "filePath": "Environment_Temperature_change_E_All_Data_(Normalized)",
         "fileData": {}
       },
@@ -224,12 +224,12 @@
       },
       {
         "name": "Food Balance Sheets",
-        "filePath": "FoodBalanceSheets_E_All_Data_(Normalized)",
+        "filePath": "Food_Balance_Sheets_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Food Balance Sheets Historic",
-        "filePath": "FoodBalanceSheetsHistoric_E_All_Data_(Normalized)",
+        "filePath": "Food_Balance_Sheets_Historic_E_All_Data_(Normalized)",
         "fileData": {}
       }
     ]
@@ -241,22 +241,22 @@
     "datasets": [
       {
         "name": "Investment Capital Stock",
-        "filePath": "Investment_CapitalStock_E_All_Data_(Normalized)",
+        "filePath": "Investment_Capital_Stock_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Investment Country Investment Statistics Profile",
-        "filePath": "Investment_CountryInvestmentStatisticsProfile_E_All_Data_(Normalized)",
+        "filePath": "Investment_Country_Investment_Statistics_Profile_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Investment Foreign Direct Investment",
-        "filePath": "Investment_ForeignDirectInvestment_E_All_Data_(Normalized)",
+        "filePath": "Investment_Foreign_Direct_Investment_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
         "name": "Investment Government Expenditure",
-        "filePath": "Investment_GovernmentExpenditure_E_All_Data_(Normalized)",
+        "filePath": "Investment_Government_Expenditure_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
@@ -266,7 +266,7 @@
       },
       {
         "name": "Investment Machinery Archive",
-        "filePath": "Investment_MachineryArchive_E_All_Data_(Normalized)",
+        "filePath": "Investment_Machinery_Archive_E_All_Data_(Normalized)",
         "fileData": {}
       },
       {
@@ -307,7 +307,7 @@
     "datasets": [
       {
         "name": "SDG Bulk Downloads",
-        "filePath": "SDG_BulkDownloads_E_All_Data_(Normalized)",
+        "filePath": "SDG_Bulk_Downloads_E_All_Data_(Normalized)",
         "fileData": {}
       }
     ]

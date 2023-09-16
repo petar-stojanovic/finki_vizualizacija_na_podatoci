@@ -19,7 +19,6 @@ export const CategoryPage = () => {
     try {
       const response = await DatasetService.fetchCategoryData(code);
       if (response.data) {
-        console.log(response.data)
         setCategoryData(response.data);
       }
     } catch (error) {

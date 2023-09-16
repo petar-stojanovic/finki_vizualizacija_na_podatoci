@@ -43,7 +43,9 @@ export const DatasetPage = () => {
   const fetchDataForDataset = async (datasetName) => {
     DatasetService.getData(datasetName)
       .then((response) => {
-        const formattedData = response.data.fileData.map((item) => ({
+
+        console.log(response.data)
+        const formattedData = response.data.fileData?.map((item) => ({
           ...item,
           Value: parseFloat(item.Value).toFixed(2),
         }));

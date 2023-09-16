@@ -49,6 +49,10 @@ export const LineChartImpl = ({
   const items = chart?.map((row) => row["Item"]).slice(0, size);
   const elements = chart?.map((row) => row["Element"]).slice(0, size);
 
+  if (!dataset.attributes.includes("Element")) {
+    setDataShown(labelKey);
+  }
+  
   const elementsToShow = [
     ...new Set(chart?.map((row) => row[`${dataShown}`]).slice(0, size)),
   ];
@@ -62,7 +66,7 @@ export const LineChartImpl = ({
     });
   
     const dataset = {
-      label: `${valueKey} (${element})`,
+      label: `(${element})`,
       data: datasetValues,
       backgroundColor: colors[i],
       borderColor: "rgba(247, 153, 166, 1)",
@@ -150,7 +154,6 @@ export const LineChartImpl = ({
           label="Label"
         >
           {dataset?.attributes
-            .filter((label) => label !== labelKey && label !== valueKey)
             .map((attribute, index) => (
               <MenuItem key={index} value={attribute}>
                 {attribute}

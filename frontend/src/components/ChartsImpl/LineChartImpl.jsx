@@ -41,7 +41,7 @@ export const LineChartImpl = ({
   colors,
 }) => {
   const [chart, setChart] = useState([]);
-  const [dataShown, setDataShown] = useState("Element");
+  const [dataShown, setDataShown] = useState(labelKey);
 
   useEffect(() => {
     setChart(dataset.data);
@@ -50,16 +50,11 @@ export const LineChartImpl = ({
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
   const items = chart?.map((row) => row["Item"]).slice(0, size);
-  // const elements = chart?.map((row) => row["Element"]).slice(0, size);
 
-  if (!dataset.attributes.includes("Element")) {
-    setDataShown(labelKey);
-  }
 
   const elementsToShow = [
     ...new Set(chart?.map((row) => row[`${dataShown}`]).slice(0, size)),
   ];
-  // console.log(elementsToShow);
 
   const datasets = elementsToShow.map((element, i) => {
     const datasetValues = values.filter((value, index) => {

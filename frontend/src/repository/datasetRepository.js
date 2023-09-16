@@ -14,23 +14,22 @@ export const DatasetService = {
     return axios.get(`/${name}`);
   },
   addCategory: (name, description) => {
-    const data = {
-      name: name,
-      description: description,
-    };
-    return axios.post("/categories", data);
-  },
-  addDataset: (category, datasetName, file) =>{
     const formData = new FormData();
-  formData.append("category", category);
-  formData.append("dataset", datasetName);
-  formData.append("file", file);
+    formData.append("name", name);
+    formData.append("description", description);
 
-  return axios.post("/datasets", formData, {
-    headers: {
-      "Content-Type": "multipart/form-data",
-    },
-  });
+    return axios.post("/categories", formData);
+  },
+  addDataset: (category, datasetName, file) => {
+    const formData = new FormData();
+    formData.append("category", category);
+    formData.append("dataset", datasetName);
+    formData.append("file", file);
 
-  }
+    return axios.post("/datasets", formData, {
+      headers: {
+        "Content-Type": "multipart/form-data",
+      },
+    });
+  },
 };

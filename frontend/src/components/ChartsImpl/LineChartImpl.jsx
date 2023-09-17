@@ -44,10 +44,25 @@ export const LineChartImpl = ({
 }) => {
   const [chart, setChart] = useState([]);
   const [dataShown, setDataShown] = useState(labelKey);
+  // const [dataShown, setDataShown] = useState("Element");
+
+  const [selectedLabels, setSelectedLabels] = useState([
+    labelKey,
+    valueKey,
+    dataShown,
+    []
+    // ...new Set(chart?.map((row) => row[`${dataShown}`]).slice(0, size)),
+  ]);
 
   useEffect(() => {
     setChart(dataset.data);
-  }, [dataset, labelKey, valueKey, datasetLabel]);
+  }, [dataset, labelKey, valueKey, datasetLabel, selectedLabels]);
+
+  useEffect(() => {
+    const newLabels = [...new Set(chart.map((row) => row[`${dataShown}`]).slice(0, size))];
+
+    setSelectedLabels((prevLabels) => [...prevLabels.slice(0, 3), newLabels]);
+  }, [chart]);
 
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
@@ -65,7 +80,7 @@ export const LineChartImpl = ({
     });
 
     const dataset = {
-      label: `(${element})`,
+      label: `${element}`,
       data: datasetValues,
       backgroundColor: colors[i],
       borderColor: "rgba(247, 153, 166, 1)",
@@ -80,6 +95,15 @@ export const LineChartImpl = ({
 
   const handleDataShown = (event) => {
     setDataShown(event.target.value);
+    setSelectedLabels((oldLabels) => {
+      const updatedLabels = [...oldLabels];
+      updatedLabels.splice(2, 1, event.target.value);
+      return updatedLabels;
+    });
+
+    const newLabels = [...new Set(chart.map((row) => row[`${event.target.value}`]).slice(0, size))];
+
+    setSelectedLabels((prevLabels) => [...prevLabels.slice(0, 3), newLabels]);
   };
 
   var data = {
@@ -88,13 +112,51 @@ export const LineChartImpl = ({
     datasets: datasets,
   };
 
+  const handleLegendClick = (e, legendItem, legend) => {
+    // console.log(selectedLabels);
+    toggleLabel(legendItem.text);
+
+    const index = legendItem.datasetIndex;
+    const ci = legend.chart;
+    if (ci.isDatasetVisible(index)) {
+      ci.hide(index);
+      legendItem.hidden = true;
+    } else {
+      ci.show(index);
+      legendItem.hidden = false;
+    }
+  };
+
+  const toggleLabel = (label) => {
+    setSelectedLabels((prevLabels) => {
+      // Clone the current selectedLabels
+      const newLabels = [...prevLabels];
+      const fourthPosition = newLabels[3];
+
+      if (Array.isArray(fourthPosition)) {
+        // If the fourth position is an array, add/remove label to/from it
+        if (fourthPosition.toString().includes(label)) {
+          fourthPosition.splice(fourthPosition.indexOf(label), 1);
+        } else {
+          fourthPosition.push(label);
+        }
+        newLabels[3] = fourthPosition
+      } else {
+        // If it's not an array, create a new array with the label
+        newLabels[3] = [label];
+      }
+  
+      return newLabels;
+    });
+  };
+
   var options = {
     responsive: true,
     maintainAspectRatio: false,
     scales: {
       x: {
         ticks: {
-          maxTicksLimit: 235,
+          maxTicksLimit: 1000,
         },
         title: {
           display: true,
@@ -111,7 +173,7 @@ export const LineChartImpl = ({
     },
     legend: {
       labels: {
-        fontSize: 25,
+        fontSize: 55,
       },
     },
     tension: 1,
@@ -121,7 +183,6 @@ export const LineChartImpl = ({
           label: (context) => {
             const dataIndex = context.dataIndex;
             const elementValue = dataset.data[dataIndex].Element;
-
             return [
               `${items[dataIndex]} (${context.label})`,
               `- ${context.formattedValue} ${elementValue} `,
@@ -129,6 +190,9 @@ export const LineChartImpl = ({
             ];
           },
         },
+      },
+      legend: {
+        onClick: handleLegendClick,
       },
     },
     elements: {
@@ -142,6 +206,35 @@ export const LineChartImpl = ({
   const downloadWholeDataset = async (name) => {
     try {
       const response = await DatasetService.downloadDataset(name);
+
+      const blob = new Blob([response.data], {
+        type: response.headers["content-type"],
+      });
+
+      const url = window.URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${name}.csv`;
+      document.body.appendChild(a);
+
+      a.click();
+
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    } catch (error) {
+      console.error("Error downloading dataset:", error);
+    }
+  };
+
+  const downloadFilteredDataset = async (name,values) => {
+    console.log(values)
+    try {
+      const response = await DatasetService.downloadFilteredDataset(
+        name,
+        values
+      );
+      console.log(response)
 
       const blob = new Blob([response.data], {
         type: response.headers["content-type"],
@@ -187,6 +280,7 @@ export const LineChartImpl = ({
           color="error"
           component="label"
           variant="outlined"
+          onClick={() => downloadFilteredDataset(name,selectedLabels)}
           startIcon={<DownloadIcon />}
         >
           Filtered Data

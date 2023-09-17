@@ -34,4 +34,9 @@ public class DatasetService {
     public File downloadDataset(String name) throws IOException {
         return datasetManager.downloadDataset(name);
     }
+
+    public File downloadFilteredDataset(String name, String xAxis, String yAxis, String label, String[] labelElements) throws IOException {
+        return datasetManager.downloadFilteredDataset(name, xAxis, yAxis, label, labelElements);
+
+    }
 }

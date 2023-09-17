@@ -91,6 +91,34 @@ public class ApiController {
         }
     }
 
+    @PostMapping("/{name}/downloadFiltered")
+    public ResponseEntity<FileSystemResource> downloadFilteredDataset(
+            @PathVariable String name,
+            @RequestParam("x-axis") String xAxis,
+            @RequestParam("y-axis") String yAxis,
+            @RequestParam("label") String label,
+            @RequestParam("labelElements") String[] labelElements
+
+    ) throws IOException {
+        File file = datasetService.downloadFilteredDataset(name,xAxis,yAxis,label,labelElements);
+
+        if (file != null) {
+            FileSystemResource resource = new FileSystemResource(file);
+
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+            headers.setContentDispositionFormData("attachment", name + ".csv"); // Specify the filename
+
+            return ResponseEntity.ok()
+                    .headers(headers)
+                    .body(resource);
+        } else {
+            // Handle the case when the file is not found
+            return ResponseEntity.notFound().build();
+        }
+
+    }
+
 
     @GetMapping("/datasetNames")
     public List<String> getAllDatasetNames() throws IOException {

@@ -35,4 +35,13 @@ export const DatasetService = {
   downloadDataset: (name) => {
     return axios.get(`/${name}/download`);
   },
+  downloadFilteredDataset: (name,values) => {
+    // const requestData = { labels: selectedLabels };
+    const formData = new FormData();
+    formData.append("x-axis", values[0]);
+    formData.append("y-axis", values[1]);
+    formData.append("label", values[2]);
+    formData.append("labelElements", values[3]);
+    return axios.post(`/${name}/downloadFiltered`,formData);
+  },
 };

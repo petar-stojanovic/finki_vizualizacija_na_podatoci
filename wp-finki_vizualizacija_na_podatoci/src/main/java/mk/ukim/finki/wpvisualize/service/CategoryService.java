@@ -14,11 +14,13 @@ import java.util.List;
 @Service
 public class CategoryService {
     private final CategoryManager categoryManager;
+    private final DatasetService datasetService;
     private final CategoryReader categoryReader;
     private final CategoryWriter categoryWriter;
 
-    public CategoryService(CategoryManager categoryManager, CategoryReader categoryReader, CategoryWriter categoryWriter) throws IOException {
+    public CategoryService(CategoryManager categoryManager, DatasetService datasetService, CategoryReader categoryReader, CategoryWriter categoryWriter) throws IOException {
         this.categoryManager = categoryManager;
+        this.datasetService = datasetService;
         this.categoryReader = categoryReader;
         this.categoryWriter = categoryWriter;
         initializeCategories();
@@ -97,5 +99,6 @@ public class CategoryService {
 
         category.getDatasets().add(dataset);
         this.categoryWriter.updateCategory(category);
+        this.datasetService.initializeDatasets();
     }
 }

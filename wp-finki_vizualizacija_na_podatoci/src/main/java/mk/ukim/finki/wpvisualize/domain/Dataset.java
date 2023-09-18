@@ -5,6 +5,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
 public class Dataset {
     private String name;
     private String filePath;
@@ -19,7 +24,7 @@ public class Dataset {
         this.name = name;
         this.filePath = filePath;
         this.fileData = fileData;
-        //this.fileData = filterJsonNode(fileData, new String[] { "code", "area", "flag", "source", "note" });
+        this.filterJsonNode();
     }
 
     public String getName() {
@@ -44,31 +49,41 @@ public class Dataset {
 
     public void setFileData(JsonNode fileData) {
         this.fileData = fileData;
-        //this.fileData = filterJsonNode(fileData, new String[] { "code", "area", "flag", "source", "note" });
+        this.filterJsonNode();
     }
 
-//    public JsonNode filterJsonNode(JsonNode inputNode, String[] excludedAttributes) {
-//        if (inputNode.isObject()) {
-//            ObjectNode filteredNode = inputNode.deepCopy();
-//            for (String excludedAttribute : excludedAttributes) {
-//                String normalizedExcludedAttribute = excludedAttribute.toLowerCase(); // Normalize to lowercase
-//                filteredNode.remove(normalizedExcludedAttribute);
-//            }
-//            return filteredNode;
-//        } else if (inputNode.isArray()) {
-//            ArrayNode filteredArray = inputNode.deepCopy();
-//            for (JsonNode arrayElement : filteredArray) {
-//                if (arrayElement.isObject()) {
-//                    ObjectNode filteredNode = (ObjectNode) arrayElement;
-//                    for (String excludedAttribute : excludedAttributes) {
-//                        String normalizedExcludedAttribute = excludedAttribute.toLowerCase(); // Normalize to lowercase
-//                        filteredNode.remove(normalizedExcludedAttribute);
-//                    }
-//                }
-//            }
-//            return filteredArray;
-//        }
-//        return inputNode; // Return unchanged if not an object or array
-//    }
+    public void filterJsonNode() {
+        JsonNode fileData = this.getFileData();
+        List<String> valuesToRemove = Arrays.asList("code", "area", "note", "flag");
 
+        if (fileData.isObject()) {
+            removeFieldsContainingValues((ObjectNode) fileData, valuesToRemove);
+        } else if (fileData.isArray()) {
+            ArrayNode arrayNode = (ArrayNode) fileData;
+            for (JsonNode element : arrayNode) {
+                if (element.isObject()) {
+                    removeFieldsContainingValues((ObjectNode) element, valuesToRemove);
+                }
+            }
+        }
+    }
+
+    private void removeFieldsContainingValues(ObjectNode objectNode, List<String> valuesToRemove) {
+        List<String> fieldsToRemove = new ArrayList<>();
+        Iterator<String> fieldNames = objectNode.fieldNames();
+
+        while (fieldNames.hasNext()) {
+            String fieldName = fieldNames.next();
+            for (String valueToRemove : valuesToRemove) {
+                if (fieldName.toLowerCase().contains(valueToRemove.toLowerCase())) {
+                    fieldsToRemove.add(fieldName);
+                    break;
+                }
+            }
+        }
+
+        for (String fieldNameToRemove : fieldsToRemove) {
+            objectNode.remove(fieldNameToRemove);
+        }
+    }
 }

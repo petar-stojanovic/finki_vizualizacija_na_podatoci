@@ -44,7 +44,6 @@ public class DatasetReader {
 
     private Dataset readFromFile(File file) throws IOException {
         String name = file.getName()
-//                .replace("_E_All_Data_(Normalized)", "")
                 .replace("_", " ")
                 .replace(".csv", "");
         String filePath = file.getPath();

@@ -23,6 +23,11 @@ export const PieChartImpl = ({
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
   const items = chart?.map((row) => row["Item"]).slice(0, size);
 
+  const xScaleType =
+  labelKey.toLowerCase().includes("year") || labelKey.toLowerCase().includes("age")
+    ? "linear"
+    : "category";
+
   var data = {
     //x-axis
     // time or categories
@@ -42,10 +47,27 @@ export const PieChartImpl = ({
 
   var options = {
     maintainAspectRatio: false,
-    scales: {},
     legend: {
       labels: {
         fontSize: 25,
+      },
+    },
+    scales: {
+      x: {
+        ticks: {
+          maxTicksLimit: 1000,
+        },
+        title: {
+          display: true,
+          text: labelKey,
+        },
+        type: xScaleType,
+      },
+      y: {
+        title: {
+          display: true,
+          text: valueKey,
+        },
       },
     },
     plugins: {

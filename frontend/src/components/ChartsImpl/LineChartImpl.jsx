@@ -43,23 +43,35 @@ export const LineChartImpl = ({
   name,
 }) => {
   const [chart, setChart] = useState([]);
-  const [dataShown, setDataShown] = useState(labelKey);
-  // const [dataShown, setDataShown] = useState("Element");
+  const [dataShown, setDataShown] = useState(() => {
+    const textAttributes = dataset?.attributes.filter((data) =>
+      dataset.data.every((item) => isNaN(parseFloat(item[data])))
+    );
 
+    return textAttributes.length > 0 ? textAttributes[0] : "";
+  });
+
+  
   const [selectedLabels, setSelectedLabels] = useState([
     labelKey,
     valueKey,
     dataShown,
-    []
-    // ...new Set(chart?.map((row) => row[`${dataShown}`]).slice(0, size)),
+    [],
   ]);
+  useEffect(() => {
+    setSelectedLabels([labelKey, valueKey, selectedLabels[2], selectedLabels[3]]);
+  }, [labelKey, valueKey]);
+
+  console.log(selectedLabels)
 
   useEffect(() => {
     setChart(dataset.data);
   }, [dataset, labelKey, valueKey, datasetLabel, selectedLabels]);
 
   useEffect(() => {
-    const newLabels = [...new Set(chart.map((row) => row[`${dataShown}`]).slice(0, size))];
+    const newLabels = [
+      ...new Set(chart.map((row) => row[`${dataShown}`]).slice(0, size)),
+    ];
 
     setSelectedLabels((prevLabels) => [...prevLabels.slice(0, 3), newLabels]);
   }, [chart]);
@@ -91,7 +103,9 @@ export const LineChartImpl = ({
   });
 
   const xScaleType =
-    labelKey.toLowerCase().trim() === "year" ? "linear" : "category";
+  labelKey.toLowerCase().includes("year") || labelKey.toLowerCase().includes("age")
+    ? "linear"
+    : "category";
 
   const handleDataShown = (event) => {
     setDataShown(event.target.value);
@@ -101,7 +115,11 @@ export const LineChartImpl = ({
       return updatedLabels;
     });
 
-    const newLabels = [...new Set(chart.map((row) => row[`${event.target.value}`]).slice(0, size))];
+    const newLabels = [
+      ...new Set(
+        chart.map((row) => row[`${event.target.value}`]).slice(0, size)
+      ),
+    ];
 
     setSelectedLabels((prevLabels) => [...prevLabels.slice(0, 3), newLabels]);
   };
@@ -140,12 +158,12 @@ export const LineChartImpl = ({
         } else {
           fourthPosition.push(label);
         }
-        newLabels[3] = fourthPosition
+        newLabels[3] = fourthPosition;
       } else {
         // If it's not an array, create a new array with the label
         newLabels[3] = [label];
       }
-  
+
       return newLabels;
     });
   };
@@ -182,7 +200,7 @@ export const LineChartImpl = ({
         callbacks: {
           label: (context) => {
             const dataIndex = context.dataIndex;
-            const elementValue = dataset.data[dataIndex].Element;
+            const elementValue = dataset.data[dataIndex]["labelKey"];
             return [
               `${items[dataIndex]} (${context.label})`,
               `- ${context.formattedValue} ${elementValue} `,
@@ -227,14 +245,14 @@ export const LineChartImpl = ({
     }
   };
 
-  const downloadFilteredDataset = async (name,values) => {
-    console.log(values)
+  const downloadFilteredDataset = async (name, values) => {
+    console.log(values);
     try {
       const response = await DatasetService.downloadFilteredDataset(
         name,
         values
       );
-      console.log(response)
+      console.log(response);
 
       const blob = new Blob([response.data], {
         type: response.headers["content-type"],
@@ -267,11 +285,15 @@ export const LineChartImpl = ({
             id="label-select"
             label="Label"
           >
-            {dataset?.attributes.map((attribute, index) => (
-              <MenuItem key={index} value={attribute}>
-                {attribute}
-              </MenuItem>
-            ))}
+            {dataset?.attributes
+              .filter((data) =>
+                dataset.data.every((item) => isNaN(parseFloat(item[data])))
+              )
+              .map((attribute, index) => (
+                <MenuItem key={index} value={attribute}>
+                  {attribute}
+                </MenuItem>
+              ))}
           </Select>
         </FormControl>
 
@@ -280,7 +302,7 @@ export const LineChartImpl = ({
           color="error"
           component="label"
           variant="outlined"
-          onClick={() => downloadFilteredDataset(name,selectedLabels)}
+          onClick={() => downloadFilteredDataset(name, selectedLabels)}
           startIcon={<DownloadIcon />}
         >
           Filtered Data

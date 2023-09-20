@@ -54,7 +54,7 @@ public class Dataset {
 
     public void filterJsonNode() {
         JsonNode fileData = this.getFileData();
-        List<String> valuesToRemove = Arrays.asList("code", "area", "note", "flag");
+        List<String> valuesToRemove = Arrays.asList("code", "area", "note", "flag", "id");
 
         if (fileData.isObject()) {
             removeFieldsContainingValues((ObjectNode) fileData, valuesToRemove);

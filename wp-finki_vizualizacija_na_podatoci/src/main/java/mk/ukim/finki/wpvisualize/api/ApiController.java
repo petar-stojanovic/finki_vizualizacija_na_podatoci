@@ -1,5 +1,6 @@
 package mk.ukim.finki.wpvisualize.api;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import mk.ukim.finki.wpvisualize.domain.Category;
 import mk.ukim.finki.wpvisualize.domain.Dataset;
 import mk.ukim.finki.wpvisualize.service.CategoryService;
@@ -97,9 +98,11 @@ public class ApiController {
             @RequestParam("x-axis") String xAxis,
             @RequestParam("y-axis") String yAxis,
             @RequestParam("label") String label,
-            @RequestParam("labelElements") String[] labelElements
+            @RequestParam("labelElements") String labelElementsJson
 
     ) throws IOException {
+        String[] labelElements = new ObjectMapper().readValue(labelElementsJson, String[].class);
+
         File file = datasetService.downloadFilteredDataset(name,xAxis,yAxis,label,labelElements);
 
         if (file != null) {

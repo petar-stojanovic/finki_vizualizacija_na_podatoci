@@ -19,10 +19,15 @@ export const BarChartImpl = ({
     setChart(dataset.data);
   }, [dataset, labelKey, valueKey, datasetLabel]);
 
-
   const labels = chart?.map((row) => row[labelKey]).slice(0, size);
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
   const items = chart?.map((row) => row["Item"]).slice(0, size);
+
+  const xScaleType =
+    labelKey.toLowerCase().includes("year") ||
+    labelKey.toLowerCase().includes("age")
+      ? "linear"
+      : "category";
 
   var data = {
     //x-axis
@@ -43,10 +48,27 @@ export const BarChartImpl = ({
 
   var options = {
     maintainAspectRatio: false,
-    scales: {},
     legend: {
       labels: {
         fontSize: 25,
+      },
+    },
+    scales: {
+      x: {
+        ticks: {
+          maxTicksLimit: 1000,
+        },
+        title: {
+          display: true,
+          text: labelKey,
+        },
+        type: xScaleType,
+      },
+      y: {
+        title: {
+          display: true,
+          text: valueKey,
+        },
       },
     },
     plugins: {
@@ -54,16 +76,17 @@ export const BarChartImpl = ({
         callbacks: {
           label: (context) => {
             const dataIndex = context.dataIndex;
-            const elementValue = dataset.data[dataIndex].Element;
+            const elementValue = dataset.data[dataIndex].labelKey;
 
             return [
               `${items[dataIndex]} (${context.label})`,
-              `- ${context.formattedValue} ${elementValue} `,""
+              `- ${context.formattedValue} ${elementValue} `,
+              "",
             ];
           },
         },
       },
-    }
+    },
   };
 
   return (

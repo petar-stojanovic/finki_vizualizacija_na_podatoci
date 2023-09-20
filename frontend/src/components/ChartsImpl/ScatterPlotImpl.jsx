@@ -42,6 +42,11 @@ export const ScatterPlot = ({
   const values = chart?.map((row) => row[valueKey]).slice(0, size);
   const items = chart?.map((row) => row["Item"]).slice(0, size);
 
+  const xScaleType =
+  labelKey.toLowerCase().includes("year") || labelKey.toLowerCase().includes("age")
+    ? "linear"
+    : "category";
+
   var data = {
     labels: labels,
     datasets: [
@@ -67,6 +72,8 @@ export const ScatterPlot = ({
           display: true,
           text: labelKey,
         },
+        type: xScaleType,
+
       },
       y: {
         title: {

@@ -1,8 +1,5 @@
 package mk.ukim.finki.wpvisualize.domain;
 
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVPrinter;
-import org.springframework.core.io.InputStreamResource;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
@@ -59,20 +56,15 @@ public class DatasetManager {
             return null;
         }
 
-        // Read the original CSV file
         String uploadDirectory = "src/main/resources/datasetsCSV";
         String fileName = name.replace(" ", "_") + ".csv";
         File originalFile = Paths.get(uploadDirectory, fileName).toFile();
 
-        // Create a new file for the filtered data
         String filteredFileName = "filtered_" + fileName;
         File filteredFile = new File(filteredFileName);
 
-        try (FileReader fileReader = new FileReader(originalFile); BufferedReader bufferedReader = new BufferedReader(fileReader); FileWriter fileWriter = new FileWriter(filteredFile); CSVPrinter csvPrinter = new CSVPrinter(fileWriter, CSVFormat.DEFAULT.withHeader())) {
+        try (FileReader fileReader = new FileReader(originalFile); BufferedReader bufferedReader = new BufferedReader(fileReader); FileWriter fileWriter = new FileWriter(filteredFile)) {
             String headerLine = bufferedReader.readLine();
-            csvPrinter.printRecord(headerLine.split(",")); // Write the header to the new file
-
-            // Find the indices of the columns you want to filter
             int xAxisIndex = -1;
             int yAxisIndex = -1;
             int labelIndex = -1;
@@ -91,27 +83,21 @@ public class DatasetManager {
             }
 
             if (xAxisIndex == -1 || yAxisIndex == -1 || labelIndex == -1) {
-                return null; // One or more columns not found
+                return null;
             }
 
             StringBuilder textToCSV = new StringBuilder();
             textToCSV.append(xAxis + ",").append(yAxis + ",").append(label).append("\n");
-
-            StringBuilder textToCSV2 = new StringBuilder();
-
-            textToCSV2.append(xAxis + ",").append(yAxis + ",").append(label).append("\n");
-
-            // Filter and write the data to the new file
             String line;
             while ((line = bufferedReader.readLine()) != null) {
-                String[] values = line.split(",");
+                String[] values = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+
                 if (Arrays.asList(labelElements).contains(values[labelIndex])) {
-                    textToCSV2.append(values[xAxisIndex] + ",").append(values[yAxisIndex] + ",").append(values[labelIndex]).append("\n");
+                    textToCSV.append(values[xAxisIndex] + ",").append(values[yAxisIndex] + ",").append(values[labelIndex]).append("\n");
                 }
-                textToCSV.append(values[xAxisIndex] + ",").append(values[yAxisIndex] + ",").append(values[labelIndex]).append("\n");
 
             }
-            return convertStringToFile(textToCSV2.toString());
+            return convertStringToFile(textToCSV.toString());
         }
     }
 

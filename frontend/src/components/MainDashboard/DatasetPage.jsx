@@ -6,11 +6,11 @@ import { DatasetService } from "../../repository/datasetRepository";
 
 import { Link } from "react-router-dom";
 
+import Button from "@mui/material/Button";
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
-import Button from "@mui/material/Button";
 
 import {
   BarChartImpl,
@@ -46,7 +46,6 @@ export const DatasetPage = () => {
     try {
       const response = await DatasetService.getData(datasetName);
 
-    
       const formattedData = response.data.fileData.map((item) => {
         const formattedItem = {};
         for (const key in item) {
@@ -62,20 +61,22 @@ export const DatasetPage = () => {
         return formattedItem;
       });
 
-
       const jsonData = {
         data: formattedData,
-        attributes:Object.keys(formattedData[0])
-
+        attributes: Object.keys(formattedData[0]),
       };
 
-      const selectedLabel = Object.keys(formattedData[0])?.includes("Year")
-        ? "Year"
-        : jsonData?.attributes[0];
+      const numericAttributes = jsonData.attributes.filter((attribute) =>
+        jsonData.data.every((item) => !isNaN(parseFloat(item[attribute])))
+      );
 
-      const selectedData = Object.keys(formattedData[0])?.includes("Value")
+      const selectedLabel = numericAttributes.includes("Year")
+        ? "Year"
+        : numericAttributes[0];
+
+      const selectedData = numericAttributes.includes("Value")
         ? "Value"
-        : jsonData?.attributes[1];
+        : numericAttributes[1];
 
       setJsonData(jsonData);
       setSelectedLabel(selectedLabel);
@@ -95,7 +96,7 @@ export const DatasetPage = () => {
 
   return (
     <div className="dataset-dashboard">
-      {/* {console.log(code)} */}
+      {/* {console.log(Object.keys(jsonData?.data[0]))} */}
 
       <Link to={`/category/${currentPath}`} className="backLink">
         ../Back
@@ -111,7 +112,9 @@ export const DatasetPage = () => {
             label="Label"
           >
             {jsonData?.attributes
-              .filter((label) => label !== selectedData)
+              .filter((data) =>
+                jsonData.data.every((item) => !isNaN(parseFloat(item[data])))
+              )
               .map((attribute, index) => (
                 <MenuItem key={index} value={attribute}>
                   {attribute}
@@ -128,7 +131,9 @@ export const DatasetPage = () => {
             label="Data"
           >
             {jsonData?.attributes
-              .filter((data) => data !== selectedLabel)
+              .filter((data) =>
+                jsonData.data.every((item) => !isNaN(parseFloat(item[data])))
+              )
               .map((attribute, index) => (
                 <MenuItem key={index} value={attribute}>
                   {attribute}
@@ -142,7 +147,7 @@ export const DatasetPage = () => {
           size="small"
           component="label"
           variant="contained"
-          onClick={() => setSize(prevSize => prevSize - 10)}
+          onClick={() => setSize((prevSize) => prevSize - 10)}
           startIcon={<RemoveCircleIcon />}
         >
           Remove Data
@@ -153,7 +158,7 @@ export const DatasetPage = () => {
           className="ms-1"
           component="label"
           variant="contained"
-          onClick={() => setSize(prevSize => prevSize + 10)}
+          onClick={() => setSize((prevSize) => prevSize + 10)}
           startIcon={<AddCircleIcon />}
         >
           Add Data

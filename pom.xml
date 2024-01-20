@@ -8,6 +8,20 @@
 		<version>3.0.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
+	<distributionManagement>
+		<repository>
+			<id>release-repo</id>
+			<name>Release Repository</name>
+			<url>http://localhost:8081/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot-repo</id>
+			<name>Snapshot Repository</name>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<groupId>mk.ukim.finki</groupId>
 	<artifactId>wp-visualize</artifactId>
 	<version>0.0.1-SNAPSHOT</version>

@@ -29,9 +29,6 @@ public class CategoryService {
     public void initializeCategories() throws IOException {
         categoryManager.resetCategories();
         List<Category> categories = categoryReader.readCategories();
-        for(Category cat : categories) {
-            System.out.println(cat.getName());
-        }
         categories.forEach(categoryManager::addCategory);
     }
 

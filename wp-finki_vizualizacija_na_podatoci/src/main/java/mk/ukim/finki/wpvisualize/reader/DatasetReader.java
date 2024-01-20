@@ -8,6 +8,8 @@ import mk.ukim.finki.wpvisualize.domain.Dataset;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
@@ -25,8 +27,11 @@ public class DatasetReader {
     }
 
     public List<Dataset> getAllDatasets() throws IOException {
+//        List<Dataset> datasets = new ArrayList<>();
+//        File directory = new File("src/main/resources/datasetsCSV/");
         List<Dataset> datasets = new ArrayList<>();
-        File directory = new File("src/main/resources/datasetsCSV/");
+        Resource resource = new ClassPathResource("datasetsCSV/");
+        File directory = resource.getFile();
 
         if (directory.isDirectory()) {
             File[] files = directory.listFiles((dir, name) -> name.endsWith(".csv"));

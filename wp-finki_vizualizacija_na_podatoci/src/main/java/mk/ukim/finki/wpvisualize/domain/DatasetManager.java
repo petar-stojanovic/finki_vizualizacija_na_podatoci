@@ -27,7 +27,6 @@ public class DatasetManager {
     public Dataset getDatasetByName(String name) throws IOException {
         List<Dataset> datasets = this.getAllDatasets();
         for (Dataset dataset : datasets) {
-            System.out.println(dataset.getName());
             if (dataset.getName().equals(name)) {
                 return dataset;
             }

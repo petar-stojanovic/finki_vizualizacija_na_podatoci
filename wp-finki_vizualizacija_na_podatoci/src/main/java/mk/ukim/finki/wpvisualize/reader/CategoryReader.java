@@ -13,9 +13,8 @@ import java.util.List;
 @Component
 public class CategoryReader {
     public List<Category> readCategories() throws IOException {
-        String filePath = "src/main/resources/categoryData/categories.json"; // Update with the correct file path
-        File file = new File(filePath);
         ObjectMapper objectMapper = new ObjectMapper();
-        return objectMapper.readValue(file, new TypeReference<List<Category>>() {});
+        InputStream inputStream = getClass().getResourceAsStream("/categoryData/categories.json");
+        return objectMapper.readValue(inputStream, new TypeReference<List<Category>>() {});
     }
 }

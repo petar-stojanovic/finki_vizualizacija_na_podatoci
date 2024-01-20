@@ -29,7 +29,6 @@ public class CategoryWriter {
         List<Category> categories = this.categoryReader.readCategories();
 
         for (int i = 0; i < categories.size(); i++) {
-            System.out.println(categories.get(i).getCode() + " - " + updatedCategory.getCode());
             if (categories.get(i).getCode().equals(updatedCategory.getCode())) {
                 categories.set(i, updatedCategory);
                 String jsonFilePath = "src/main/resources/categoryData/categories.json";

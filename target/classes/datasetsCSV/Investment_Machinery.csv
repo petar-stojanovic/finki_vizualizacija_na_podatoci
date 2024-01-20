@@ -1,0 +1,600 @@
+Area Code,Area,Item Code,Item,Element Code,Element,Year Code,Year,Unit,Value,Flag
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,1992,1992,1000 US$,364.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,1993,1993,1000 US$,15.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,1994,1994,1000 US$,146.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,1995,1995,1000 US$,1118.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,1996,1996,1000 US$,408.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,1997,1997,1000 US$,395.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,1998,1998,1000 US$,508.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,1999,1999,1000 US$,438.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2000,2000,1000 US$,632.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2001,2001,1000 US$,423.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2002,2002,1000 US$,1583.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2003,2003,1000 US$,829.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2004,2004,1000 US$,2564.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2005,2005,1000 US$,1788.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2006,2006,1000 US$,1595.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2007,2007,1000 US$,3176.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2008,2008,1000 US$,6419.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5622,Import Value,2009,2009,1000 US$,5618.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,1993,1993,1000 US$,2.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,1994,1994,1000 US$,27.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,1995,1995,1000 US$,26.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,1996,1996,1000 US$,20.000000,F
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,1997,1997,1000 US$,10.000000,F
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,1999,1999,1000 US$,2.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,2000,2000,1000 US$,20.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,2002,2002,1000 US$,0.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,2003,2003,1000 US$,1.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,2004,2004,1000 US$,2.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,2005,2005,1000 US$,32.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,2006,2006,1000 US$,10.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,2007,2007,1000 US$,10.000000,W
+154,North Macedonia,2455017,Agricultural machinery nes (trade),5922,Export Value,2009,2009,1000 US$,5.000000,W
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,1992,1992,No,44253.000000,Q
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,1993,1993,No,47638.000000,Q
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,1994,1994,No,52036.000000,Q
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,1995,1995,No,53977.000000,Q
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,1996,1996,No,54000.000000,Q
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,1997,1997,No,54000.000000,Q
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,1998,1998,No,54000.000000,F
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,1999,1999,No,54000.000000,Q
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,2000,2000,No,54000.000000,F
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,2001,2001,No,54000.000000,F
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,2002,2002,No,53800.000000,Fm
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,2003,2003,No,53800.000000,Fm
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,2004,2004,No,53700.000000,Fm
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,2005,2005,No,53700.000000,Fm
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,2006,2006,No,53650.000000,Fm
+154,North Macedonia,2455011,Agricultural tractors,5116,In Use,2007,2007,No,53606.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,1992,1992,No,80.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,1993,1993,No,300.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,1994,1994,No,579.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,1995,1995,No,368.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,1996,1996,No,1300.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,1997,1997,No,1250.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,1998,1998,No,1750.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,1999,1999,No,4759.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2000,2000,No,578.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2001,2001,No,356.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2002,2002,No,286.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2003,2003,No,95.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2004,2004,No,1306.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2005,2005,No,1237.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2006,2006,No,1524.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2007,2007,No,4784.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2008,2008,No,6958.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5607,Import Quantity,2009,2009,No,1788.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,1992,1992,1000 US$,294.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,1993,1993,1000 US$,1000.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,1994,1994,1000 US$,1781.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,1995,1995,1000 US$,1172.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,1996,1996,1000 US$,4277.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,1997,1997,1000 US$,4204.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,1998,1998,1000 US$,6522.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,1999,1999,1000 US$,5005.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2000,2000,1000 US$,7937.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2001,2001,1000 US$,2851.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2002,2002,1000 US$,3928.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2003,2003,1000 US$,2068.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2004,2004,1000 US$,3229.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2005,2005,1000 US$,4085.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2006,2006,1000 US$,4548.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2007,2007,1000 US$,7080.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2008,2008,1000 US$,11135.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5622,Import Value,2009,2009,1000 US$,8513.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,1992,1992,No,70.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,1993,1993,No,130.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,1994,1994,No,242.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,1995,1995,No,222.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,1996,1996,No,1.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,1997,1997,No,1.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,1998,1998,No,1.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,1999,1999,No,67.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2000,2000,No,27.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2001,2001,No,19.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2002,2002,No,9.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2003,2003,No,9.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2004,2004,No,15.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2005,2005,No,53.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2006,2006,No,8.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2007,2007,No,30.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2008,2008,No,20.000000,Fm
+154,North Macedonia,2455009,"Agricultural tractors, total",5907,Export Quantity,2009,2009,No,90.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,1992,1992,1000 US$,210.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,1993,1993,1000 US$,405.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,1994,1994,1000 US$,663.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,1995,1995,1000 US$,632.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,1996,1996,1000 US$,8.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,1997,1997,1000 US$,8.000000,F
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,1998,1998,1000 US$,9.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,1999,1999,1000 US$,288.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2000,2000,1000 US$,40.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2001,2001,1000 US$,20.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2002,2002,1000 US$,41.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2003,2003,1000 US$,47.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2004,2004,1000 US$,74.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2005,2005,1000 US$,260.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2006,2006,1000 US$,96.000000,W
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2007,2007,1000 US$,775.000000,Q
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2008,2008,1000 US$,377.000000,Fm
+154,North Macedonia,2455009,"Agricultural tractors, total",5922,Export Value,2009,2009,1000 US$,451.000000,W
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2000,2000,No,204.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2001,2001,No,126.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2002,2002,No,18.000000,W
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2003,2003,No,1060.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2004,2004,No,200.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2005,2005,No,246.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2006,2006,No,190.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2007,2007,No,160.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2008,2008,No,324.000000,W
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5607,Import Quantity,2009,2009,No,288.000000,W
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2000,2000,1000 US$,245.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2001,2001,1000 US$,102.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2002,2002,1000 US$,246.000000,W
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2003,2003,1000 US$,170.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2004,2004,1000 US$,252.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2005,2005,1000 US$,368.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2006,2006,1000 US$,360.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2007,2007,1000 US$,273.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2008,2008,1000 US$,1130.000000,W
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5622,Import Value,2009,2009,1000 US$,422.710000,W
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5907,Export Quantity,2000,2000,No,5.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5907,Export Quantity,2001,2001,No,3.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5907,Export Quantity,2002,2002,No,8.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5907,Export Quantity,2003,2003,No,2.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5907,Export Quantity,2004,2004,No,5.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5907,Export Quantity,2005,2005,No,9.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5907,Export Quantity,2007,2007,No,6.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5907,Export Quantity,2009,2009,No,3.000000,W
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5922,Export Value,2000,2000,1000 US$,2.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5922,Export Value,2001,2001,1000 US$,0.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5922,Export Value,2002,2002,1000 US$,20.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5922,Export Value,2003,2003,1000 US$,8.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5922,Export Value,2004,2004,1000 US$,17.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5922,Export Value,2005,2005,1000 US$,35.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5922,Export Value,2007,2007,1000 US$,27.000000,Q
+154,North Macedonia,2455005,Balers (straw and fodder balers including pick-up balers),5922,Export Value,2009,2009,1000 US$,21.950000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,1992,1992,No,1023.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,1993,1993,No,1079.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,1994,1994,No,1650.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,1995,1995,No,1776.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,1996,1996,No,1780.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,1997,1997,No,1780.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,1998,1998,No,1740.000000,F
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,1999,1999,No,1700.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,2000,2000,No,1610.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,2001,2001,No,1660.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,2002,2002,No,1687.000000,Fm
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,2003,2003,No,1714.000000,Fm
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,2004,2004,No,1741.000000,Fm
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,2005,2005,No,1768.000000,Fm
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,2006,2006,No,1795.000000,Fm
+154,North Macedonia,2455004,Combine harvesters - threshers,5116,In Use,2007,2007,No,1799.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2000,2000,No,58.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2001,2001,No,23.000000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2002,2002,No,41.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2003,2003,No,30.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2004,2004,No,33.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2005,2005,No,31.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2006,2006,No,43.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2007,2007,No,5.000000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2008,2008,No,50.000000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5607,Import Quantity,2009,2009,No,53.000000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2000,2000,1000 US$,1583.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2001,2001,1000 US$,508.000000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2002,2002,1000 US$,637.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2003,2003,1000 US$,296.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2004,2004,1000 US$,418.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2005,2005,1000 US$,184.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2006,2006,1000 US$,194.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2007,2007,1000 US$,433.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2008,2008,1000 US$,1302.000000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5622,Import Value,2009,2009,1000 US$,393.080000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5907,Export Quantity,2000,2000,No,27.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5907,Export Quantity,2001,2001,No,2.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5907,Export Quantity,2006,2006,No,1.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5907,Export Quantity,2009,2009,No,11.000000,W
+154,North Macedonia,2455004,Combine harvesters - threshers,5922,Export Value,2000,2000,1000 US$,40.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5922,Export Value,2001,2001,1000 US$,2.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5922,Export Value,2006,2006,1000 US$,1.000000,Q
+154,North Macedonia,2455004,Combine harvesters - threshers,5922,Export Value,2009,2009,1000 US$,50.170000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,1992,1992,1000 US$,315.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,1993,1993,1000 US$,553.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,1994,1994,1000 US$,2112.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,1995,1995,1000 US$,1862.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,1996,1996,1000 US$,1594.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,1997,1997,1000 US$,2956.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,1998,1998,1000 US$,4002.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,1999,1999,1000 US$,1957.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2000,2000,1000 US$,3251.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2001,2001,1000 US$,1369.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2002,2002,1000 US$,2285.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2003,2003,1000 US$,2103.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2004,2004,1000 US$,2324.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2005,2005,1000 US$,1927.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2006,2006,1000 US$,2245.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2007,2007,1000 US$,3949.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2008,2008,1000 US$,6549.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5622,Import Value,2009,2009,1000 US$,3945.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,1992,1992,1000 US$,5.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,1993,1993,1000 US$,244.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,1994,1994,1000 US$,502.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,1995,1995,1000 US$,934.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,1996,1996,1000 US$,81.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,1997,1997,1000 US$,75.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,1998,1998,1000 US$,144.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,1999,1999,1000 US$,111.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2000,2000,1000 US$,13.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2001,2001,1000 US$,93.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2002,2002,1000 US$,149.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2003,2003,1000 US$,121.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2004,2004,1000 US$,61.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2005,2005,1000 US$,293.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2006,2006,1000 US$,183.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2007,2007,1000 US$,241.000000,W
+154,North Macedonia,2455014,Harvester and threshers (trade),5922,Export Value,2009,2009,1000 US$,393.000000,W
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5116,In Use,2007,2007,No,10125.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2000,2000,No,386.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2001,2001,No,56.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2003,2003,No,620.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2004,2004,No,646.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2005,2005,No,467.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2006,2006,No,392.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2007,2007,No,847.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2008,2008,No,1775.000000,W
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5607,Import Quantity,2009,2009,No,540.000000,W
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2000,2000,1000 US$,65.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2001,2001,1000 US$,41.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2002,2002,1000 US$,26.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2003,2003,1000 US$,78.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2004,2004,1000 US$,73.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2005,2005,1000 US$,139.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2006,2006,1000 US$,88.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2007,2007,1000 US$,217.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2008,2008,1000 US$,394.000000,W
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5622,Import Value,2009,2009,1000 US$,191.000000,W
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5907,Export Quantity,2001,2001,No,58.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5907,Export Quantity,2002,2002,No,146.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5907,Export Quantity,2003,2003,No,388.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5907,Export Quantity,2004,2004,No,35.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5907,Export Quantity,2005,2005,No,21.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5907,Export Quantity,2006,2006,No,2.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5907,Export Quantity,2007,2007,No,26.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5907,Export Quantity,2009,2009,No,12.000000,W
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5922,Export Value,2001,2001,1000 US$,9.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5922,Export Value,2002,2002,1000 US$,27.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5922,Export Value,2003,2003,1000 US$,41.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5922,Export Value,2004,2004,1000 US$,10.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5922,Export Value,2005,2005,1000 US$,3.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5922,Export Value,2006,2006,1000 US$,0.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5922,Export Value,2007,2007,1000 US$,9.000000,Q
+154,North Macedonia,2455003,Manure spreaders and Fertiliser distributors,5922,Export Value,2009,2009,1000 US$,5.000000,W
+154,North Macedonia,2455008,Milking machines,5116,In Use,1992,1992,No,220.000000,Q
+154,North Macedonia,2455008,Milking machines,5116,In Use,1993,1993,No,345.000000,Q
+154,North Macedonia,2455008,Milking machines,5116,In Use,1994,1994,No,291.000000,Q
+154,North Macedonia,2455008,Milking machines,5116,In Use,1995,1995,No,280.000000,Q
+154,North Macedonia,2455008,Milking machines,5116,In Use,1996,1996,No,280.000000,Q
+154,North Macedonia,2455008,Milking machines,5116,In Use,1997,1997,No,280.000000,Q
+154,North Macedonia,2455008,Milking machines,5116,In Use,1998,1998,No,200.000000,F
+154,North Macedonia,2455008,Milking machines,5116,In Use,1999,1999,No,150.000000,Q
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2000,2000,No,394.000000,Q
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2001,2001,No,164.000000,Q
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2002,2002,No,9.000000,W
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2003,2003,No,2.000000,W
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2004,2004,No,249.000000,Q
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2005,2005,No,424.000000,Q
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2006,2006,No,377.000000,Q
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2007,2007,No,517.000000,Q
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2008,2008,No,907.000000,W
+154,North Macedonia,2455008,Milking machines,5607,Import Quantity,2009,2009,No,365.000000,W
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2000,2000,1000 US$,229.000000,Q
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2001,2001,1000 US$,123.000000,Q
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2002,2002,1000 US$,225.000000,W
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2003,2003,1000 US$,70.000000,Q
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2004,2004,1000 US$,279.000000,Q
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2005,2005,1000 US$,105.000000,Q
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2006,2006,1000 US$,204.000000,Q
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2007,2007,1000 US$,215.000000,Q
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2008,2008,1000 US$,1047.000000,W
+154,North Macedonia,2455008,Milking machines,5622,Import Value,2009,2009,1000 US$,154.460000,W
+154,North Macedonia,2455008,Milking machines,5907,Export Quantity,2002,2002,No,1.000000,W
+154,North Macedonia,2455008,Milking machines,5907,Export Quantity,2004,2004,No,1.000000,Q
+154,North Macedonia,2455008,Milking machines,5907,Export Quantity,2005,2005,No,16.000000,Q
+154,North Macedonia,2455008,Milking machines,5907,Export Quantity,2006,2006,No,2.000000,Q
+154,North Macedonia,2455008,Milking machines,5907,Export Quantity,2009,2009,No,3.000000,W
+154,North Macedonia,2455008,Milking machines,5922,Export Value,2002,2002,1000 US$,12.000000,Q
+154,North Macedonia,2455008,Milking machines,5922,Export Value,2004,2004,1000 US$,1.000000,Q
+154,North Macedonia,2455008,Milking machines,5922,Export Value,2005,2005,1000 US$,6.000000,Q
+154,North Macedonia,2455008,Milking machines,5922,Export Value,2006,2006,1000 US$,1.000000,Q
+154,North Macedonia,2455008,Milking machines,5922,Export Value,2009,2009,1000 US$,1.800000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,1992,1992,1000 US$,9.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,1993,1993,1000 US$,97.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,1994,1994,1000 US$,57.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,1995,1995,1000 US$,215.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,1996,1996,1000 US$,645.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,1997,1997,1000 US$,121.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,1998,1998,1000 US$,1480.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,1999,1999,1000 US$,1247.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2000,2000,1000 US$,958.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2001,2001,1000 US$,408.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2002,2002,1000 US$,1181.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2003,2003,1000 US$,732.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2004,2004,1000 US$,2114.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2005,2005,1000 US$,216.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2006,2006,1000 US$,460.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2007,2007,1000 US$,10843.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2008,2008,1000 US$,2720.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5622,Import Value,2009,2009,1000 US$,885.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,1993,1993,1000 US$,5.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,1994,1994,1000 US$,2.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,1995,1995,1000 US$,2.000000,F
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,1996,1996,1000 US$,2.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,1997,1997,1000 US$,24.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,1998,1998,1000 US$,8.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,1999,1999,1000 US$,21.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2000,2000,1000 US$,67.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2001,2001,1000 US$,17.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2002,2002,1000 US$,19.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2003,2003,1000 US$,20.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2004,2004,1000 US$,22.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2005,2005,1000 US$,129.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2006,2006,1000 US$,58.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2007,2007,1000 US$,10.000000,W
+154,North Macedonia,2455015,"Milking, dairy machinery (trade)",5922,Export Value,2009,2009,1000 US$,37.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2000,2000,No,494.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2001,2001,No,244.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2002,2002,No,262.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2004,2004,No,1168.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2005,2005,No,1142.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2006,2006,No,1304.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2007,2007,No,4298.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2008,2008,No,6699.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5607,Import Quantity,2009,2009,No,1456.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2000,2000,1000 US$,7475.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2001,2001,1000 US$,2805.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2002,2002,1000 US$,3818.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2003,2003,1000 US$,1917.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2004,2004,1000 US$,3127.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2005,2005,1000 US$,3851.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2006,2006,1000 US$,4273.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2007,2007,1000 US$,6317.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2008,2008,1000 US$,10540.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5622,Import Value,2009,2009,1000 US$,8245.700000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2000,2000,No,22.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2001,2001,No,9.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2002,2002,No,8.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2003,2003,No,8.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2004,2004,No,12.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2005,2005,No,50.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2006,2006,No,5.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2007,2007,No,29.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5907,Export Quantity,2009,2009,No,88.000000,W
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2000,2000,1000 US$,38.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2001,2001,1000 US$,13.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2002,2002,1000 US$,40.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2003,2003,1000 US$,46.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2004,2004,1000 US$,63.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2005,2005,1000 US$,248.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2006,2006,1000 US$,90.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2007,2007,1000 US$,774.000000,Q
+154,North Macedonia,2455013,Other Agricultural tractors (two-axle tractors),5922,Export Value,2009,2009,1000 US$,449.290000,W
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2000,2000,No,80.000000,W
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2001,2001,No,112.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2002,2002,No,20.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2003,2003,No,93.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2004,2004,No,136.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2005,2005,No,93.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2006,2006,No,220.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2007,2007,No,482.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2008,2008,No,257.000000,W
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5607,Import Quantity,2009,2009,No,329.000000,W
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2000,2000,1000 US$,286.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2001,2001,1000 US$,46.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2002,2002,1000 US$,19.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2003,2003,1000 US$,72.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2004,2004,1000 US$,101.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2005,2005,1000 US$,81.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2006,2006,1000 US$,274.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2007,2007,1000 US$,210.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2008,2008,1000 US$,189.000000,W
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5622,Import Value,2009,2009,1000 US$,244.000000,W
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2000,2000,No,5.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2001,2001,No,9.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2002,2002,No,1.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2003,2003,No,1.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2004,2004,No,2.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2005,2005,No,2.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2006,2006,No,3.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2007,2007,No,1.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5907,Export Quantity,2009,2009,No,2.000000,W
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2000,2000,1000 US$,2.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2001,2001,1000 US$,7.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2002,2002,1000 US$,1.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2003,2003,1000 US$,1.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2004,2004,1000 US$,9.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2005,2005,1000 US$,7.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2006,2006,1000 US$,6.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2007,2007,1000 US$,1.000000,Q
+154,North Macedonia,2455010,Pedestrian controlled tractors (single axle tractors),5922,Export Value,2009,2009,1000 US$,2.000000,W
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2000,2000,No,610.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2001,2001,No,647.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2002,2002,No,41.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2003,2003,No,407.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2004,2004,No,537.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2005,2005,No,298.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2006,2006,No,1168.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2007,2007,No,32.000000,W
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2008,2008,No,36.000000,W
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5607,Import Quantity,2009,2009,No,730.000000,W
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2000,2000,1000 US$,333.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2001,2001,1000 US$,198.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2002,2002,1000 US$,123.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2003,2003,1000 US$,131.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2004,2004,1000 US$,187.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2005,2005,1000 US$,337.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2006,2006,1000 US$,229.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2007,2007,1000 US$,302.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2008,2008,1000 US$,543.000000,W
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5622,Import Value,2009,2009,1000 US$,392.000000,W
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5907,Export Quantity,2000,2000,No,5.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5907,Export Quantity,2001,2001,No,947.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5907,Export Quantity,2002,2002,No,105.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5907,Export Quantity,2004,2004,No,66.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5907,Export Quantity,2006,2006,No,27.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5907,Export Quantity,2007,2007,No,15.000000,W
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5907,Export Quantity,2009,2009,No,152.000000,W
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2000,2000,1000 US$,1.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2001,2001,1000 US$,26.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2002,2002,1000 US$,33.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2003,2003,1000 US$,81.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2004,2004,1000 US$,22.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2005,2005,1000 US$,23.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2006,2006,1000 US$,11.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2007,2007,1000 US$,112.000000,Q
+154,North Macedonia,2455001,Ploughs (e.g. reversible and non-reversible ploughs),5922,Export Value,2009,2009,1000 US$,107.000000,W
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2000,2000,No,79.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2001,2001,No,46.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2002,2002,No,102.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2003,2003,No,16.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2004,2004,No,53.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2005,2005,No,82.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2006,2006,No,21.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2007,2007,No,42.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2008,2008,No,84.000000,W
+154,North Macedonia,2455006,Root or tuber harvesting machines,5607,Import Quantity,2009,2009,No,67.000000,W
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2000,2000,1000 US$,53.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2001,2001,1000 US$,21.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2002,2002,1000 US$,46.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2003,2003,1000 US$,9.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2004,2004,1000 US$,21.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2005,2005,1000 US$,66.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2006,2006,1000 US$,3.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2007,2007,1000 US$,28.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2008,2008,1000 US$,105.000000,W
+154,North Macedonia,2455006,Root or tuber harvesting machines,5622,Import Value,2009,2009,1000 US$,66.260000,W
+154,North Macedonia,2455006,Root or tuber harvesting machines,5907,Export Quantity,2000,2000,No,22.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5907,Export Quantity,2002,2002,No,1.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5907,Export Quantity,2004,2004,No,1.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5907,Export Quantity,2005,2005,No,1.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5907,Export Quantity,2006,2006,No,15.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5907,Export Quantity,2009,2009,No,73233.000000,W
+154,North Macedonia,2455006,Root or tuber harvesting machines,5922,Export Value,2000,2000,1000 US$,38.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5922,Export Value,2002,2002,1000 US$,1.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5922,Export Value,2004,2004,1000 US$,1.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5922,Export Value,2005,2005,1000 US$,1.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5922,Export Value,2006,2006,1000 US$,23.000000,Q
+154,North Macedonia,2455006,Root or tuber harvesting machines,5922,Export Value,2009,2009,1000 US$,101.510000,W
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2000,2000,No,171.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2001,2001,No,51.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2002,2002,No,153.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2003,2003,No,97.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2004,2004,No,118.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2005,2005,No,670.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2006,2006,No,83.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2007,2007,No,145.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2008,2008,No,292.000000,W
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5607,Import Quantity,2009,2009,No,273.000000,W
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2000,2000,1000 US$,182.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2001,2001,1000 US$,39.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2002,2002,1000 US$,53.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2003,2003,1000 US$,109.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2004,2004,1000 US$,117.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2005,2005,1000 US$,213.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2006,2006,1000 US$,92.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2007,2007,1000 US$,247.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2008,2008,1000 US$,1078.000000,W
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5622,Import Value,2009,2009,1000 US$,245.000000,W
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5907,Export Quantity,2000,2000,No,3.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5907,Export Quantity,2001,2001,No,10.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5907,Export Quantity,2002,2002,No,27.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5907,Export Quantity,2003,2003,No,21.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5907,Export Quantity,2004,2004,No,1.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5907,Export Quantity,2005,2005,No,5.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5907,Export Quantity,2006,2006,No,4.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5907,Export Quantity,2007,2007,No,3.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5922,Export Value,2000,2000,1000 US$,4.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5922,Export Value,2001,2001,1000 US$,9.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5922,Export Value,2002,2002,1000 US$,21.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5922,Export Value,2003,2003,1000 US$,18.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5922,Export Value,2004,2004,1000 US$,2.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5922,Export Value,2005,2005,1000 US$,6.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5922,Export Value,2006,2006,1000 US$,4.000000,Q
+154,North Macedonia,2455002,"Seeders, planters and transplanters",5922,Export Value,2007,2007,1000 US$,3.000000,Q
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,1992,1992,1000 US$,233.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,1993,1993,1000 US$,212.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,1994,1994,1000 US$,719.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,1995,1995,1000 US$,528.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,1996,1996,1000 US$,859.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,1997,1997,1000 US$,1088.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,1998,1998,1000 US$,2229.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,1999,1999,1000 US$,1073.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2000,2000,1000 US$,1087.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2001,2001,1000 US$,640.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2002,2002,1000 US$,585.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2003,2003,1000 US$,870.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2004,2004,1000 US$,741.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2005,2005,1000 US$,2074.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2006,2006,1000 US$,1434.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2007,2007,1000 US$,1504.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2008,2008,1000 US$,3821.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5622,Import Value,2009,2009,1000 US$,1905.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,1992,1992,1000 US$,194.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,1993,1993,1000 US$,182.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,1994,1994,1000 US$,64.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,1995,1995,1000 US$,50.000000,F
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,1996,1996,1000 US$,16.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,1997,1997,1000 US$,22.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,1998,1998,1000 US$,15.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,1999,1999,1000 US$,92.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2000,2000,1000 US$,17.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2001,2001,1000 US$,77.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2002,2002,1000 US$,148.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2003,2003,1000 US$,217.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2004,2004,1000 US$,41.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2005,2005,1000 US$,98.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2006,2006,1000 US$,90.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2007,2007,1000 US$,197.000000,W
+154,North Macedonia,2455016,Soil working equipment (trade),5922,Export Value,2009,2009,1000 US$,263.000000,W
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2000,2000,No,8.000000,Q
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2001,2001,No,124.000000,Q
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2002,2002,No,15.000000,Q
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2003,2003,No,9.000000,Q
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2004,2004,No,69.000000,Q
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2005,2005,No,12.000000,Q
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2006,2006,No,16.000000,Q
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2007,2007,No,51.000000,Q
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2008,2008,No,20.000000,W
+154,North Macedonia,2455007,Threshing machines,5607,Import Quantity,2009,2009,No,21.000000,W
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2000,2000,1000 US$,2.000000,Q
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2001,2001,1000 US$,5.000000,Q
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2002,2002,1000 US$,1.000000,Q
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2003,2003,1000 US$,10.000000,Q
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2004,2004,1000 US$,67.000000,Q
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2005,2005,1000 US$,1.000000,Q
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2006,2006,1000 US$,7.000000,Q
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2007,2007,1000 US$,16.000000,Q
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2008,2008,1000 US$,36.000000,W
+154,North Macedonia,2455007,Threshing machines,5622,Import Value,2009,2009,1000 US$,7.670000,W
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5607,Import Quantity,2000,2000,No,4.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5607,Import Quantity,2002,2002,No,4.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5607,Import Quantity,2003,2003,No,2.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5607,Import Quantity,2004,2004,No,2.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5607,Import Quantity,2005,2005,No,2.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5607,Import Quantity,2007,2007,No,4.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5607,Import Quantity,2008,2008,No,2.000000,W
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5607,Import Quantity,2009,2009,No,3.000000,W
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5622,Import Value,2000,2000,1000 US$,177.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5622,Import Value,2002,2002,1000 US$,91.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5622,Import Value,2003,2003,1000 US$,79.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5622,Import Value,2004,2004,1000 US$,1.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5622,Import Value,2005,2005,1000 US$,153.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5622,Import Value,2007,2007,1000 US$,552.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5622,Import Value,2008,2008,1000 US$,406.000000,W
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5622,Import Value,2009,2009,1000 US$,23.000000,W
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5907,Export Quantity,2001,2001,No,1.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5907,Export Quantity,2004,2004,No,1.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5907,Export Quantity,2005,2005,No,1.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5922,Export Value,2001,2001,1000 US$,1.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5922,Export Value,2004,2004,1000 US$,3.000000,Q
+154,North Macedonia,2455012,Track-laying tractors (crawlers),5922,Export Value,2005,2005,1000 US$,5.000000,Q

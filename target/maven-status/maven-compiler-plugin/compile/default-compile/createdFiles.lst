@@ -1,0 +1,12 @@
+mk\ukim\finki\wpvisualize\reader\DatasetReader.class
+mk\ukim\finki\wpvisualize\api\ApiController.class
+mk\ukim\finki\wpvisualize\service\CategoryService.class
+mk\ukim\finki\wpvisualize\reader\CategoryReader.class
+mk\ukim\finki\wpvisualize\WpVisualizeApplication.class
+mk\ukim\finki\wpvisualize\writer\CategoryWriter.class
+mk\ukim\finki\wpvisualize\domain\DatasetManager.class
+mk\ukim\finki\wpvisualize\service\DatasetService.class
+mk\ukim\finki\wpvisualize\reader\CategoryReader$1.class
+mk\ukim\finki\wpvisualize\domain\Dataset.class
+mk\ukim\finki\wpvisualize\domain\CategoryManager.class
+mk\ukim\finki\wpvisualize\domain\Category.class

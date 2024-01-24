@@ -1,21 +1,21 @@
-# Веб Програмирање - Визуелизација на податоци
+# Web Programming - Data Visualization
 
 ![image](https://user-images.githubusercontent.com/85808655/201375273-3a7cdec7-cc9f-46fa-a11a-56c5b63e6175.png)
 
-**Краток опис:** Визуелизација на податоци (интеграција на повеќе библиотеки за визуелизација на податоци)
+**Description:** Data Visualization (integration of multiple data visualization libraries)
 
-**Технологии:**
+**Technology:**
 - Backend (Java with Spring Boot)
 - Frontend (React + Material UI + Bootstrap)
 - ChartJS
 
-**Автори:**
-- Петар Стојановиќ (201078)
-- Моника Тодорова (201082)
+**Authors:**
+- Petar Stojanovic (201078)
+- Monika Todorova (201082)
 
 
-**Ментор:** 
-- проф. д-р Димитар Трајанов
+**Menthor:** 
+- Prof. Dimitar Trajanov, Ph.D
 ---
 ## Preview
 <br />
